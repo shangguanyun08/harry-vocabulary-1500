@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Learn Harry's first 200 to-learn vocabulary words in 20 daily groups of 10 words.">
-  <title>Harry's Vocabulary — 10 Words a Day</title>
+  <meta name="description" content="Learn 200 vocabulary words, then review Round 1 misses in six 15-word sessions after Day 20.">
+  <title>Harry's Vocabulary — Learn and Review</title>
   <style>
     :root {
       color-scheme: light;
@@ -418,8 +418,8 @@
         <span class="save-note">Progress and answer history sync automatically</span>
       </nav>
       <p class="eyebrow">Harry's vocabulary · To-learn list</p>
-      <h1>Learn <em>10 words a day.</em></h1>
-      <p class="intro">Harry's first 200 “To learn” words are arranged into 20 daily groups. Review each day's 10 picture clues, then test until every missed word is mastered.</p>
+      <h1>Learn <em>and review.</em></h1>
+      <p class="intro">Days 1–20: learn 10 words a day. Days 21–26: review 15 words, then test until every word is mastered.</p>
     </div>
   </header>
 
@@ -434,7 +434,7 @@
       </div>
     </section>
 
-    <div class="sessions" id="sessions" aria-label="Choose a 10-word day"></div>
+    <div class="sessions" id="sessions" aria-label="Choose a learning or review day"></div>
     <div class="rounds" id="rounds" aria-label="Learning steps"></div>
     <section class="card" id="card" aria-live="polite"><div class="center-body"><div><div class="seal" aria-hidden="true">…</div><h2>Loading to-learn words</h2></div></div></section>
     <section class="record-card" id="record-card" aria-labelledby="record-title">
@@ -453,7 +453,22 @@
   <script>
     const MAIN_KNOWN_KEY = "harry-combined-vocabulary-known-v2";
     const SESSION_SIZE = 10;
-    const SESSION_COUNT = 20;
+    const ORIGINAL_SESSION_COUNT = 20;
+    // Fixed on 2026-09-10 from 83 unique, recorded Round 1 misses in Days 1–19.
+    // Day 20 challenge picks are courtesy, dominant, interact, and province;
+    // they are not recorded misses. Maintain, factor, and inform repeat for
+    // extra practice because they were among the most repeatedly missed words.
+    const DAY_20_CHALLENGE_IDS = [504, 507, 509, 510];
+    const EXTRA_PRACTICE_IDS = [203, 65, 80];
+    const REVIEW_SESSION_IDS = [
+      [65, 80, 85, 101, 104, 108, 112, 121, 152, 155, 173, 186, 190, 192, 198],
+      [199, 201, 202, 203, 206, 211, 212, 215, 223, 225, 229, 231, 237, 241, 257],
+      [265, 269, 275, 277, 283, 293, 295, 301, 305, 308, 309, 321, 326, 331, 352],
+      [361, 369, 370, 371, 375, 387, 394, 397, 402, 403, 406, 407, 409, 410, 411],
+      [434, 435, 436, 437, 440, 441, 450, 454, 457, 458, 459, 460, 463, 465, 466],
+      [474, 476, 477, 479, 481, 488, 491, 498, 504, 507, 509, 510, 203, 65, 80]
+    ];
+    const SESSION_COUNT = ORIGINAL_SESSION_COUNT + REVIEW_SESSION_IDS.length;
     const LEGACY_SESSION_SIZE = 25;
     const LEGACY_SESSION_COUNT = 8;
     const PROGRESS_VERSION = 4;
@@ -586,8 +601,18 @@
     }
 
     function wordsForSession(number) {
+      if (number > ORIGINAL_SESSION_COUNT) {
+        return (REVIEW_SESSION_IDS[number - ORIGINAL_SESSION_COUNT - 1] || []).map(function(id) {
+          return WORD_BY_ID.get(id);
+        }).filter(Boolean);
+      }
       const start = (number - 1) * SESSION_SIZE;
       return WORDS.slice(start, start + SESSION_SIZE);
+    }
+
+    function sessionLabel(number) {
+      return "Day " + number + (number > ORIGINAL_SESSION_COUNT
+        ? " · Review " + (number - ORIGINAL_SESSION_COUNT) : "");
     }
 
     function currentWords() {
@@ -596,7 +621,7 @@
 
     function validMastered(number, ids) {
       const valid = new Set(wordsForSession(number).map(function(item) { return item.id; }));
-      return (ids || []).filter(function(id) { return valid.has(id); });
+      return Array.from(new Set((Array.isArray(ids) ? ids : []).filter(function(id) { return valid.has(id); })));
     }
 
     function validSavedProgress(value) {
@@ -625,7 +650,7 @@
       });
 
       const migratedSessions = {};
-      for (let day = 1; day <= SESSION_COUNT; day += 1) {
+      for (let day = 1; day <= ORIGINAL_SESSION_COUNT; day += 1) {
         const dayWords = wordsForSession(day);
         const dayMastered = dayWords.map(function(item) { return item.id; }).filter(function(id) {
           return masteredIds.has(id);
@@ -658,7 +683,7 @@
 
       const oldActiveSession = Math.min(LEGACY_SESSION_COUNT, Math.max(1, Number(progress.activeSession) || 1));
       const firstActiveDay = Math.floor(((oldActiveSession - 1) * LEGACY_SESSION_SIZE) / SESSION_SIZE) + 1;
-      const lastActiveDay = Math.min(SESSION_COUNT,
+      const lastActiveDay = Math.min(ORIGINAL_SESSION_COUNT,
         Math.floor(((oldActiveSession * LEGACY_SESSION_SIZE) - 1) / SESSION_SIZE) + 1);
       let activeDay = lastActiveDay;
       for (let day = firstActiveDay; day <= lastActiveDay; day += 1) {
@@ -719,6 +744,8 @@
         mastered: Array.from(state.mastered),
         round: state.round,
         phase: state.phase,
+        questions: ["test", "review"].includes(state.phase) ? state.questions : [],
+        answer: ["test", "review"].includes(state.phase) ? state.answer : {},
         roundStartCount: state.roundStartCount,
         completed: completed,
         startedAt: previous.startedAt || savedAt,
@@ -739,10 +766,22 @@
         : stored.phase === "round-summary"
           ? "round-summary"
           : "review";
-      state.questions = [];
+      const sessionIds = new Set(currentWords().map(function(item) { return item.id; }));
+      const savedQuestions = Array.isArray(stored.questions) ? stored.questions : [];
+      state.questions = savedQuestions.length && savedQuestions.every(function(question) {
+        return question && sessionIds.has(question.wordId) && Array.isArray(question.options) &&
+          question.options.length === 4 && new Set(question.options).size === 4 &&
+          question.options.includes(question.wordId) && question.options.every(function(id) { return sessionIds.has(id); });
+      }) && new Set(savedQuestions.map(function(question) { return question.wordId; })).size === savedQuestions.length
+        ? savedQuestions : [];
       state.questionIndex = 0;
       state.answer = {};
-      state.roundStartCount = state.phase === "round-summary"
+      state.questions.forEach(function(question, index) {
+        if (stored.answer && Object.prototype.hasOwnProperty.call(stored.answer, String(index)) &&
+            question.options.includes(stored.answer[index])) state.answer[index] = stored.answer[index];
+      });
+      if (stored.phase === "test" && state.questions.length) state.phase = "test";
+      state.roundStartCount = (state.questions.length || state.phase === "round-summary")
         ? Math.min(state.mastered.size, Math.max(0, Number(stored.roundStartCount) || 0))
         : state.mastered.size;
     }
@@ -783,10 +822,7 @@
       }).format(date);
     }
 
-    function wordIsMastered(wordId) {
-      const index = WORDS.findIndex(function(item) { return item.id === wordId; });
-      if (index < 0) return false;
-      const sessionNumber = Math.floor(index / SESSION_SIZE) + 1;
+    function wordIsMastered(wordId, sessionNumber) {
       if (sessionNumber === state.session) return state.mastered.has(wordId);
       const stored = state.progress.sessions[String(sessionNumber)] || {};
       return validMastered(sessionNumber, stored.mastered).includes(wordId);
@@ -813,15 +849,15 @@
         const mastered = sessionMasteredCount(number);
         const sessionAnswers = activity.filter(function(entry) { return entry.session === number; });
         const latestAnswer = sessionAnswers.length ? sessionAnswers[sessionAnswers.length - 1].answeredAt : null;
-        const datedStatus = mastered === SESSION_SIZE && stored.completedAt
+        const datedStatus = mastered === wordsForSession(number).length && stored.completedAt
           ? "Completed " + formatDateTime(stored.completedAt)
           : latestAnswer
             ? "Last answer " + formatDateTime(latestAnswer)
             : "No test answers yet";
         sessionRows.push(
-          '<div class="session-record"><strong>' + number + '</strong><p>Day ' + number +
+          '<div class="session-record"><strong>' + number + '</strong><p>' + sessionLabel(number) +
           '<small>' + escapeHtml(datedStatus) + '</small></p><span class="session-score">' +
-          mastered + ' / ' + SESSION_SIZE + '</span></div>'
+          mastered + ' / ' + wordsForSession(number).length + '</span></div>'
         );
       }
 
@@ -856,11 +892,11 @@
         const correctFirstTry = Math.max(0, answeredWordIds.size - missCount);
         const resultCopy = correctFirstTry + " correct · " + missCount + " missed";
         const misses = Array.from(missedWords.entries()).map(function(pair) {
-          const masteredLabel = wordIsMastered(pair[0]) ? " — mastered later" : " — still learning";
+          const masteredLabel = wordIsMastered(pair[0], group.session) ? " — mastered later" : " — still learning";
           return '<span class="round-miss-word">' + escapeHtml(pair[1]) + escapeHtml(masteredLabel) + '</span>';
         }).join("");
         return '<div class="round-record"><div class="round-record-head"><span class="round-record-number">' +
-          group.round + '</span><div class="round-record-title"><strong>Day ' + group.session + ' · Round ' +
+          group.round + '</span><div class="round-record-title"><strong>' + sessionLabel(group.session) + ' · Round ' +
           group.round + '</strong><small><time datetime="' + escapeHtml(group.lastAt || "") + '">' +
           escapeHtml(formatDateTime(group.lastAt)) + '</time></small></div><span class="round-record-score ' +
           (missCount ? "has-misses" : "") + '">' + resultCopy + '</span></div>' +
@@ -882,11 +918,11 @@
       for (let number = 1; number <= SESSION_COUNT; number += 1) {
         const count = sessionMasteredCount(number);
         const classes = ["session-button"];
-        if (count === SESSION_SIZE) classes.push("complete");
+        if (count === wordsForSession(number).length) classes.push("complete");
         if (number === state.session) classes.push("active");
         buttons.push(
           '<button class="' + classes.join(" ") + '" data-session="' + number + '" type="button">' +
-          '<span>Day ' + number + '</span><small>' + count + ' / ' + SESSION_SIZE + '</small></button>'
+          '<span>Day ' + number + '</span>' + (number > ORIGINAL_SESSION_COUNT ? '<small>Review ' + (number - ORIGINAL_SESSION_COUNT) + '</small>' : '') + '<small>' + count + ' / ' + wordsForSession(number).length + '</small></button>'
         );
       }
       sessionsEl.innerHTML = buttons.join("");
@@ -894,12 +930,12 @@
 
     function updateChrome() {
       const mastered = state.mastered.size;
-      const total = currentWords().length || SESSION_SIZE;
+      const total = currentWords().length;
       progressBar.style.width = ((mastered / total) * 100) + "%";
       progressNumber.textContent = mastered + " / " + total + " mastered";
-      progressLabel.textContent = "Day " + state.session + " progress";
+      progressLabel.textContent = sessionLabel(state.session) + " progress";
       startTest.hidden = state.phase !== "review" || mastered === total;
-      startTest.textContent = mastered ? "Continue round " + state.round + " test" : "Start round 1 test";
+      startTest.textContent = (state.questions.length ? "Continue round " : "Start round ") + state.round + " test";
 
       const steps = [{ label: "Review", status: state.phase === "review" ? "active" : "done" }];
       const visibleRounds = Math.max(state.round, state.phase === "review" ? 1 : 0);
@@ -950,7 +986,7 @@
           '<p class="example">“' + escapeHtml(item.example) + '”</p></div></article>';
       }).join("");
       card.innerHTML =
-        '<div class="card-head"><p>Day ' + state.session + ' · review all 10 words before the test</p>' +
+        '<div class="card-head"><p>' + sessionLabel(state.session) + ' · review all ' + items.length + ' words before the test</p>' +
         '<span class="counter">All ' + items.length + ' words</span></div>' +
         '<div class="review-all-body"><div class="review-grid">' + reviewItems + '</div></div>' +
         '<div class="card-actions review-actions"><button class="button" id="start-review-test" type="button">' +
@@ -973,6 +1009,12 @@
     }
 
     function beginRound() {
+      if (state.questions.length && ["review", "test"].includes(state.phase)) {
+        state.phase = "test";
+        save();
+        render();
+        return;
+      }
       const remaining = currentWords().filter(function(item) {
         return !state.mastered.has(item.id);
       }).map(function(item) { return item.id; });
@@ -1031,6 +1073,8 @@
     function finishTest() {
       if (Object.keys(state.answer).length !== state.questions.length) return;
       state.phase = state.mastered.size === currentWords().length ? "complete" : "round-summary";
+      state.questions = [];
+      state.answer = {};
       save();
       render();
     }
@@ -1063,7 +1107,7 @@
       }).join("");
 
       card.innerHTML =
-        '<div class="card-head"><p>Day ' + state.session + ' · round ' + state.round + ' · all questions</p><span class="counter">' +
+        '<div class="card-head"><p>' + sessionLabel(state.session) + ' · round ' + state.round + ' · all questions</p><span class="counter">' +
         answeredCount + ' of ' + state.questions.length + ' answered</span></div>' +
         '<div class="test-all-body"><div class="test-list">' + questions + '</div></div><div class="card-actions test-all-actions">' +
         '<button class="button secondary" id="review-again" type="button">Review words</button>' +
@@ -1089,27 +1133,31 @@
         '<div class="center-body"><div><div class="seal" aria-hidden="true">' + state.round + '</div>' +
         '<h2>Round ' + state.round + ' complete.</h2>' +
         '<div class="score-row"><span>' + newlyMastered + ' learned this round</span><span>' +
-        state.mastered.size + ' of ' + SESSION_SIZE + ' mastered</span></div>' +
+        state.mastered.size + ' of ' + currentWords().length + ' mastered</span></div>' +
         '<p>' + remaining + (remaining === 1 ? " word needs" : " words need") +
         ' another try. The next round includes only those words.</p>' +
         '<button class="button" id="next-round" type="button">Start round ' + (state.round + 1) +
         '</button></div></div>';
       document.querySelector("#next-round").addEventListener("click", function() {
         state.round += 1;
+        state.questions = [];
+        state.answer = {};
         beginRound();
       });
     }
 
     function renderComplete() {
-      const allDone = totalMasteredCount() === WORDS.length;
+      const allDone = Array.from({ length: SESSION_COUNT }, function(_, index) {
+        return sessionMasteredCount(index + 1) === wordsForSession(index + 1).length;
+      }).every(Boolean);
       const nextButton = state.session < SESSION_COUNT
         ? '<button class="button" id="next-session" type="button">Go to Day ' + (state.session + 1) + '</button>'
         : "";
       card.innerHTML =
         '<div class="center-body"><div><div class="seal" aria-hidden="true">✓</div>' +
-        '<h2>' + (allDone ? "All 200 mastered!" : "Day " + state.session + " mastered!") + '</h2>' +
-        '<p>You answered all 10 words for this day correctly. ' +
-        (allDone ? "The complete 200-word set is finished." : "Choose another day or continue to the next one.") +
+        '<h2>' + (allDone ? "All learning and reviews mastered!" : sessionLabel(state.session) + " mastered!") + '</h2>' +
+        '<p>You answered all ' + currentWords().length + ' words for this day correctly. ' +
+        (allDone ? "The 200-word set and all six reviews are finished." : "Choose another day or continue to the next one.") +
         '</p><div class="card-actions" style="border:0;justify-content:center;padding:0;">' +
         '<button class="button secondary" id="review-session" type="button">Review this day</button>' +
         nextButton + '</div></div></div>';
@@ -1192,8 +1240,11 @@
         throw new Error("The illustrated word set is incomplete.");
       }
       WORD_BY_ID = new Map(WORDS.map(function(item) { return [item.id, item]; }));
+      if (REVIEW_SESSION_IDS.some(function(ids) {
+        return ids.length !== 15 || new Set(ids).size !== 15 || ids.some(function(id) { return !WORD_BY_ID.has(id); });
+      })) throw new Error("A review session is incomplete.");
       document.querySelector(".intro").textContent =
-        "Harry's selected 200 To-learn words are arranged into 20 days of 10. Review the day's picture clues, then answer every test question together on one page.";
+        "Days 1–20: 10 words a day. Days 21–26: 15-word reviews of 83 Round 1 misses and 4 Day 20 challenge words, with 3 difficult words repeated for extra practice. Review the pictures, then test through Round 1, 2, 3, and onward until mastered.";
       restore();
       render();
       connectOnlineSync();
