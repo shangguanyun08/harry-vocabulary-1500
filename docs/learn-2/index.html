@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn the next 200 To learn words in 20 days, with missed-word rounds and saved online progress.">
+  <title>Harry’s Daily Vocabulary 2</title>
+  <link rel="stylesheet" href="./styles.css?v=1">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <nav class="nav" aria-label="Vocabulary navigation">
+        <div class="course-links"><a class="back-link" href="https://shangguanyun08.github.io/marco-learning-hub/">← Learning Hub</a><a class="back-link" href="../learn/">Vocabulary 1</a><a class="back-link" href="../">Full word list</a></div>
+        <span class="save-note">Progress and answer history sync automatically</span>
+      </nav>
+      <p class="eyebrow">Harry’s Daily Vocabulary 2 · To-learn list</p>
+      <h1>Learn <em>and review.</em></h1>
+      <p class="intro">20 days · 10 new words a day. Review the words, then test until every word is mastered.</p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="status-card" aria-label="Learning progress">
+      <div>
+        <div class="progress-copy"><span id="progress-label">Loading Day 1</span><strong id="progress-number">0 / 10 mastered</strong></div>
+        <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+      </div>
+      <div class="status-actions">
+        <button class="test-now" id="start-test" type="button">Start round 1 test</button>
+      </div>
+    </section>
+
+    <div class="sessions" id="sessions" aria-label="Choose a learning day"></div>
+    <div class="rounds" id="rounds" aria-label="Learning steps"></div>
+    <section class="card" id="card" aria-live="polite"><div class="center-body"><div><div class="seal" aria-hidden="true">…</div><h2>Loading to-learn words</h2></div></div></section>
+    <section class="record-card" id="record-card" aria-labelledby="record-title">
+      <div class="record-head">
+        <div><h2 id="record-title">Progress record</h2><p>Every test answer is kept with its day, round, date, and time. Each round shows exactly which words were missed, even after they are mastered.</p></div>
+        <span class="record-badge">Saved automatically</span>
+      </div>
+      <div id="record-content"><p class="empty-record">Your dated learning record will appear here after the first test answer.</p></div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script src="https://shangguanyun08.github.io/marco-learning-hub/shared-online-sync.js?v=1"></script>
+  <script src="./app.js?v=1"></script>
+</body>
+</html>
