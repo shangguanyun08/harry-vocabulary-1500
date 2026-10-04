@@ -5,8 +5,9 @@
     const IS_LOCAL = ['localhost','127.0.0.1','[::1]'].includes(location.hostname) || location.protocol === 'file:';
     const SESSION_SIZE = 10;
     const ORIGINAL_SESSION_COUNT = 20;
-    const SESSION_COUNT = 20;
-    const REVIEW_SESSION_IDS = [];
+    const SESSION_COUNT = 23;
+    // Original Round 1 misses, frozen October 4, 2026 in course order.
+    const REVIEW_SESSION_IDS = [[515, 519, 520, 521, 526, 527, 531, 536, 539, 541, 545, 549, 550, 566, 567, 569, 570, 572, 575, 578, 579, 582, 583, 595, 602], [604, 605, 606, 607, 611, 612, 613, 618, 619, 621, 624, 628, 630, 632, 633, 635, 637, 639, 642, 647, 665, 670, 672, 676, 681], [683, 684, 686, 687, 688, 696, 704, 710, 716, 721, 723, 724, 726, 727, 728, 729, 730, 732, 734, 735, 736, 744, 745, 748]];
     const PROGRESS_VERSION = 4;
     let WORDS = [];
     let WORD_BY_ID = new Map();
@@ -76,8 +77,8 @@
     }
 
     function sessionLabel(number) {
-      return "Day " + number + (number > ORIGINAL_SESSION_COUNT
-        ? " · Review " + (number - ORIGINAL_SESSION_COUNT) : "");
+      return number > ORIGINAL_SESSION_COUNT
+        ? "Review " + (number - ORIGINAL_SESSION_COUNT) : "Day " + number;
     }
 
     function currentWords() {
@@ -391,7 +392,7 @@
         if (number === state.session) classes.push("active");
         buttons.push(
           '<button class="' + classes.join(" ") + '" data-session="' + number + '" type="button">' +
-          '<span>Day ' + number + '</span>' + (number > ORIGINAL_SESSION_COUNT ? '<small>Review ' + (number - ORIGINAL_SESSION_COUNT) + '</small>' : '') + '<small>' + count + ' / ' + wordsForSession(number).length + '</small></button>'
+          '<span>' + sessionLabel(number) + '</span>' + (number > ORIGINAL_SESSION_COUNT ? '<small>Round 1 misses</small>' : '') + '<small>' + count + ' / ' + wordsForSession(number).length + '</small></button>'
         );
       }
       sessionsEl.innerHTML = buttons.join("");
@@ -618,15 +619,15 @@
         return sessionMasteredCount(index + 1) === wordsForSession(index + 1).length;
       }).every(Boolean);
       const nextButton = state.session < SESSION_COUNT
-        ? '<button class="button" id="next-session" type="button">Go to Day ' + (state.session + 1) + '</button>'
+        ? '<button class="button" id="next-session" type="button">Go to ' + sessionLabel(state.session + 1) + '</button>'
         : "";
       card.innerHTML =
         '<div class="center-body"><div><div class="seal" aria-hidden="true">✓</div>' +
         '<h2>' + (allDone ? "All 200 words mastered!" : sessionLabel(state.session) + " mastered!") + '</h2>' +
-        '<p>You answered all ' + currentWords().length + ' words for this day correctly. ' +
-        (allDone ? "All 20 learning days are finished." : "Choose another day or continue to the next one.") +
+        '<p>You answered all ' + currentWords().length + ' words in this session correctly. ' +
+        (allDone ? "All 20 learning days and 3 review sessions are finished." : "Choose another day or continue to the next one.") +
         '</p><div class="card-actions" style="border:0;justify-content:center;padding:0;">' +
-        '<button class="button secondary" id="review-session" type="button">Review this day</button>' +
+        '<button class="button secondary" id="review-session" type="button">Review this session</button>' +
         nextButton + '</div></div></div>';
 
       document.querySelector("#review-session").addEventListener("click", function() {
