@@ -44,7 +44,7 @@ test('200 unique source words exclude every Vocabulary 1 headword, with valid se
 });
 test('all 20 days display ten words and ten valid questions with no network tracking in preview',async()=>{
   const b=await browser();
-  assert.equal(b.d.querySelectorAll('[data-session]').length,20);
+  assert.equal(b.d.querySelectorAll('[data-session]').length,23);
   for(let day=1;day<=20;day++) {
     b.d.querySelector(`[data-session="${day}"]`).click();
     assert.equal(b.d.querySelectorAll('.review-item').length,10);
