@@ -6,13 +6,14 @@ const vm=require('node:vm');
 const {JSDOM}=require('../../marco-learning-hub/harry-math-practice/node_modules/jsdom');
 const root=path.join(__dirname,'../docs/learn-2');
 const words=JSON.parse(fs.readFileSync(path.join(root,'words.json'),'utf8'));
+const nextWords=JSON.parse(fs.readFileSync(path.join(root,'next-words.json'),'utf8'));
 const key='harry-vocabulary-to-learn-200-2-v1';
 const copy=value=>JSON.parse(JSON.stringify(value));
 async function browser(saved={}, online=false) {
   const dom=new JSDOM(fs.readFileSync(path.join(root,'index.html'),'utf8'),{url:online?'https://example.com/learn-2/':'http://localhost/learn-2/',runScripts:'outside-only'});
   const w=dom.window,d=w.document,calls=[];
   for(const [key,value] of Object.entries(saved)) w.localStorage.setItem(key,JSON.stringify(value));
-  w.fetch=async()=>({ok:true,json:async()=>copy(words)});
+  w.fetch=async url=>({ok:true,json:async()=>copy(url.includes('next-words')?nextWords:words)});
   w.scrollTo=()=>{};
   w.MarcoOnlineSync={create(options){calls.push(options);return{start:value=>calls.push(copy(value)),push:value=>calls.push(copy(value))};}};
   w.eval(fs.readFileSync(path.join(root,'app.js'),'utf8'));
@@ -44,7 +45,7 @@ test('200 unique source words exclude every Vocabulary 1 headword, with valid se
 });
 test('all 20 days display ten words and ten valid questions with no network tracking in preview',async()=>{
   const b=await browser();
-  assert.equal(b.d.querySelectorAll('[data-session]').length,23);
+  assert.equal(b.d.querySelectorAll('[data-session]').length,43);
   for(let day=1;day<=20;day++) {
     b.d.querySelector(`[data-session="${day}"]`).click();
     assert.equal(b.d.querySelectorAll('.review-item').length,10);
@@ -143,4 +144,52 @@ test('an older open tab merges newly saved local answers before saving its own',
   assert.equal(second.d.querySelectorAll('[data-option]:disabled').length,8);
   assert.deepEqual(second.progress().activity.find(a=>a.wordId===first.progress().activity[0].wordId),first.progress().activity[0]);
   first.w.close();second.w.close();
+});
+
+test('twenty new ten-word sessions follow the three fixed reviews, with distinct source words and complete blanks',async()=>{
+  assert.equal(nextWords.length,200);
+  const allIds=new Set(words.map(w=>w.id));
+  const source=JSON.parse(fs.readFileSync(path.join(__dirname,'../docs/words.json'),'utf8'));
+  const old=fs.readFileSync(path.join(__dirname,'../docs/learn/index.html'),'utf8');
+  const firstIds=vm.runInNewContext(old.match(/const ILLUSTRATION_IDS = ([\s\S]*?);/)[1]).flat();
+  for(const word of nextWords){
+    assert.ok(!allIds.has(word.id));assert.ok(!firstIds.includes(word.id));allIds.add(word.id);
+    assert.ok(source.some(s=>s.id===word.id&&s.word===word.sourceWord));
+    assert.equal(word.blankForm.toLowerCase(),word.word.toLowerCase());
+    assert.equal(word.cloze.split('_____').length,2);
+    assert.ok(word.meaning&&word.partOfSpeech&&(word.art.file || word.art.sheet>=9&&word.art.sheet<=16));
+  }
+  const b=await browser();
+  for(let session=21;session<=43;session++){
+    b.d.querySelector(`[data-session="${session}"]`).click();
+    const count=session===23?24:session<24?25:10;
+    assert.equal(b.d.querySelectorAll('.review-item').length,count);
+    if(session>=24){
+      assert.deepEqual([...b.d.querySelectorAll('.review-item h2')].map(n=>n.textContent),nextWords.filter(w=>w.day===session).map(w=>w.word));
+      assert.equal(b.d.querySelectorAll('[data-speak]').length,10);
+    }
+    b.d.querySelector('#start-review-test').click();
+    assert.equal(b.d.querySelectorAll('.test-question').length,count);
+    assert.equal(b.d.querySelectorAll('[data-option]').length,count*4);
+  }
+  b.w.close();
+});
+
+test('appended days retain independent progress, original rounds, and saved answers after online sync and reload',async()=>{
+  let b=await browser({},true);
+  b.d.querySelector('#start-review-test').click();answer(b,0,false);
+  const original=copy(b.progress().sessions[1].rounds);
+  b.d.querySelector('[data-session="24"]').click();b.d.querySelector('#start-review-test').click();
+  for(let i=0;i<10;i++)answer(b,i,i!==0);
+  b.d.querySelector('#finish-test').click();
+  const saved=copy(b.progress());b.w.close();b=await browser({},true);b.calls[0].onRemote(saved);
+  assert.equal(b.progress().activeSession,24);
+  assert.deepEqual(b.progress().sessions[1].rounds,original);
+  assert.equal(b.progress().sessions[24].mastered.length,9);
+  b.d.querySelector('#next-round').click();assert.equal(b.d.querySelectorAll('.test-question').length,1);
+  answer(b,0,true);b.d.querySelector('#finish-test').click();
+  assert.equal(b.progress().sessions[24].mastered.length,10);
+  assert.equal(Object.keys(b.progress().sessions[24].rounds).length,2);
+  assert.match(b.d.querySelector('#next-session').textContent,/Day 25/);
+  b.w.close();
 });

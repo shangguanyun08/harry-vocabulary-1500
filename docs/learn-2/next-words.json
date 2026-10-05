@@ -1,0 +1,3401 @@
+[
+  {
+    "id": 750,
+    "word": "sensible",
+    "meaning": "reasonable and practical",
+    "example": "Taking an umbrella was a sensible decision.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "sensible",
+    "partOfSpeech": "adjective",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 0
+    },
+    "blankForm": "sensible",
+    "cloze": "Taking an umbrella was a _____ decision."
+  },
+  {
+    "id": 751,
+    "word": "fierce",
+    "meaning": "very strong or intense",
+    "example": "A fierce wind shook the trees.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "fierce",
+    "partOfSpeech": "adjective",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 1
+    },
+    "blankForm": "fierce",
+    "cloze": "A _____ wind shook the trees."
+  },
+  {
+    "id": 752,
+    "word": "shocking",
+    "meaning": "causing great surprise",
+    "example": "The report revealed a shocking mistake.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "shocking",
+    "partOfSpeech": "adjective",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 2
+    },
+    "blankForm": "shocking",
+    "cloze": "The report revealed a _____ mistake."
+  },
+  {
+    "id": 753,
+    "word": "shoulder",
+    "meaning": "the body part between your neck and upper arm",
+    "example": "She carried the bag over her shoulder.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "shoulder",
+    "partOfSpeech": "noun",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 3
+    },
+    "blankForm": "shoulder",
+    "cloze": "She carried the bag over her _____."
+  },
+  {
+    "id": 754,
+    "word": "signpost",
+    "meaning": "a post with signs showing where to go",
+    "example": "A signpost pointed toward the village.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "signpost",
+    "partOfSpeech": "noun",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 4
+    },
+    "blankForm": "signpost",
+    "cloze": "A _____ pointed toward the village."
+  },
+  {
+    "id": 755,
+    "word": "sociable",
+    "meaning": "enjoying being with other people",
+    "example": "Our sociable puppy greets every visitor.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "sociable",
+    "partOfSpeech": "adjective",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 5
+    },
+    "blankForm": "sociable",
+    "cloze": "Our _____ puppy greets every visitor."
+  },
+  {
+    "id": 756,
+    "word": "formal",
+    "meaning": "following the rules for an official occasion",
+    "example": "Guests wore formal clothes to the wedding.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "formal",
+    "partOfSpeech": "adjective",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 6
+    },
+    "blankForm": "formal",
+    "cloze": "Guests wore _____ clothes to the wedding."
+  },
+  {
+    "id": 757,
+    "word": "souvenir",
+    "meaning": "something kept to remember a place or event",
+    "example": "I bought a shell as a souvenir of the beach.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "souvenir",
+    "partOfSpeech": "noun",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 7
+    },
+    "blankForm": "souvenir",
+    "cloze": "I bought a shell as a _____ of the beach."
+  },
+  {
+    "id": 758,
+    "word": "stranger",
+    "meaning": "a person you do not know",
+    "example": "Never accept a ride from a stranger.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "stranger",
+    "partOfSpeech": "noun",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 8
+    },
+    "blankForm": "stranger",
+    "cloze": "Never accept a ride from a _____."
+  },
+  {
+    "id": 759,
+    "word": "stressed",
+    "meaning": "feeling worried or under pressure",
+    "example": "He felt stressed before the final exam.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "stressed",
+    "partOfSpeech": "adjective",
+    "day": 24,
+    "art": {
+      "sheet": 9,
+      "index": 9
+    },
+    "blankForm": "stressed",
+    "cloze": "He felt _____ before the final exam."
+  },
+  {
+    "id": 760,
+    "word": "suddenly",
+    "meaning": "quickly and unexpectedly",
+    "example": "The lights suddenly went out.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "suddenly",
+    "partOfSpeech": "adverb",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 10
+    },
+    "blankForm": "suddenly",
+    "cloze": "The lights _____ went out."
+  },
+  {
+    "id": 761,
+    "word": "honest",
+    "meaning": "truthful and fair",
+    "example": "Please give me an honest answer.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "honest",
+    "partOfSpeech": "adjective",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 11
+    },
+    "blankForm": "honest",
+    "cloze": "Please give me an _____ answer."
+  },
+  {
+    "id": 762,
+    "word": "suggest",
+    "meaning": "to offer an idea or plan",
+    "example": "Can you suggest a game for us to play?",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "suggests",
+    "partOfSpeech": "verb",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 12
+    },
+    "blankForm": "suggest",
+    "cloze": "Can you _____ a game for us to play?"
+  },
+  {
+    "id": 763,
+    "word": "suitable",
+    "meaning": "right for a person or purpose",
+    "example": "These boots are suitable for wet weather.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "suitable",
+    "partOfSpeech": "adjective",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 13
+    },
+    "blankForm": "suitable",
+    "cloze": "These boots are _____ for wet weather."
+  },
+  {
+    "id": 764,
+    "word": "sunbathe",
+    "meaning": "to sit or lie in the sun",
+    "example": "They went to the beach to sunbathe.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "sunbathe",
+    "partOfSpeech": "verb",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 14
+    },
+    "blankForm": "sunbathe",
+    "cloze": "They went to the beach to _____."
+  },
+  {
+    "id": 765,
+    "word": "sunshine",
+    "meaning": "the light and warmth of the sun",
+    "example": "Warm sunshine filled the garden.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "sunshine",
+    "partOfSpeech": "noun",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 15
+    },
+    "blankForm": "sunshine",
+    "cloze": "Warm _____ filled the garden."
+  },
+  {
+    "id": 766,
+    "word": "humble",
+    "meaning": "not proud or boastful",
+    "example": "Despite winning, she remained humble.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "humble",
+    "partOfSpeech": "adjective",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 16
+    },
+    "blankForm": "humble",
+    "cloze": "Despite winning, she remained _____."
+  },
+  {
+    "id": 767,
+    "word": "surround",
+    "meaning": "to be all around something",
+    "example": "Tall trees surround the cabin.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "surround",
+    "partOfSpeech": "verb",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 17
+    },
+    "blankForm": "surround",
+    "cloze": "Tall trees _____ the cabin."
+  },
+  {
+    "id": 768,
+    "word": "takeaway",
+    "meaning": "a meal bought to eat somewhere else",
+    "example": "We brought home a takeaway for dinner.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "takeaway",
+    "partOfSpeech": "noun",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 18
+    },
+    "blankForm": "takeaway",
+    "cloze": "We brought home a _____ for dinner."
+  },
+  {
+    "id": 769,
+    "word": "talented",
+    "meaning": "having a natural ability to do something well",
+    "example": "The talented child can play three instruments.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "talented",
+    "partOfSpeech": "adjective",
+    "day": 25,
+    "art": {
+      "sheet": 9,
+      "index": 19
+    },
+    "blankForm": "talented",
+    "cloze": "The _____ child can play three instruments."
+  },
+  {
+    "id": 770,
+    "word": "teaching",
+    "meaning": "the work of helping people learn",
+    "example": "Teaching requires patience and clear communication.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "teaching",
+    "partOfSpeech": "noun",
+    "day": 26,
+    "art": {
+      "sheet": 9,
+      "index": 20
+    },
+    "blankForm": "teaching",
+    "cloze": "_____ requires patience and clear communication."
+  },
+  {
+    "id": 771,
+    "word": "terrible",
+    "meaning": "very bad or unpleasant",
+    "example": "We heard terrible news about the storm.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "terrible",
+    "partOfSpeech": "adjective",
+    "day": 26,
+    "art": {
+      "sheet": 9,
+      "index": 21
+    },
+    "blankForm": "terrible",
+    "cloze": "We heard _____ news about the storm."
+  },
+  {
+    "id": 772,
+    "word": "terrific",
+    "meaning": "excellent or very good",
+    "example": "You did a terrific job on the poster.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "terrific",
+    "partOfSpeech": "adjective",
+    "day": 26,
+    "art": {
+      "sheet": 9,
+      "index": 22
+    },
+    "blankForm": "terrific",
+    "cloze": "You did a _____ job on the poster."
+  },
+  {
+    "id": 773,
+    "word": "insect",
+    "meaning": "a small animal with six legs",
+    "example": "A bee is an insect with six legs.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "insect",
+    "partOfSpeech": "noun",
+    "day": 26,
+    "art": {
+      "sheet": 9,
+      "index": 23
+    },
+    "blankForm": "insect",
+    "cloze": "A bee is an _____ with six legs."
+  },
+  {
+    "id": 774,
+    "word": "thriller",
+    "meaning": "an exciting story with danger or mystery",
+    "example": "The spy thriller kept us guessing until the end.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "thriller",
+    "partOfSpeech": "noun",
+    "day": 26,
+    "art": {
+      "sheet": 9,
+      "index": 24
+    },
+    "blankForm": "thriller",
+    "cloze": "The spy _____ kept us guessing until the end."
+  },
+  {
+    "id": 775,
+    "word": "unlikely",
+    "meaning": "probably not going to happen",
+    "example": "Rain is unlikely during this dry season.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "unlikely",
+    "partOfSpeech": "adjective",
+    "day": 26,
+    "art": {
+      "sheet": 10,
+      "index": 0
+    },
+    "blankForm": "unlikely",
+    "cloze": "Rain is _____ during this dry season."
+  },
+  {
+    "id": 776,
+    "word": "upstairs",
+    "meaning": "on or toward a higher floor",
+    "example": "Your clean towels are upstairs.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "upstairs",
+    "partOfSpeech": "adverb",
+    "day": 26,
+    "art": {
+      "sheet": 10,
+      "index": 1
+    },
+    "blankForm": "upstairs",
+    "cloze": "Your clean towels are _____."
+  },
+  {
+    "id": 777,
+    "word": "invent",
+    "meaning": "to create something new",
+    "example": "She hopes to invent a safer battery.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "invent",
+    "partOfSpeech": "verb",
+    "day": 26,
+    "art": {
+      "sheet": 10,
+      "index": 2
+    },
+    "blankForm": "invent",
+    "cloze": "She hopes to _____ a safer battery."
+  },
+  {
+    "id": 778,
+    "word": "urgently",
+    "meaning": "in a way that needs quick action",
+    "example": "The hospital urgently needs more blood.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "urgently",
+    "partOfSpeech": "adverb",
+    "day": 26,
+    "art": {
+      "sheet": 10,
+      "index": 3
+    },
+    "blankForm": "urgently",
+    "cloze": "The hospital _____ needs more blood."
+  },
+  {
+    "id": 779,
+    "word": "valuable",
+    "meaning": "worth a lot or very useful",
+    "example": "The museum protects its most valuable paintings.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "valuable",
+    "partOfSpeech": "adjective",
+    "day": 26,
+    "art": {
+      "sheet": 10,
+      "index": 4
+    },
+    "blankForm": "valuable",
+    "cloze": "The museum protects its most _____ paintings."
+  },
+  {
+    "id": 780,
+    "word": "whenever",
+    "meaning": "at any time that",
+    "example": "Call me whenever you need help.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "whenever",
+    "partOfSpeech": "conjunction",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 5
+    },
+    "blankForm": "whenever",
+    "cloze": "Call me _____ you need help."
+  },
+  {
+    "id": 781,
+    "word": "invest",
+    "meaning": "to put money into something for future gain",
+    "example": "They plan to invest in solar power.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "invest",
+    "partOfSpeech": "verb",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 6
+    },
+    "blankForm": "invest",
+    "cloze": "They plan to _____ in solar power."
+  },
+  {
+    "id": 782,
+    "word": "wherever",
+    "meaning": "in any place that",
+    "example": "Wherever she travels, she sends us a postcard.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "Wherever",
+    "partOfSpeech": "conjunction",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 7
+    },
+    "blankForm": "wherever",
+    "cloze": "_____ she travels, she sends us a postcard."
+  },
+  {
+    "id": 783,
+    "word": "widespread",
+    "meaning": "found across a large area",
+    "example": "The disease became widespread across the region.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "widespread",
+    "partOfSpeech": "adjective",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 8
+    },
+    "blankForm": "widespread",
+    "cloze": "The disease became _____ across the region."
+  },
+  {
+    "id": 784,
+    "word": "worthwhile",
+    "meaning": "worth the time or effort",
+    "example": "The long climb was difficult but worthwhile.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "worthwhile",
+    "partOfSpeech": "adjective",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 9
+    },
+    "blankForm": "worthwhile",
+    "cloze": "The long climb was difficult but _____."
+  },
+  {
+    "id": 785,
+    "word": "arbitrary",
+    "meaning": "chosen without a clear reason or rule",
+    "example": "The teacher's arbitrary rule confused the class.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "arbitrary",
+    "partOfSpeech": "adjective",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 10
+    },
+    "blankForm": "arbitrary",
+    "cloze": "The teacher's _____ rule confused the class."
+  },
+  {
+    "id": 786,
+    "word": "legend",
+    "meaning": "an old story passed down over time",
+    "example": "An old legend tells of a dragon in the lake.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "legend",
+    "partOfSpeech": "noun",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 11
+    },
+    "blankForm": "legend",
+    "cloze": "An old _____ tells of a dragon in the lake."
+  },
+  {
+    "id": 787,
+    "word": "criterion",
+    "meaning": "a rule used to judge something",
+    "example": "Price is only one criterion for choosing a laptop.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "criterion",
+    "partOfSpeech": "noun",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 12
+    },
+    "blankForm": "criterion",
+    "cloze": "Price is only one _____ for choosing a laptop."
+  },
+  {
+    "id": 788,
+    "word": "formulate",
+    "meaning": "to carefully develop a plan or idea",
+    "example": "Scientists will formulate a new theory.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "formulate",
+    "partOfSpeech": "verb",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 13
+    },
+    "blankForm": "formulate",
+    "cloze": "Scientists will _____ a new theory."
+  },
+  {
+    "id": 789,
+    "word": "identical",
+    "meaning": "exactly the same",
+    "example": "The two keys look identical.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "identical",
+    "partOfSpeech": "adjective",
+    "day": 27,
+    "art": {
+      "sheet": 10,
+      "index": 14
+    },
+    "blankForm": "identical",
+    "cloze": "The two keys look _____."
+  },
+  {
+    "id": 790,
+    "word": "integrate",
+    "meaning": "to join parts or people into a whole",
+    "example": "The school helps new students integrate into the community.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "integrate",
+    "partOfSpeech": "verb",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 15
+    },
+    "blankForm": "integrate",
+    "cloze": "The school helps new students _____ into the community."
+  },
+  {
+    "id": 791,
+    "word": "objective",
+    "meaning": "a goal you want to reach",
+    "example": "My objective is to finish before noon.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "objective",
+    "partOfSpeech": "noun",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 16
+    },
+    "blankForm": "objective",
+    "cloze": "My _____ is to finish before noon."
+  },
+  {
+    "id": 792,
+    "word": "patent",
+    "meaning": "a legal right to protect an invention",
+    "example": "The inventor applied for a patent.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "patent",
+    "partOfSpeech": "noun",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 17
+    },
+    "blankForm": "patent",
+    "cloze": "The inventor applied for a _____."
+  },
+  {
+    "id": 793,
+    "word": "reinforce",
+    "meaning": "to make stronger",
+    "example": "Steel beams reinforce the bridge.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "reinforce",
+    "partOfSpeech": "verb",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 18
+    },
+    "blankForm": "reinforce",
+    "cloze": "Steel beams _____ the bridge."
+  },
+  {
+    "id": 794,
+    "word": "structure",
+    "meaning": "the way parts are put together",
+    "example": "The building's steel structure survived the storm.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "structure",
+    "partOfSpeech": "noun",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 19
+    },
+    "blankForm": "structure",
+    "cloze": "The building's steel _____ survived the storm."
+  },
+  {
+    "id": 795,
+    "word": "transform",
+    "meaning": "to change greatly",
+    "example": "Fresh paint can transform a dark room.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "transform",
+    "partOfSpeech": "verb",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 20
+    },
+    "blankForm": "transform",
+    "cloze": "Fresh paint can _____ a dark room."
+  },
+  {
+    "id": 796,
+    "word": "voluntary",
+    "meaning": "done by choice rather than by force",
+    "example": "Attendance at the evening workshop is voluntary.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "voluntary",
+    "partOfSpeech": "adjective",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 21
+    },
+    "blankForm": "voluntary",
+    "cloze": "Attendance at the evening workshop is _____."
+  },
+  {
+    "id": 797,
+    "word": "coincide",
+    "meaning": "to happen at the same time",
+    "example": "Our holidays coincide this year.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "coincide",
+    "partOfSpeech": "verb",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 22
+    },
+    "blankForm": "coincide",
+    "cloze": "Our holidays _____ this year."
+  },
+  {
+    "id": 798,
+    "word": "ponder",
+    "meaning": "to think about carefully",
+    "example": "She sat quietly to ponder the difficult choice.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "ponder",
+    "partOfSpeech": "verb",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 23
+    },
+    "blankForm": "ponder",
+    "cloze": "She sat quietly to _____ the difficult choice."
+  },
+  {
+    "id": 799,
+    "word": "communicate",
+    "meaning": "to share information or ideas",
+    "example": "We communicate with our cousins by video call.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "communicate",
+    "partOfSpeech": "verb",
+    "day": 28,
+    "art": {
+      "sheet": 10,
+      "index": 24
+    },
+    "blankForm": "communicate",
+    "cloze": "We _____ with our cousins by video call."
+  },
+  {
+    "id": 800,
+    "word": "diminish",
+    "meaning": "to become or make smaller",
+    "example": "The noise will diminish as the train leaves.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "diminish",
+    "partOfSpeech": "verb",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 0
+    },
+    "blankForm": "diminish",
+    "cloze": "The noise will _____ as the train leaves."
+  },
+  {
+    "id": 801,
+    "word": "explicit",
+    "meaning": "clear and direct",
+    "example": "The teacher gave explicit instructions.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "explicit",
+    "partOfSpeech": "adjective",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 1
+    },
+    "blankForm": "explicit",
+    "cloze": "The teacher gave _____ instructions."
+  },
+  {
+    "id": 802,
+    "word": "metaphor",
+    "meaning": "a comparison that says one thing is another",
+    "example": "\"The classroom was a zoo\" is a metaphor.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "metaphor",
+    "partOfSpeech": "noun",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 2
+    },
+    "blankForm": "metaphor",
+    "cloze": "\"The classroom was a zoo\" is a _____."
+  },
+  {
+    "id": 803,
+    "word": "opportunity",
+    "meaning": "a good chance to do something",
+    "example": "The trip was a great opportunity to practice Spanish.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "opportunity",
+    "partOfSpeech": "noun",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 3
+    },
+    "blankForm": "opportunity",
+    "cloze": "The trip was a great _____ to practice Spanish."
+  },
+  {
+    "id": 804,
+    "word": "reject",
+    "meaning": "to refuse to accept",
+    "example": "The committee may reject the unsafe proposal.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "reject",
+    "partOfSpeech": "verb",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 4
+    },
+    "blankForm": "reject",
+    "cloze": "The committee may _____ the unsafe proposal."
+  },
+  {
+    "id": 805,
+    "word": "variable",
+    "meaning": "something that can change",
+    "example": "Weather is an important variable in our plans.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "variable",
+    "partOfSpeech": "noun",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 5
+    },
+    "blankForm": "variable",
+    "cloze": "Weather is an important _____ in our plans."
+  },
+  {
+    "id": 806,
+    "word": "all on her own",
+    "meaning": "without help from anyone else",
+    "example": "She baked the cake all on her own.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "(all) on her own",
+    "partOfSpeech": "phrase",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 6
+    },
+    "blankForm": "all on her own",
+    "cloze": "She baked the cake _____."
+  },
+  {
+    "id": 807,
+    "word": "sense of humour",
+    "meaning": "the ability to enjoy jokes and funny things",
+    "example": "His cheerful sense of humour made everyone laugh.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "a sense of humour",
+    "partOfSpeech": "noun phrase",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 7
+    },
+    "blankForm": "sense of humour",
+    "cloze": "His cheerful _____ made everyone laugh."
+  },
+  {
+    "id": 808,
+    "word": "all over the town",
+    "meaning": "in many places throughout the town",
+    "example": "Posters for the festival appeared all over the town.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "all over the town",
+    "partOfSpeech": "phrase",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 8
+    },
+    "blankForm": "all over the town",
+    "cloze": "Posters for the festival appeared _____."
+  },
+  {
+    "id": 809,
+    "word": "spirit",
+    "meaning": "a group's courage and enthusiasm",
+    "example": "The team showed a strong spirit after losing.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "spirit",
+    "partOfSpeech": "noun",
+    "day": 29,
+    "art": {
+      "sheet": 11,
+      "index": 9
+    },
+    "blankForm": "spirit",
+    "cloze": "The team showed a strong _____ after losing."
+  },
+  {
+    "id": 810,
+    "word": "just as clever as",
+    "meaning": "equally clever",
+    "example": "Rina is just as clever as her older brother.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "just as clever as",
+    "partOfSpeech": "phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 10
+    },
+    "blankForm": "just as clever as",
+    "cloze": "Rina is _____ her older brother."
+  },
+  {
+    "id": 811,
+    "word": "make up your mind",
+    "meaning": "to make a firm decision",
+    "example": "Please make up your mind about which game to play.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "made up your mind",
+    "partOfSpeech": "verb phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 11
+    },
+    "blankForm": "make up your mind",
+    "cloze": "Please _____ about which game to play."
+  },
+  {
+    "id": 812,
+    "word": "burst into tears",
+    "meaning": "to suddenly start crying",
+    "example": "She burst into tears when her dog returned.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "burst into tears",
+    "partOfSpeech": "verb phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 12
+    },
+    "blankForm": "burst into tears",
+    "cloze": "She _____ when her dog returned."
+  },
+  {
+    "id": 813,
+    "word": "escort someone home",
+    "meaning": "to go with people to keep them safe",
+    "example": "A guard may escort someone home to keep them safe.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "escort them home",
+    "partOfSpeech": "verb phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 13
+    },
+    "blankForm": "escort someone home",
+    "cloze": "A guard may _____ to keep them safe."
+  },
+  {
+    "id": 814,
+    "word": "get it repainted",
+    "meaning": "to have someone paint something again",
+    "example": "The old fence looks faded, so we should get it repainted.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "get it repainted",
+    "partOfSpeech": "verb phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 14
+    },
+    "blankForm": "get it repainted",
+    "cloze": "The old fence looks faded, so we should _____."
+  },
+  {
+    "id": 815,
+    "word": "tactic",
+    "meaning": "a planned action used to reach a goal",
+    "example": "Passing quickly was our best tactic.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "tactic",
+    "partOfSpeech": "noun",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 15
+    },
+    "blankForm": "tactic",
+    "cloze": "Passing quickly was our best _____."
+  },
+  {
+    "id": 817,
+    "word": "there is no doubt",
+    "meaning": "it is certain",
+    "example": "After checking the answer twice, there is no doubt that it is right.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "There's no doubt",
+    "partOfSpeech": "phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 17
+    },
+    "blankForm": "there is no doubt",
+    "cloze": "After checking the answer twice, _____ that it is right."
+  },
+  {
+    "id": 818,
+    "word": "things like that",
+    "meaning": "other similar things",
+    "example": "Bring pencils, paper, and things like that.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "things like that",
+    "partOfSpeech": "phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 18
+    },
+    "blankForm": "things like that",
+    "cloze": "Bring pencils, paper, and _____."
+  },
+  {
+    "id": 819,
+    "word": "be supposed to",
+    "meaning": "to be expected or required to do something",
+    "example": "You might be supposed to bring lunch on the trip.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "were supposed to",
+    "partOfSpeech": "verb phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 19
+    },
+    "blankForm": "be supposed to",
+    "cloze": "You might _____ bring lunch on the trip."
+  },
+  {
+    "id": 820,
+    "word": "what about",
+    "meaning": "used to suggest an idea",
+    "example": "What about playing a board game?",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "How/What about",
+    "partOfSpeech": "phrase",
+    "day": 30,
+    "art": {
+      "sheet": 11,
+      "index": 20
+    },
+    "blankForm": "What about",
+    "cloze": "_____ playing a board game?"
+  },
+  {
+    "id": 821,
+    "word": "vanish",
+    "meaning": "to disappear suddenly",
+    "example": "The rainbow seemed to vanish at sunset.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "vanish",
+    "partOfSpeech": "verb",
+    "day": 31,
+    "art": {
+      "sheet": 11,
+      "index": 21
+    },
+    "blankForm": "vanish",
+    "cloze": "The rainbow seemed to _____ at sunset."
+  },
+  {
+    "id": 822,
+    "word": "in addition to",
+    "meaning": "as well as; besides",
+    "example": "In addition to rice, we need vegetables.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "in addition (to)",
+    "partOfSpeech": "phrase",
+    "day": 31,
+    "art": {
+      "sheet": 11,
+      "index": 22
+    },
+    "blankForm": "In addition to",
+    "cloze": "_____ rice, we need vegetables."
+  },
+  {
+    "id": 823,
+    "word": "generation",
+    "meaning": "people born around the same time",
+    "example": "My generation grew up using the internet.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "generation",
+    "partOfSpeech": "noun",
+    "day": 31,
+    "art": {
+      "sheet": 11,
+      "index": 23
+    },
+    "blankForm": "generation",
+    "cloze": "My _____ grew up using the internet."
+  },
+  {
+    "id": 824,
+    "word": "previous",
+    "meaning": "coming before the present one",
+    "example": "The previous owner painted the door red.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "previous",
+    "partOfSpeech": "adjective",
+    "day": 31,
+    "art": {
+      "sheet": 11,
+      "index": 24
+    },
+    "blankForm": "previous",
+    "cloze": "The _____ owner painted the door red."
+  },
+  {
+    "id": 825,
+    "word": "enhance",
+    "meaning": "to improve something",
+    "example": "Soft lighting can enhance the warm colors.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "enhance",
+    "partOfSpeech": "verb",
+    "day": 31,
+    "art": {
+      "sheet": 12,
+      "index": 0
+    },
+    "blankForm": "enhance",
+    "cloze": "Soft lighting can _____ the warm colors."
+  },
+  {
+    "id": 826,
+    "word": "vessel",
+    "meaning": "a large boat or ship",
+    "example": "A rescue vessel reached the sinking boat.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "vessel",
+    "partOfSpeech": "noun",
+    "day": 31,
+    "art": {
+      "sheet": 12,
+      "index": 1
+    },
+    "blankForm": "vessel",
+    "cloze": "A rescue _____ reached the sinking boat."
+  },
+  {
+    "id": 828,
+    "word": "could not help",
+    "meaning": "to be unable to stop yourself doing something",
+    "example": "I could not help smiling at the puppy.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "couldn't help",
+    "partOfSpeech": "verb phrase",
+    "day": 31,
+    "art": {
+      "sheet": 12,
+      "index": 2
+    },
+    "blankForm": "could not help",
+    "cloze": "I _____ smiling at the puppy."
+  },
+  {
+    "id": 829,
+    "word": "try your best",
+    "meaning": "to make your greatest effort",
+    "example": "Even when the puzzle is hard, try your best.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "do/try his best",
+    "partOfSpeech": "verb phrase",
+    "day": 31,
+    "art": {
+      "sheet": 12,
+      "index": 3
+    },
+    "blankForm": "try your best",
+    "cloze": "Even when the puzzle is hard, _____."
+  },
+  {
+    "id": 830,
+    "word": "exchange rate",
+    "meaning": "how much one currency is worth in another",
+    "example": "Check the exchange rate before buying euros.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "exchange rate",
+    "partOfSpeech": "noun phrase",
+    "day": 31,
+    "art": {
+      "sheet": 12,
+      "index": 4
+    },
+    "blankForm": "exchange rate",
+    "cloze": "Check the _____ before buying euros."
+  },
+  {
+    "id": 831,
+    "word": "flood control",
+    "meaning": "ways of preventing damage from floods",
+    "example": "The new dam improved flood control.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "flood control",
+    "partOfSpeech": "noun phrase",
+    "day": 31,
+    "art": {
+      "sheet": 12,
+      "index": 5
+    },
+    "blankForm": "flood control",
+    "cloze": "The new dam improved _____."
+  },
+  {
+    "id": 832,
+    "word": "help yourself",
+    "meaning": "to take what you want when invited",
+    "example": "Please help yourself to some fruit.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "help yourself",
+    "partOfSpeech": "verb phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 6
+    },
+    "blankForm": "help yourself",
+    "cloze": "Please _____ to some fruit."
+  },
+  {
+    "id": 833,
+    "word": "identity card",
+    "meaning": "an official card showing who you are",
+    "example": "Show your identity card at the entrance.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "identity card",
+    "partOfSpeech": "noun phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 7
+    },
+    "blankForm": "identity card",
+    "cloze": "Show your _____ at the entrance."
+  },
+  {
+    "id": 834,
+    "word": "in particular",
+    "meaning": "especially one specific thing",
+    "example": "I enjoy tropical fruit, mangoes in particular.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "in particular",
+    "partOfSpeech": "phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 8
+    },
+    "blankForm": "in particular",
+    "cloze": "I enjoy tropical fruit, mangoes _____."
+  },
+  {
+    "id": 835,
+    "word": "message board",
+    "meaning": "a place online where people post messages",
+    "example": "She posted the question on the class message board.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "message board",
+    "partOfSpeech": "noun phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 9
+    },
+    "blankForm": "message board",
+    "cloze": "She posted the question on the class _____."
+  },
+  {
+    "id": 836,
+    "word": "question mark",
+    "meaning": "the punctuation mark at the end of a question",
+    "example": "Put a question mark at the end of a question.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "question mark",
+    "partOfSpeech": "noun phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 10
+    },
+    "blankForm": "question mark",
+    "cloze": "Put a _____ at the end of a question."
+  },
+  {
+    "id": 837,
+    "word": "descend",
+    "meaning": "to move downward",
+    "example": "The hikers began to descend the mountain.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "descend",
+    "partOfSpeech": "verb",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 11
+    },
+    "blankForm": "descend",
+    "cloze": "The hikers began to _____ the mountain."
+  },
+  {
+    "id": 838,
+    "word": "shortly after",
+    "meaning": "a little time after",
+    "example": "Shortly after sunrise, the birds began singing.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "Shortly after",
+    "partOfSpeech": "phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 12
+    },
+    "blankForm": "shortly after",
+    "cloze": "_____ sunrise, the birds began singing."
+  },
+  {
+    "id": 839,
+    "word": "single parent",
+    "meaning": "a parent raising children without a partner",
+    "example": "The single parent worked two jobs.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "single parent",
+    "partOfSpeech": "noun phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 13
+    },
+    "blankForm": "single parent",
+    "cloze": "The _____ worked two jobs."
+  },
+  {
+    "id": 840,
+    "word": "single ticket",
+    "meaning": "a ticket for a one-way journey",
+    "example": "I bought a single ticket to London.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "single ticket",
+    "partOfSpeech": "noun phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 14
+    },
+    "blankForm": "single ticket",
+    "cloze": "I bought a _____ to London."
+  },
+  {
+    "id": 841,
+    "word": "stay behind",
+    "meaning": "to remain after other people leave",
+    "example": "Two students will stay behind to clean the room.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "stayed behind",
+    "partOfSpeech": "verb phrase",
+    "day": 32,
+    "art": {
+      "sheet": 12,
+      "index": 15
+    },
+    "blankForm": "stay behind",
+    "cloze": "Two students will _____ to clean the room."
+  },
+  {
+    "id": 842,
+    "word": "discard",
+    "meaning": "to throw away",
+    "example": "Discard any food that smells spoiled.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "discard",
+    "partOfSpeech": "verb",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 16
+    },
+    "blankForm": "discard",
+    "cloze": "_____ any food that smells spoiled."
+  },
+  {
+    "id": 843,
+    "word": "without delay",
+    "meaning": "immediately",
+    "example": "The injured child needs treatment without delay.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "without delay",
+    "partOfSpeech": "phrase",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 17
+    },
+    "blankForm": "without delay",
+    "cloze": "The injured child needs treatment _____."
+  },
+  {
+    "id": 844,
+    "word": "you are joking",
+    "meaning": "used to show surprise or disbelief",
+    "example": "You are joking! That tiny dog won the race?",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "You're joking!",
+    "partOfSpeech": "phrase",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 18
+    },
+    "blankForm": "You are joking",
+    "cloze": "_____! That tiny dog won the race?"
+  },
+  {
+    "id": 845,
+    "word": "for the fun of it",
+    "meaning": "just for enjoyment",
+    "example": "We entered the contest for the fun of it.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "for the fun of it",
+    "partOfSpeech": "phrase",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 19
+    },
+    "blankForm": "for the fun of it",
+    "cloze": "We entered the contest _____."
+  },
+  {
+    "id": 846,
+    "word": "that kind of thing",
+    "meaning": "other similar activities or items",
+    "example": "She enjoys painting, sewing, and that kind of thing.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "That kind of thing",
+    "partOfSpeech": "phrase",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 20
+    },
+    "blankForm": "that kind of thing",
+    "cloze": "She enjoys painting, sewing, and _____."
+  },
+  {
+    "id": 847,
+    "word": "extract",
+    "meaning": "to remove or take out",
+    "example": "The dentist had to extract a damaged tooth.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "extract",
+    "partOfSpeech": "verb",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 21
+    },
+    "blankForm": "extract",
+    "cloze": "The dentist had to _____ a damaged tooth."
+  },
+  {
+    "id": 848,
+    "word": "trip over",
+    "meaning": "to stumble by catching your foot on something",
+    "example": "Watch your feet so you do not trip over the rock.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "trip over, the dark",
+    "partOfSpeech": "verb phrase",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 22
+    },
+    "blankForm": "trip over",
+    "cloze": "Watch your feet so you do not _____ the rock."
+  },
+  {
+    "id": 849,
+    "word": "business as usual",
+    "meaning": "normal activities continuing as before",
+    "example": "Despite the snow, it was business as usual.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "business as usual",
+    "partOfSpeech": "phrase",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 23
+    },
+    "blankForm": "business as usual",
+    "cloze": "Despite the snow, it was _____."
+  },
+  {
+    "id": 850,
+    "word": "defence",
+    "meaning": "protection against harm or attack",
+    "example": "The wall provides defence against the wind.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "defence",
+    "partOfSpeech": "noun",
+    "day": 33,
+    "art": {
+      "sheet": 12,
+      "index": 24
+    },
+    "blankForm": "defence",
+    "cloze": "The wall provides _____ against the wind."
+  },
+  {
+    "id": 851,
+    "word": "feel like having",
+    "meaning": "to want to eat or have something",
+    "example": "I feel like having soup for lunch.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "feels like having",
+    "partOfSpeech": "verb phrase",
+    "day": 33,
+    "art": {
+      "sheet": 13,
+      "index": 0
+    },
+    "blankForm": "feel like having",
+    "cloze": "I _____ soup for lunch."
+  },
+  {
+    "id": 852,
+    "word": "flatter",
+    "meaning": "to praise too much to gain a favor",
+    "example": "Do not flatter me just to get a favor.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "flatter",
+    "partOfSpeech": "verb",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 1
+    },
+    "blankForm": "flatter",
+    "cloze": "Do not _____ me just to get a favor."
+  },
+  {
+    "id": 853,
+    "word": "initial",
+    "meaning": "happening at the beginning",
+    "example": "My initial guess was wrong.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "initial",
+    "partOfSpeech": "adjective",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 2
+    },
+    "blankForm": "initial",
+    "cloze": "My _____ guess was wrong."
+  },
+  {
+    "id": 854,
+    "word": "quality",
+    "meaning": "how good something is",
+    "example": "The shoes are well made and have excellent quality.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "quality",
+    "partOfSpeech": "noun",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 3
+    },
+    "blankForm": "quality",
+    "cloze": "The shoes are well made and have excellent _____."
+  },
+  {
+    "id": 855,
+    "word": "romance",
+    "meaning": "a loving relationship or story about love",
+    "example": "Their friendship slowly grew into romance.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "romance",
+    "partOfSpeech": "noun",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 4
+    },
+    "blankForm": "romance",
+    "cloze": "Their friendship slowly grew into _____."
+  },
+  {
+    "id": 856,
+    "word": "science",
+    "meaning": "the study of the natural world through tests",
+    "example": "Science helps us understand the natural world.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "science",
+    "partOfSpeech": "noun",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 5
+    },
+    "blankForm": "science",
+    "cloze": "_____ helps us understand the natural world."
+  },
+  {
+    "id": 857,
+    "word": "harvest",
+    "meaning": "to gather ripe crops",
+    "example": "Farmers harvest the wheat in late summer.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "harvest",
+    "partOfSpeech": "verb",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 6
+    },
+    "blankForm": "harvest",
+    "cloze": "Farmers _____ the wheat in late summer."
+  },
+  {
+    "id": 858,
+    "word": "section",
+    "meaning": "one part of a larger whole",
+    "example": "Read the final section of the chapter.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "section",
+    "partOfSpeech": "noun",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 7
+    },
+    "blankForm": "section",
+    "cloze": "Read the final _____ of the chapter."
+  },
+  {
+    "id": 859,
+    "word": "session",
+    "meaning": "a period spent doing a particular activity",
+    "example": "Our training session begins at nine.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "session",
+    "partOfSpeech": "noun",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 8
+    },
+    "blankForm": "session",
+    "cloze": "Our training _____ begins at nine."
+  },
+  {
+    "id": 860,
+    "word": "show someone around",
+    "meaning": "to give someone a tour of a place",
+    "example": "The guide will show someone around the museum.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "showed him around",
+    "partOfSpeech": "verb phrase",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 9
+    },
+    "blankForm": "show someone around",
+    "cloze": "The guide will _____ the museum."
+  },
+  {
+    "id": 861,
+    "word": "silence",
+    "meaning": "the absence of sound",
+    "example": "A deep silence followed the announcement.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "silence",
+    "partOfSpeech": "noun",
+    "day": 34,
+    "art": {
+      "sheet": 13,
+      "index": 10
+    },
+    "blankForm": "silence",
+    "cloze": "A deep _____ followed the announcement."
+  },
+  {
+    "id": 862,
+    "word": "network",
+    "meaning": "a system of connected people or things",
+    "example": "The city has a network of bicycle paths.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "network",
+    "partOfSpeech": "noun",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 11
+    },
+    "blankForm": "network",
+    "cloze": "The city has a _____ of bicycle paths."
+  },
+  {
+    "id": 863,
+    "word": "take advantage of",
+    "meaning": "to make good use of an opportunity",
+    "example": "Take advantage of the free museum entry.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "take advantage of",
+    "partOfSpeech": "verb phrase",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 12
+    },
+    "blankForm": "take advantage of",
+    "cloze": "_____ the free museum entry."
+  },
+  {
+    "id": 864,
+    "word": "the following day",
+    "meaning": "the next day",
+    "example": "We returned home the following day.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "the following day",
+    "partOfSpeech": "noun phrase",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 13
+    },
+    "blankForm": "the following day",
+    "cloze": "We returned home _____."
+  },
+  {
+    "id": 866,
+    "word": "beneficial",
+    "meaning": "helpful or good for you",
+    "example": "Daily exercise is beneficial to your health.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "beneficial",
+    "partOfSpeech": "adjective",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 14
+    },
+    "blankForm": "beneficial",
+    "cloze": "Daily exercise is _____ to your health."
+  },
+  {
+    "id": 867,
+    "word": "compatible",
+    "meaning": "able to work well together",
+    "example": "This software is compatible with my computer.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "compatible",
+    "partOfSpeech": "adjective",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 15
+    },
+    "blankForm": "compatible",
+    "cloze": "This software is _____ with my computer."
+  },
+  {
+    "id": 868,
+    "word": "persist",
+    "meaning": "to keep trying despite difficulty",
+    "example": "If you persist, you will improve.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "persist",
+    "partOfSpeech": "verb",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 16
+    },
+    "blankForm": "persist",
+    "cloze": "If you _____, you will improve."
+  },
+  {
+    "id": 869,
+    "word": "consistent",
+    "meaning": "staying the same in quality or behavior",
+    "example": "Her work is always consistent and careful.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "consistent",
+    "partOfSpeech": "adjective",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 17
+    },
+    "blankForm": "consistent",
+    "cloze": "Her work is always _____ and careful."
+  },
+  {
+    "id": 870,
+    "word": "contradict",
+    "meaning": "to say the opposite of something",
+    "example": "The new evidence appears to contradict his story.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "contradict",
+    "partOfSpeech": "verb",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 18
+    },
+    "blankForm": "contradict",
+    "cloze": "The new evidence appears to _____ his story."
+  },
+  {
+    "id": 871,
+    "word": "equivalent",
+    "meaning": "equal in value, meaning, or amount",
+    "example": "One hundred cents is equivalent to one dollar.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "equivalent",
+    "partOfSpeech": "adjective",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 19
+    },
+    "blankForm": "equivalent",
+    "cloze": "One hundred cents is _____ to one dollar."
+  },
+  {
+    "id": 872,
+    "word": "hypothesis",
+    "meaning": "a possible explanation that can be tested",
+    "example": "The experiment tested our hypothesis.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "hypothesis",
+    "partOfSpeech": "noun",
+    "day": 35,
+    "art": {
+      "sheet": 13,
+      "index": 20
+    },
+    "blankForm": "hypothesis",
+    "cloze": "The experiment tested our _____."
+  },
+  {
+    "id": 873,
+    "word": "manipulate",
+    "meaning": "to control someone unfairly or handle something skillfully",
+    "example": "The advertisement tried to manipulate our emotions.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "manipulate",
+    "partOfSpeech": "verb",
+    "day": 36,
+    "art": {
+      "sheet": 13,
+      "index": 21
+    },
+    "blankForm": "manipulate",
+    "cloze": "The advertisement tried to _____ our emotions."
+  },
+  {
+    "id": 874,
+    "word": "physics",
+    "meaning": "the study of matter, energy, and forces",
+    "example": "Physics explains how forces affect motion.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "physics",
+    "partOfSpeech": "noun",
+    "day": 36,
+    "art": {
+      "sheet": 13,
+      "index": 22
+    },
+    "blankForm": "physics",
+    "cloze": "_____ explains how forces affect motion."
+  },
+  {
+    "id": 875,
+    "word": "substitute",
+    "meaning": "a replacement for something",
+    "example": "Yogurt is a good substitute for cream.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "substitute",
+    "partOfSpeech": "noun",
+    "day": 36,
+    "art": {
+      "sheet": 13,
+      "index": 23
+    },
+    "blankForm": "substitute",
+    "cloze": "Yogurt is a good _____ for cream."
+  },
+  {
+    "id": 876,
+    "word": "sufficient",
+    "meaning": "enough for what is needed",
+    "example": "Two bottles of water should be sufficient.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "sufficient",
+    "partOfSpeech": "adjective",
+    "day": 36,
+    "art": {
+      "sheet": 13,
+      "index": 24
+    },
+    "blankForm": "sufficient",
+    "cloze": "Two bottles of water should be _____."
+  },
+  {
+    "id": 877,
+    "word": "adversity",
+    "meaning": "a difficult or unlucky situation",
+    "example": "The family remained hopeful through adversity.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "adversity",
+    "partOfSpeech": "noun",
+    "day": 36,
+    "art": {
+      "sheet": 14,
+      "index": 0
+    },
+    "blankForm": "adversity",
+    "cloze": "The family remained hopeful through _____."
+  },
+  {
+    "id": 878,
+    "word": "alleviate",
+    "meaning": "to make pain or a problem less severe",
+    "example": "This medicine may alleviate the pain.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "alleviate",
+    "partOfSpeech": "verb",
+    "day": 36,
+    "art": {
+      "sheet": 14,
+      "index": 1
+    },
+    "blankForm": "alleviate",
+    "cloze": "This medicine may _____ the pain."
+  },
+  {
+    "id": 879,
+    "word": "ambiguous",
+    "meaning": "having more than one possible meaning",
+    "example": "The ambiguous message had two possible meanings.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "ambiguous",
+    "partOfSpeech": "adjective",
+    "day": 36,
+    "art": {
+      "sheet": 14,
+      "index": 2
+    },
+    "blankForm": "ambiguous",
+    "cloze": "The _____ message had two possible meanings."
+  },
+  {
+    "id": 880,
+    "word": "program",
+    "meaning": "a planned set of activities or instructions",
+    "example": "The summer program includes art and sports.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "program",
+    "partOfSpeech": "noun",
+    "day": 36,
+    "art": {
+      "sheet": 14,
+      "index": 3
+    },
+    "blankForm": "program",
+    "cloze": "The summer _____ includes art and sports."
+  },
+  {
+    "id": 881,
+    "word": "authentic",
+    "meaning": "real or genuine",
+    "example": "The restaurant serves authentic Thai food.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "authentic",
+    "partOfSpeech": "adjective",
+    "day": 36,
+    "art": {
+      "sheet": 14,
+      "index": 4
+    },
+    "blankForm": "authentic",
+    "cloze": "The restaurant serves _____ Thai food."
+  },
+  {
+    "id": 882,
+    "word": "elaborate",
+    "meaning": "detailed and carefully planned",
+    "example": "They prepared an elaborate feast for the wedding.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "elaborate",
+    "partOfSpeech": "adjective",
+    "day": 36,
+    "art": {
+      "sheet": 14,
+      "index": 5
+    },
+    "blankForm": "elaborate",
+    "cloze": "They prepared an _____ feast for the wedding."
+  },
+  {
+    "id": 883,
+    "word": "encompass",
+    "meaning": "to include completely",
+    "example": "The park will encompass lakes, forests, and mountains.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "encompass",
+    "partOfSpeech": "verb",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 6
+    },
+    "blankForm": "encompass",
+    "cloze": "The park will _____ lakes, forests, and mountains."
+  },
+  {
+    "id": 884,
+    "word": "eradicate",
+    "meaning": "to remove or destroy completely",
+    "example": "The campaign aims to eradicate the disease.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "eradicate",
+    "partOfSpeech": "verb",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 7
+    },
+    "blankForm": "eradicate",
+    "cloze": "The campaign aims to _____ the disease."
+  },
+  {
+    "id": 885,
+    "word": "fluctuate",
+    "meaning": "to rise and fall irregularly",
+    "example": "Fuel prices fluctuate from week to week.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "fluctuate",
+    "partOfSpeech": "verb",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 8
+    },
+    "blankForm": "fluctuate",
+    "cloze": "Fuel prices _____ from week to week."
+  },
+  {
+    "id": 886,
+    "word": "project",
+    "meaning": "a planned piece of work",
+    "example": "Our science project tests the quality of pond water.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "project",
+    "partOfSpeech": "noun",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 9
+    },
+    "blankForm": "project",
+    "cloze": "Our science _____ tests the quality of pond water."
+  },
+  {
+    "id": 887,
+    "word": "intervene",
+    "meaning": "to step in to change what happens",
+    "example": "A teacher may intervene to stop an argument.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "intervene",
+    "partOfSpeech": "verb",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 10
+    },
+    "blankForm": "intervene",
+    "cloze": "A teacher may _____ to stop an argument."
+  },
+  {
+    "id": 888,
+    "word": "intricate",
+    "meaning": "having many small connected details",
+    "example": "The rug has an intricate pattern.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "intricate",
+    "partOfSpeech": "adjective",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 11
+    },
+    "blankForm": "intricate",
+    "cloze": "The rug has an _____ pattern."
+  },
+  {
+    "id": 889,
+    "word": "magnitude",
+    "meaning": "the size or amount of something",
+    "example": "We did not understand the magnitude of the damage.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "magnitude",
+    "partOfSpeech": "noun",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 12
+    },
+    "blankForm": "magnitude",
+    "cloze": "We did not understand the _____ of the damage."
+  },
+  {
+    "id": 890,
+    "word": "plausible",
+    "meaning": "seeming reasonable or possible",
+    "example": "Her explanation sounds plausible.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "plausible",
+    "partOfSpeech": "adjective",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 13
+    },
+    "blankForm": "plausible",
+    "cloze": "Her explanation sounds _____."
+  },
+  {
+    "id": 891,
+    "word": "prominent",
+    "meaning": "easy to notice or important",
+    "example": "A prominent tower rises above the town.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "prominent",
+    "partOfSpeech": "adjective",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 14
+    },
+    "blankForm": "prominent",
+    "cloze": "A _____ tower rises above the town."
+  },
+  {
+    "id": 892,
+    "word": "reflect",
+    "meaning": "to send back light or an image",
+    "example": "Calm water can reflect the moonlight.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "reflect",
+    "partOfSpeech": "verb",
+    "day": 37,
+    "art": {
+      "sheet": 14,
+      "index": 15
+    },
+    "blankForm": "reflect",
+    "cloze": "Calm water can _____ the moonlight."
+  },
+  {
+    "id": 893,
+    "word": "reconcile",
+    "meaning": "to become friendly again after a disagreement",
+    "example": "The counselor helped the friends reconcile.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "reconcile",
+    "partOfSpeech": "verb",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 16
+    },
+    "blankForm": "reconcile",
+    "cloze": "The counselor helped the friends _____."
+  },
+  {
+    "id": 894,
+    "word": "resilient",
+    "meaning": "able to recover after difficulties",
+    "example": "These resilient plants survive harsh winters.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "resilient",
+    "partOfSpeech": "adjective",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 17
+    },
+    "blankForm": "resilient",
+    "cloze": "These _____ plants survive harsh winters."
+  },
+  {
+    "id": 895,
+    "word": "self-service",
+    "meaning": "allowing customers to serve themselves",
+    "example": "We ate lunch in a self-service cafeteria.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "self-service",
+    "partOfSpeech": "adjective",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 18
+    },
+    "blankForm": "self-service",
+    "cloze": "We ate lunch in a _____ cafeteria."
+  },
+  {
+    "id": 896,
+    "word": "skeptical",
+    "meaning": "doubtful and not easily convinced",
+    "example": "The scientist was skeptical of the surprising claim.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "skeptical",
+    "partOfSpeech": "adjective",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 19
+    },
+    "blankForm": "skeptical",
+    "cloze": "The scientist was _____ of the surprising claim."
+  },
+  {
+    "id": 897,
+    "word": "undermine",
+    "meaning": "to weaken little by little",
+    "example": "Constant criticism can undermine confidence.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "undermine",
+    "partOfSpeech": "verb",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 20
+    },
+    "blankForm": "undermine",
+    "cloze": "Constant criticism can _____ confidence."
+  },
+  {
+    "id": 898,
+    "word": "shelter",
+    "meaning": "a place that protects you from danger",
+    "example": "We found shelter from the rain under a bridge.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "shelter",
+    "partOfSpeech": "noun",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 21
+    },
+    "blankForm": "shelter",
+    "cloze": "We found _____ from the rain under a bridge."
+  },
+  {
+    "id": 899,
+    "word": "versatile",
+    "meaning": "able to do many different things well",
+    "example": "A versatile tool can cut, grip, and bend wire.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "versatile",
+    "partOfSpeech": "adjective",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 22
+    },
+    "blankForm": "versatile",
+    "cloze": "A _____ tool can cut, grip, and bend wire."
+  },
+  {
+    "id": 900,
+    "word": "well-dressed",
+    "meaning": "wearing neat and attractive clothes",
+    "example": "The well-dressed guest wore a neat black suit.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "well-dressed",
+    "partOfSpeech": "adjective",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 23
+    },
+    "blankForm": "well-dressed",
+    "cloze": "The _____ guest wore a neat black suit."
+  },
+  {
+    "id": 901,
+    "word": "wish someone success",
+    "meaning": "to hope someone does well",
+    "example": "At a race, it is kind to wish someone success.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "wish; success",
+    "partOfSpeech": "verb phrase",
+    "day": 38,
+    "art": {
+      "sheet": 14,
+      "index": 24
+    },
+    "blankForm": "wish someone success",
+    "cloze": "At a race, it is kind to _____."
+  },
+  {
+    "id": 902,
+    "word": "appropriate",
+    "meaning": "right for the situation",
+    "example": "Wear appropriate shoes for the hike.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "appropriate",
+    "partOfSpeech": "adjective",
+    "day": 38,
+    "art": {
+      "sheet": 15,
+      "index": 0
+    },
+    "blankForm": "appropriate",
+    "cloze": "Wear _____ shoes for the hike."
+  },
+  {
+    "id": 903,
+    "word": "concentrate",
+    "meaning": "to give your full attention",
+    "example": "I cannot concentrate while the television is on.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "concentrate",
+    "partOfSpeech": "verb",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 1
+    },
+    "blankForm": "concentrate",
+    "cloze": "I cannot _____ while the television is on."
+  },
+  {
+    "id": 904,
+    "word": "demonstrate",
+    "meaning": "to show clearly how something works",
+    "example": "The chef will demonstrate how to make bread.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "demonstrate",
+    "partOfSpeech": "verb",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 2
+    },
+    "blankForm": "demonstrate",
+    "cloze": "The chef will _____ how to make bread."
+  },
+  {
+    "id": 905,
+    "word": "stadium",
+    "meaning": "a large place where sports are played",
+    "example": "Thousands of fans filled the stadium.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "stadium",
+    "partOfSpeech": "noun",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 3
+    },
+    "blankForm": "stadium",
+    "cloze": "Thousands of fans filled the _____."
+  },
+  {
+    "id": 906,
+    "word": "independent",
+    "meaning": "able to act without help or control",
+    "example": "At sixteen, she became more independent.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "independent",
+    "partOfSpeech": "adjective",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 4
+    },
+    "blankForm": "independent",
+    "cloze": "At sixteen, she became more _____."
+  },
+  {
+    "id": 907,
+    "word": "responsible",
+    "meaning": "trusted to take care of something",
+    "example": "You are responsible for feeding the dog.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "responsible",
+    "partOfSpeech": "adjective",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 5
+    },
+    "blankForm": "responsible",
+    "cloze": "You are _____ for feeding the dog."
+  },
+  {
+    "id": 908,
+    "word": "significant",
+    "meaning": "important enough to matter",
+    "example": "The discovery was a significant scientific advance.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "significant",
+    "partOfSpeech": "adjective",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 6
+    },
+    "blankForm": "significant",
+    "cloze": "The discovery was a _____ scientific advance."
+  },
+  {
+    "id": 909,
+    "word": "startle",
+    "meaning": "to surprise someone suddenly",
+    "example": "A sudden bark can startle the baby.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "startle",
+    "partOfSpeech": "verb",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 7
+    },
+    "blankForm": "startle",
+    "cloze": "A sudden bark can _____ the baby."
+  },
+  {
+    "id": 910,
+    "word": "likes and dislikes",
+    "meaning": "things you enjoy and things you do not enjoy",
+    "example": "Everyone has different likes and dislikes.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "likes and dislikes",
+    "partOfSpeech": "noun phrase",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 8
+    },
+    "blankForm": "likes and dislikes",
+    "cloze": "Everyone has different _____."
+  },
+  {
+    "id": 912,
+    "word": "extreme sports",
+    "meaning": "sports involving unusual danger or excitement",
+    "example": "Extreme sports can involve serious risks.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "Extreme sports",
+    "partOfSpeech": "noun phrase",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 9
+    },
+    "blankForm": "extreme sports",
+    "cloze": "_____ can involve serious risks."
+  },
+  {
+    "id": 913,
+    "word": "financial life",
+    "meaning": "the part of life involving money",
+    "example": "A budget helped him organize his financial life.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "financial life",
+    "partOfSpeech": "noun phrase",
+    "day": 39,
+    "art": {
+      "sheet": 15,
+      "index": 10
+    },
+    "blankForm": "financial life",
+    "cloze": "A budget helped him organize his _____."
+  },
+  {
+    "id": 914,
+    "word": "look as if",
+    "meaning": "to seem that something is true",
+    "example": "Those dark clouds look as if it will rain.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "looked like/as if",
+    "partOfSpeech": "verb phrase",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 11
+    },
+    "blankForm": "look as if",
+    "cloze": "Those dark clouds _____ it will rain."
+  },
+  {
+    "id": 915,
+    "word": "surgeon",
+    "meaning": "a doctor who performs operations",
+    "example": "The surgeon repaired the damaged heart.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "surgeon",
+    "partOfSpeech": "noun",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 12
+    },
+    "blankForm": "surgeon",
+    "cloze": "The _____ repaired the damaged heart."
+  },
+  {
+    "id": 916,
+    "word": "primary school",
+    "meaning": "a school for young children",
+    "example": "Children usually start primary school around age five.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "primary school",
+    "partOfSpeech": "noun phrase",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 13
+    },
+    "blankForm": "primary school",
+    "cloze": "Children usually start _____ around age five."
+  },
+  {
+    "id": 917,
+    "word": "remote control",
+    "meaning": "a device that operates something from a distance",
+    "example": "I changed the channel with the remote control.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "remote control",
+    "partOfSpeech": "noun phrase",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 14
+    },
+    "blankForm": "remote control",
+    "cloze": "I changed the channel with the _____."
+  },
+  {
+    "id": 918,
+    "word": "check-in counter",
+    "meaning": "a desk where travelers register or leave bags",
+    "example": "We left our bags at the airport check-in counter.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "check-in (counter)",
+    "partOfSpeech": "noun phrase",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 15
+    },
+    "blankForm": "check-in counter",
+    "cloze": "We left our bags at the airport _____."
+  },
+  {
+    "id": 920,
+    "word": "not believe your eyes",
+    "meaning": "to be very surprised by what you see",
+    "example": "You may not believe your eyes when you see the huge cake.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "not believe her eyes",
+    "partOfSpeech": "verb phrase",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 16
+    },
+    "blankForm": "not believe your eyes",
+    "cloze": "You may _____ when you see the huge cake."
+  },
+  {
+    "id": 921,
+    "word": "symptom",
+    "meaning": "a sign that someone may be ill",
+    "example": "A fever can be a symptom of infection.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "symptom",
+    "partOfSpeech": "noun",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 17
+    },
+    "blankForm": "symptom",
+    "cloze": "A fever can be a _____ of infection."
+  },
+  {
+    "id": 922,
+    "word": "accompany",
+    "meaning": "to go somewhere with someone",
+    "example": "A guide will accompany us through the cave.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "accompany",
+    "partOfSpeech": "verb",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 18
+    },
+    "blankForm": "accompany",
+    "cloze": "A guide will _____ us through the cave."
+  },
+  {
+    "id": 923,
+    "word": "advertise",
+    "meaning": "to tell the public about a product or event",
+    "example": "The shop will advertise its sale online.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "advertise",
+    "partOfSpeech": "verb",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 19
+    },
+    "blankForm": "advertise",
+    "cloze": "The shop will _____ its sale online."
+  },
+  {
+    "id": 924,
+    "word": "alcoholic",
+    "meaning": "containing alcohol",
+    "example": "Drinks containing alcohol are called alcoholic drinks.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "alcoholic",
+    "partOfSpeech": "adjective",
+    "day": 40,
+    "art": {
+      "sheet": 15,
+      "index": 20
+    },
+    "blankForm": "alcoholic",
+    "cloze": "Drinks containing alcohol are called _____ drinks."
+  },
+  {
+    "id": 925,
+    "word": "amazingly",
+    "meaning": "in a very surprising way",
+    "example": "The small boat survived the storm amazingly well.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "amazingly",
+    "partOfSpeech": "adverb",
+    "day": 41,
+    "art": {
+      "sheet": 15,
+      "index": 21
+    },
+    "blankForm": "amazingly",
+    "cloze": "The small boat survived the storm _____ well."
+  },
+  {
+    "id": 926,
+    "word": "apologise",
+    "meaning": "to say sorry",
+    "example": "You should apologise for breaking her cup.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "apologise",
+    "partOfSpeech": "verb",
+    "day": 41,
+    "art": {
+      "sheet": 15,
+      "index": 22
+    },
+    "blankForm": "apologise",
+    "cloze": "You should _____ for breaking her cup."
+  },
+  {
+    "id": 927,
+    "word": "architect",
+    "meaning": "a person who designs buildings",
+    "example": "The architect drew plans for the library.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "architect",
+    "partOfSpeech": "noun",
+    "day": 41,
+    "art": {
+      "sheet": 15,
+      "index": 23
+    },
+    "blankForm": "architect",
+    "cloze": "The _____ drew plans for the library."
+  },
+  {
+    "id": 928,
+    "word": "assistant",
+    "meaning": "a person who helps someone",
+    "example": "The shop assistant helped me find my size.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "assistant",
+    "partOfSpeech": "noun",
+    "day": 41,
+    "art": {
+      "sheet": 15,
+      "index": 24
+    },
+    "blankForm": "assistant",
+    "cloze": "The shop _____ helped me find my size."
+  },
+  {
+    "id": 929,
+    "word": "athletics",
+    "meaning": "sports such as running, jumping, and throwing",
+    "example": "Our school athletics team won three medals.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "athletics",
+    "partOfSpeech": "noun",
+    "day": 41,
+    "art": {
+      "sheet": 16,
+      "index": 0
+    },
+    "blankForm": "athletics",
+    "cloze": "Our school _____ team won three medals."
+  },
+  {
+    "id": 930,
+    "word": "attempt",
+    "meaning": "to try to do something",
+    "example": "I will attempt to solve the puzzle.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "attempted",
+    "partOfSpeech": "verb",
+    "day": 41,
+    "art": {
+      "sheet": 16,
+      "index": 1
+    },
+    "blankForm": "attempt",
+    "cloze": "I will _____ to solve the puzzle."
+  },
+  {
+    "id": 931,
+    "word": "backwards",
+    "meaning": "toward the back or in reverse order",
+    "example": "He walked backwards without looking.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "backwards",
+    "partOfSpeech": "adverb",
+    "day": 41,
+    "art": {
+      "sheet": 16,
+      "index": 2
+    },
+    "blankForm": "backwards",
+    "cloze": "He walked _____ without looking."
+  },
+  {
+    "id": 932,
+    "word": "compound",
+    "meaning": "a substance made from joined chemical elements",
+    "example": "Salt is a compound of sodium and chlorine.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "compound",
+    "partOfSpeech": "noun",
+    "day": 41,
+    "art": {
+      "sheet": 16,
+      "index": 3
+    },
+    "blankForm": "compound",
+    "cloze": "Salt is a _____ of sodium and chlorine."
+  },
+  {
+    "id": 933,
+    "word": "behaviour",
+    "meaning": "the way a person acts",
+    "example": "Good behaviour earned the class a reward.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "behaviour",
+    "partOfSpeech": "noun",
+    "day": 41,
+    "art": {
+      "sheet": 16,
+      "index": 4
+    },
+    "blankForm": "behaviour",
+    "cloze": "Good _____ earned the class a reward."
+  },
+  {
+    "id": 934,
+    "word": "brilliant",
+    "meaning": "very clever or excellent",
+    "example": "She had a brilliant idea for the project.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "brilliant",
+    "partOfSpeech": "adjective",
+    "day": 41,
+    "art": {
+      "sheet": 16,
+      "index": 5
+    },
+    "blankForm": "brilliant",
+    "cloze": "She had a _____ idea for the project."
+  },
+  {
+    "id": 935,
+    "word": "butterfly",
+    "meaning": "an insect with large colorful wings",
+    "example": "A colorful butterfly landed on the flower.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "butterfly",
+    "partOfSpeech": "noun",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 6
+    },
+    "blankForm": "butterfly",
+    "cloze": "A colorful _____ landed on the flower."
+  },
+  {
+    "id": 936,
+    "word": "cancel",
+    "meaning": "to decide a planned event will not happen",
+    "example": "We may cancel the picnic if it rains.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "cancelled",
+    "partOfSpeech": "verb",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 7
+    },
+    "blankForm": "cancel",
+    "cloze": "We may _____ the picnic if it rains."
+  },
+  {
+    "id": 937,
+    "word": "empire",
+    "meaning": "many lands ruled by one authority",
+    "example": "The Roman Empire lasted for centuries.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "empire",
+    "partOfSpeech": "noun",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 8
+    },
+    "blankForm": "empire",
+    "cloze": "The Roman _____ lasted for centuries."
+  },
+  {
+    "id": 938,
+    "word": "candidate",
+    "meaning": "a person trying to get a job or position",
+    "example": "Each candidate answered questions from voters.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "candidate",
+    "partOfSpeech": "noun",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 9
+    },
+    "blankForm": "candidate",
+    "cloze": "Each _____ answered questions from voters."
+  },
+  {
+    "id": 939,
+    "word": "cashpoint",
+    "meaning": "a machine that lets you withdraw money",
+    "example": "I withdrew some money from the cashpoint.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "cashpoint",
+    "partOfSpeech": "noun",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 10
+    },
+    "blankForm": "cashpoint",
+    "cloze": "I withdrew some money from the _____."
+  },
+  {
+    "id": 940,
+    "word": "celebrate",
+    "meaning": "to do something special for a happy occasion",
+    "example": "We celebrate her birthday every June.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "celebrate",
+    "partOfSpeech": "verb",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 11
+    },
+    "blankForm": "celebrate",
+    "cloze": "We _____ her birthday every June."
+  },
+  {
+    "id": 941,
+    "word": "celebrity",
+    "meaning": "a famous person",
+    "example": "The celebrity signed autographs for fans.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "celebrity",
+    "partOfSpeech": "noun",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 12
+    },
+    "blankForm": "celebrity",
+    "cloze": "The _____ signed autographs for fans."
+  },
+  {
+    "id": 942,
+    "word": "childhood",
+    "meaning": "the time in life when you are a child",
+    "example": "She spent her childhood in a small village.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "childhood",
+    "partOfSpeech": "noun",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 13
+    },
+    "blankForm": "childhood",
+    "cloze": "She spent her _____ in a small village."
+  },
+  {
+    "id": 943,
+    "word": "colourful",
+    "meaning": "having many bright colors",
+    "example": "Colourful flags decorated the street.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "colourful",
+    "partOfSpeech": "adjective",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 14
+    },
+    "blankForm": "colourful",
+    "cloze": "_____ flags decorated the street."
+  },
+  {
+    "id": 944,
+    "word": "expose",
+    "meaning": "to uncover or make visible",
+    "example": "The report may expose serious safety problems.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "expose",
+    "partOfSpeech": "verb",
+    "day": 42,
+    "art": {
+      "sheet": 16,
+      "index": 15
+    },
+    "blankForm": "expose",
+    "cloze": "The report may _____ serious safety problems."
+  },
+  {
+    "id": 945,
+    "word": "commence",
+    "meaning": "to begin",
+    "example": "The school concert will commence at noon.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "commenced",
+    "partOfSpeech": "verb",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 16
+    },
+    "blankForm": "commence",
+    "cloze": "The school concert will _____ at noon."
+  },
+  {
+    "id": 946,
+    "word": "compare",
+    "meaning": "to look for similarities and differences",
+    "example": "We compare two books to find how they are alike.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "comparing",
+    "partOfSpeech": "verb",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 17
+    },
+    "blankForm": "compare",
+    "cloze": "We _____ two books to find how they are alike."
+  },
+  {
+    "id": 947,
+    "word": "complaint",
+    "meaning": "a statement that something is wrong or unsatisfactory",
+    "example": "I made a complaint about the cold meal.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "complaint",
+    "partOfSpeech": "noun",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 18
+    },
+    "blankForm": "complaint",
+    "cloze": "I made a _____ about the cold meal."
+  },
+  {
+    "id": 948,
+    "word": "confident",
+    "meaning": "sure of yourself or your ability",
+    "example": "She felt confident before her speech.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "confident",
+    "partOfSpeech": "adjective",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 19
+    },
+    "blankForm": "confident",
+    "cloze": "She felt _____ before her speech."
+  },
+  {
+    "id": 949,
+    "word": "confusing",
+    "meaning": "difficult to understand",
+    "example": "The unclear directions were confusing.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "confusing",
+    "partOfSpeech": "adjective",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 20
+    },
+    "blankForm": "confusing",
+    "cloze": "The unclear directions were _____."
+  },
+  {
+    "id": 950,
+    "word": "frontier",
+    "meaning": "the edge of explored land",
+    "example": "Settlers built a fort on the western frontier.",
+    "source": "Video",
+    "grade": 5,
+    "sourceWord": "frontier",
+    "partOfSpeech": "noun",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 21
+    },
+    "blankForm": "frontier",
+    "cloze": "Settlers built a fort on the western _____."
+  },
+  {
+    "id": 951,
+    "word": "continent",
+    "meaning": "one of Earth's largest land areas",
+    "example": "Africa is the second-largest continent.",
+    "source": "Both",
+    "grade": 5,
+    "sourceWord": "continent",
+    "partOfSpeech": "noun",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 22
+    },
+    "blankForm": "continent",
+    "cloze": "Africa is the second-largest _____."
+  },
+  {
+    "id": 952,
+    "word": "correctly",
+    "meaning": "in the right way",
+    "example": "She answered every question correctly.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "correctly",
+    "partOfSpeech": "adverb",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 23
+    },
+    "blankForm": "correctly",
+    "cloze": "She answered every question _____."
+  },
+  {
+    "id": 953,
+    "word": "creature",
+    "meaning": "a living animal or other living being",
+    "example": "A tiny creature lives under that rock.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "creatures",
+    "partOfSpeech": "noun",
+    "day": 43,
+    "art": {
+      "sheet": 16,
+      "index": 24
+    },
+    "blankForm": "creature",
+    "cloze": "A tiny _____ lives under that rock."
+  },
+  {
+    "id": 954,
+    "word": "dangerous",
+    "meaning": "likely to cause harm or injury",
+    "example": "It is dangerous to swim during a storm.",
+    "source": "Harry",
+    "grade": 5,
+    "sourceWord": "dangerous",
+    "partOfSpeech": "adjective",
+    "blankForm": "dangerous",
+    "cloze": "It is _____ to swim during a storm.",
+    "art": {
+      "file": "dangerous"
+    },
+    "day": 43
+  }
+]
