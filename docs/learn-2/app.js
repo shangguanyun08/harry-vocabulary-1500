@@ -5,7 +5,8 @@
     const IS_LOCAL = ['localhost','127.0.0.1','[::1]'].includes(location.hostname) || location.protocol === 'file:';
     const SESSION_SIZE = 10;
     const ORIGINAL_SESSION_COUNT = 20;
-    const SESSION_COUNT = 23;
+    const SESSION_COUNT = 43;
+    const NEXT_SESSION_START = 24;
     // Original Round 1 misses, frozen October 4, 2026 in course order.
     const REVIEW_SESSION_IDS = [[515, 519, 520, 521, 526, 527, 531, 536, 539, 541, 545, 549, 550, 566, 567, 569, 570, 572, 575, 578, 579, 582, 583, 595, 602], [604, 605, 606, 607, 611, 612, 613, 618, 619, 621, 624, 628, 630, 632, 633, 635, 637, 639, 642, 647, 665, 670, 672, 676, 681], [683, 684, 686, 687, 688, 696, 704, 710, 716, 721, 723, 724, 726, 727, 728, 729, 730, 732, 734, 735, 736, 744, 745, 748]];
     const PROGRESS_VERSION = 4;
@@ -67,17 +68,23 @@
     }
 
     function wordsForSession(number) {
-      if (number > ORIGINAL_SESSION_COUNT) {
+      if (isReviewSession(number)) {
         return (REVIEW_SESSION_IDS[number - ORIGINAL_SESSION_COUNT - 1] || []).map(function(id) {
           return WORD_BY_ID.get(id);
         }).filter(Boolean);
       }
-      const start = (number - 1) * SESSION_SIZE;
+      const start = number >= NEXT_SESSION_START
+        ? 200 + (number - NEXT_SESSION_START) * SESSION_SIZE
+        : (number - 1) * SESSION_SIZE;
       return WORDS.slice(start, start + SESSION_SIZE);
     }
 
+    function isReviewSession(number) {
+      return number > ORIGINAL_SESSION_COUNT && number < NEXT_SESSION_START;
+    }
+
     function sessionLabel(number) {
-      return number > ORIGINAL_SESSION_COUNT
+      return isReviewSession(number)
         ? "Review " + (number - ORIGINAL_SESSION_COUNT) : "Day " + number;
     }
 
@@ -392,7 +399,7 @@
         if (number === state.session) classes.push("active");
         buttons.push(
           '<button class="' + classes.join(" ") + '" data-session="' + number + '" type="button">' +
-          '<span>' + sessionLabel(number) + '</span>' + (number > ORIGINAL_SESSION_COUNT ? '<small>Round 1 misses</small>' : '') + '<small>' + count + ' / ' + wordsForSession(number).length + '</small></button>'
+          '<span>' + sessionLabel(number) + '</span>' + (isReviewSession(number) ? '<small>Round 1 misses</small>' : number >= NEXT_SESSION_START ? '<small>New words</small>' : '') + '<small>' + count + ' / ' + wordsForSession(number).length + '</small></button>'
         );
       }
       sessionsEl.innerHTML = buttons.join("");
@@ -623,9 +630,9 @@
         : "";
       card.innerHTML =
         '<div class="center-body"><div><div class="seal" aria-hidden="true">✓</div>' +
-        '<h2>' + (allDone ? "All 200 words mastered!" : sessionLabel(state.session) + " mastered!") + '</h2>' +
+        '<h2>' + (allDone ? "All 400 words mastered!" : sessionLabel(state.session) + " mastered!") + '</h2>' +
         '<p>You answered all ' + currentWords().length + ' words in this session correctly. ' +
-        (allDone ? "All 20 learning days and 3 review sessions are finished." : "Choose another day or continue to the next one.") +
+        (allDone ? "All 40 learning days and 3 review sessions are finished." : "Choose another day or continue to the next one.") +
         '</p><div class="card-actions" style="border:0;justify-content:center;padding:0;">' +
         '<button class="button secondary" id="review-session" type="button">Review this session</button>' +
         nextButton + '</div></div></div>';
@@ -695,12 +702,14 @@
     }
 
     async function initialize() {
-      const response = await fetch("./words.json?v=1");
-      if (!response.ok) throw new Error("The word list could not be loaded.");
-      WORDS = (await response.json()).map(function(item) {
-        return Object.assign({}, item, {art: {sheet:item.art.sheet, x:(item.art.index % 5)*25, y:Math.floor(item.art.index/5)*25}});
+      const responses = await Promise.all([fetch("./words.json?v=1"), fetch("./next-words.json?v=1")]);
+      if (responses.some(response => !response.ok)) throw new Error("The word list could not be loaded.");
+      const batches = await Promise.all(responses.map(response => response.json()));
+      if (batches.some(batch => batch.length !== 200)) throw new Error("A word set is incomplete.");
+      WORDS = batches.flat().map(function(item) {
+        return Object.assign({}, item, {art: Object.assign({}, item.art, {x:(item.art.index % 5)*25, y:Math.floor(item.art.index/5)*25})});
       });
-      if (WORDS.length !== 200 || new Set(WORDS.map(item=>item.id)).size !== 200 || WORDS.some(item=>!item.partOfSpeech || !item.cloze.includes('_____'))) {
+      if (WORDS.length !== 400 || new Set(WORDS.map(item=>item.id)).size !== 400 || WORDS.some(item=>!item.partOfSpeech || !item.cloze.includes('_____'))) {
         throw new Error("The new word set is incomplete.");
       }
       WORD_BY_ID = new Map(WORDS.map(item=>[item.id,item]));
