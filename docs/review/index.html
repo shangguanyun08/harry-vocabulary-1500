@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Harry’s Daily Vocabulary: illustrated 15-word reviews. Get 13 out of 15 right on a fresh test to unlock the next session.">
+  <meta name="theme-color" content="#153f43">
+  <title>Harry’s Daily Vocabulary</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./engine.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner">
+    <nav class="nav" aria-label="Vocabulary navigation">
+      <a class="back-link" href="https://shangguanyun08.github.io/marco-learning-hub/">← Learning Hub</a>
+      <div class="archive-links"><a href="https://shangguanyun08.github.io/harry-vocabulary-1500/learn/">Learn 1 archive</a><a href="https://shangguanyun08.github.io/harry-vocabulary-1500/learn-2/">Learn 2 + 3 archive</a></div>
+    </nav>
+    <p class="eyebrow">Harry’s Daily Vocabulary</p>
+    <h1>Make those words<br><em>your own.</em></h1>
+    <p class="intro">15 familiar words. One fresh test. Get <strong>13 out of 15</strong> right to unlock your next session.</p>
+    <div class="hero-meta"><span>Learn 1, 2 &amp; 3</span><span id="pool-count">Loading your review words…</span><span>Original illustrations</span></div>
+  </div></header>
+  <main class="shell">
+    <section class="status-card" aria-label="Course progress"><div><div class="progress-copy"><span id="progress-label">Your review journey</span><strong id="progress-number">0 sessions passed</strong></div><div class="progress-track"><span id="progress-bar"></span></div></div><span class="goal-badge">Goal <strong>13 / 15</strong></span></section>
+    <nav id="sessions" class="sessions" aria-label="Choose a review session"></nav>
+    <div class="session-heading"><p id="session-label">Session 1</p><span id="save-status" role="status">Loading…</span></div>
+    <section class="card" id="card" aria-label="Current session"><div class="center-body"><h2>Gathering your words…</h2></div></section>
+    <details class="record-card" id="records"><summary><span>Progress record</span><small>Every attempt, first answer &amp; missed word</small></summary><div id="record-content"></div></details>
+    <details class="source-card"><summary>Where your review words came from</summary><div id="source-content"></div></details>
+    <footer>Small sessions. Steady progress. <span>Harry’s Daily Vocabulary</span></footer>
+  </main>
+  <div id="toast" role="status" hidden></div>
+</body>
+</html>
