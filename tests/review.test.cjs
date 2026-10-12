@@ -7,11 +7,15 @@ const {create}=require('../docs/review/engine.js');
 const e=create(data);
 const copy=x=>JSON.parse(JSON.stringify(x));
 function finish(s,n,right){const a=e.start(s,n);a.questions.forEach((q,i)=>e.answer(s,n,a.id,q.wordId,i<right?q.wordId:q.options.find(id=>id!==q.wordId)));e.finish(s,n,a.id);return a;}
-test('frozen source pool and every 15-word session preserve complete sentence and illustration data',()=>{
+test('Learn 3, Learn 2, then Learn 1: 190 words appear exactly once without filler',()=>{
   assert.equal(data.words.length,190);assert.equal(data.sessions.length,13);assert.equal(new Set(data.words.map(w=>w.id)).size,190);assert.equal(data.sources.learn3.uniqueWords,29);assert.deepEqual(data.sources.learn3.days,[25,26,27,28,29,30,31]);
-  assert.equal(new Set(data.sessions.flatMap(s=>s.wordIds)).size,190);assert.equal(data.sessions.at(-1).extraPracticeIds.length,5);
-  for(const s of data.sessions){assert.equal(s.wordIds.length,15);assert.equal(new Set(s.wordIds).size,15);}
+  const all=data.sessions.flatMap(s=>s.wordIds);assert.equal(all.length,190);assert.equal(new Set(all).size,190);assert.equal(data.sessions.at(-1).wordIds.length,10);
+  const order=all.map(id=>e.byId.get(id).origins[0].course);assert.deepEqual(order.slice(0,29),Array(29).fill('Learn 3'));assert.deepEqual(order.slice(29,103),Array(74).fill('Learn 2'));assert.deepEqual(order.slice(103),Array(87).fill('Learn 1'));
+  for(const s of data.sessions){assert.equal(s.wordIds.length,s.number===13?10:15);assert.equal(new Set(s.wordIds).size,s.wordIds.length);assert.equal(s.extraPracticeIds.length,0);}
   for(const w of data.words){assert.equal(w.cloze.split('_____').length,2,w.word);assert.equal(w.cloze.replace('_____',w.blankForm).toLowerCase(),w.example.toLowerCase(),w.word);assert.ok(w.meaning&&w.partOfSpeech,w.word);assert.ok(fs.existsSync(path.join(__dirname,'../docs/review',w.art.path)),w.art.path);}
+});
+test('final ten-word session preserves locked answers and passes at 9/10, without repeats',()=>{
+  const s=e.empty();for(let n=1;n<=12;n++)finish(s,n,13);assert.equal(e.unlocked(s),13);assert.equal(e.threshold(13),9);const first=finish(s,13,8);assert.equal(first.questions.length,10);assert.equal(e.passed(s,13),false);assert.equal(e.correct(first),8);const second=finish(s,13,9);assert.equal(e.passed(s,13),true);assert.equal(e.correct(second),9);const normalized=e.normalize(copy(s));assert.deepEqual(e.attempts(normalized,13),e.attempts(s,13));
 });
 test('12/15 stays locked; all 15 return for a fresh attempt; 13/15 unlocks the next session',()=>{
   const s=e.empty();const first=finish(s,1,12);assert.equal(e.unlocked(s),1);assert.equal(e.start(s,2),null);const snapshot=copy(first);
