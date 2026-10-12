@@ -1,11 +1,2100 @@
 {
   "version": 1,
-  "poolId": "2026-10-12-v1",
+  "poolId": "2026-10-12-tests-first",
   "title": "Harry’s Daily Vocabulary",
   "frozenOn": "2026-10-12",
   "size": 15,
   "passScore": 13,
   "words": [
+    {
+      "id": 762,
+      "word": "suggest",
+      "meaning": "to offer an idea or plan",
+      "example": "Can you suggest a game for us to play?",
+      "blankForm": "suggest",
+      "cloze": "Can you _____ a game for us to play?",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-9.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 25,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 768,
+      "word": "takeaway",
+      "meaning": "a meal bought to eat somewhere else",
+      "example": "We brought home a takeaway for dinner.",
+      "blankForm": "takeaway",
+      "cloze": "We brought home a _____ for dinner.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-9.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 25,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 769,
+      "word": "talented",
+      "meaning": "having a natural ability to do something well",
+      "example": "The talented child can play three instruments.",
+      "blankForm": "talented",
+      "cloze": "The _____ child can play three instruments.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-9.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 25,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "word": "terrific",
+      "meaning": "excellent or very good",
+      "example": "You did a terrific job on the poster.",
+      "blankForm": "terrific",
+      "cloze": "You did a _____ job on the poster.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-9.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 26,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 774,
+      "word": "thriller",
+      "meaning": "an exciting story with danger or mystery",
+      "example": "The spy thriller kept us guessing until the end.",
+      "blankForm": "thriller",
+      "cloze": "The spy _____ kept us guessing until the end.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-9.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 26,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 776,
+      "word": "upstairs",
+      "meaning": "on or toward a higher floor",
+      "example": "Your clean towels are upstairs.",
+      "blankForm": "upstairs",
+      "cloze": "Your clean towels are _____.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 26,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "word": "invent",
+      "meaning": "to create something new",
+      "example": "She hopes to invent a safer battery.",
+      "blankForm": "invent",
+      "cloze": "She hopes to _____ a safer battery.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 26,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "word": "urgently",
+      "meaning": "in a way that needs quick action",
+      "example": "The hospital urgently needs more blood.",
+      "blankForm": "urgently",
+      "cloze": "The hospital _____ needs more blood.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 26,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "word": "widespread",
+      "meaning": "found across a large area",
+      "example": "The disease became widespread across the region.",
+      "blankForm": "widespread",
+      "cloze": "The disease became _____ across the region.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 27,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 787,
+      "word": "criterion",
+      "meaning": "a rule used to judge something",
+      "example": "Price is only one criterion for choosing a laptop.",
+      "blankForm": "criterion",
+      "cloze": "Price is only one _____ for choosing a laptop.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 27,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 789,
+      "word": "identical",
+      "meaning": "exactly the same",
+      "example": "The two keys look identical.",
+      "blankForm": "identical",
+      "cloze": "The two keys look _____.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 27,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 790,
+      "word": "integrate",
+      "meaning": "to join parts or people into a whole",
+      "example": "The school helps new students integrate into the community.",
+      "blankForm": "integrate",
+      "cloze": "The school helps new students _____ into the community.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 792,
+      "word": "patent",
+      "meaning": "a legal right to protect an invention",
+      "example": "The inventor applied for a patent.",
+      "blankForm": "patent",
+      "cloze": "The inventor applied for a _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 795,
+      "word": "transform",
+      "meaning": "to change greatly",
+      "example": "Fresh paint can transform a dark room.",
+      "blankForm": "transform",
+      "cloze": "Fresh paint can _____ a dark room.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 796,
+      "word": "voluntary",
+      "meaning": "done by choice rather than by force",
+      "example": "Attendance at the evening workshop is voluntary.",
+      "blankForm": "voluntary",
+      "cloze": "Attendance at the evening workshop is _____.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 797,
+      "word": "coincide",
+      "meaning": "to happen at the same time",
+      "example": "Our holidays coincide this year.",
+      "blankForm": "coincide",
+      "cloze": "Our holidays _____ this year.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 798,
+      "word": "ponder",
+      "meaning": "to think about carefully",
+      "example": "She sat quietly to ponder the difficult choice.",
+      "blankForm": "ponder",
+      "cloze": "She sat quietly to _____ the difficult choice.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 799,
+      "word": "communicate",
+      "meaning": "to share information or ideas",
+      "example": "We communicate with our cousins by video call.",
+      "blankForm": "communicate",
+      "cloze": "We _____ with our cousins by video call.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-10.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 28,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 800,
+      "word": "diminish",
+      "meaning": "to become or make smaller",
+      "example": "The noise will diminish as the train leaves.",
+      "blankForm": "diminish",
+      "cloze": "The noise will _____ as the train leaves.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-11.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 29,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "word": "opportunity",
+      "meaning": "a good chance to do something",
+      "example": "The trip was a great opportunity to practice Spanish.",
+      "blankForm": "opportunity",
+      "cloze": "The trip was a great _____ to practice Spanish.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-11.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 29,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "word": "reject",
+      "meaning": "to refuse to accept",
+      "example": "The committee may reject the unsafe proposal.",
+      "blankForm": "reject",
+      "cloze": "The committee may _____ the unsafe proposal.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-11.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 29,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "word": "variable",
+      "meaning": "something that can change",
+      "example": "Weather is an important variable in our plans.",
+      "blankForm": "variable",
+      "cloze": "Weather is an important _____ in our plans.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-11.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 29,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 806,
+      "word": "all on her own",
+      "meaning": "without help from anyone else",
+      "example": "She baked the cake all on her own.",
+      "blankForm": "all on her own",
+      "cloze": "She baked the cake _____.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-11.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 29,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 819,
+      "word": "be supposed to",
+      "meaning": "to be expected or required to do something",
+      "example": "You might be supposed to bring lunch on the trip.",
+      "blankForm": "be supposed to",
+      "cloze": "You might _____ bring lunch on the trip.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-11.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 30,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 825,
+      "word": "enhance",
+      "meaning": "to improve something",
+      "example": "Soft lighting can enhance the warm colors.",
+      "blankForm": "enhance",
+      "cloze": "Soft lighting can _____ the warm colors.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 31,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 828,
+      "word": "could not help",
+      "meaning": "to be unable to stop yourself doing something",
+      "example": "I could not help smiling at the puppy.",
+      "blankForm": "could not help",
+      "cloze": "I _____ smiling at the puppy.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 31,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 829,
+      "word": "try your best",
+      "meaning": "to make your greatest effort",
+      "example": "Even when the puzzle is hard, try your best.",
+      "blankForm": "try your best",
+      "cloze": "Even when the puzzle is hard, _____.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 31,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 830,
+      "word": "exchange rate",
+      "meaning": "how much one currency is worth in another",
+      "example": "Check the exchange rate before buying euros.",
+      "blankForm": "exchange rate",
+      "cloze": "Check the _____ before buying euros.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 31,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 831,
+      "word": "flood control",
+      "meaning": "ways of preventing damage from floods",
+      "example": "The new dam improved flood control.",
+      "blankForm": "flood control",
+      "cloze": "The new dam improved _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 31,
+          "round": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "word": "extension",
+      "meaning": "an added part or extra length",
+      "example": "The builders added an extension to our kitchen.",
+      "blankForm": "extension",
+      "cloze": "The builders added an _____ to our kitchen.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "word": "convention",
+      "meaning": "a large formal meeting",
+      "example": "Hundreds of teachers attended the convention.",
+      "blankForm": "convention",
+      "cloze": "Hundreds of teachers attended the _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 520,
+      "word": "heritage",
+      "meaning": "traditions passed down through history",
+      "example": "These songs are part of our cultural heritage.",
+      "blankForm": "heritage",
+      "cloze": "These songs are part of our cultural _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "word": "irrigate",
+      "meaning": "to supply land with water",
+      "example": "Farmers irrigate the fields during dry weather.",
+      "blankForm": "irrigate",
+      "cloze": "Farmers _____ the fields during dry weather.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "word": "parliament",
+      "meaning": "a national lawmaking group",
+      "example": "Parliament passed the new law.",
+      "blankForm": "parliament",
+      "cloze": "_____ passed the new law.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "word": "plantation",
+      "meaning": "a large farm growing crops",
+      "example": "The plantation grows coffee and bananas.",
+      "blankForm": "plantation",
+      "cloze": "The _____ grows coffee and bananas.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "word": "solitary",
+      "meaning": "alone; without others",
+      "example": "A solitary tree stood in the empty field.",
+      "blankForm": "solitary",
+      "cloze": "A _____ tree stood in the empty field.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "word": "politician",
+      "meaning": "a person active in government",
+      "example": "The politician promised to improve local schools.",
+      "blankForm": "politician",
+      "cloze": "The _____ promised to improve local schools.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "word": "injustice",
+      "meaning": "unfair treatment",
+      "example": "The court corrected a serious injustice.",
+      "blankForm": "injustice",
+      "cloze": "The court corrected a serious _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "word": "territory",
+      "meaning": "land controlled by a group",
+      "example": "The wolves defend their territory from rivals.",
+      "blankForm": "territory",
+      "cloze": "The wolves defend their _____ from rivals.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "word": "devastating",
+      "meaning": "causing great damage or sadness",
+      "example": "The flood had a devastating effect on the village.",
+      "blankForm": "devastating",
+      "cloze": "The flood had a _____ effect on the village.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 549,
+      "word": "merchandise",
+      "meaning": "goods offered for sale",
+      "example": "The shop displayed its new merchandise.",
+      "blankForm": "merchandise",
+      "cloze": "The shop displayed its new _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "word": "constitution",
+      "meaning": "a country's basic governing rules",
+      "example": "The constitution protects basic rights.",
+      "blankForm": "constitution",
+      "cloze": "The _____ protects basic rights.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-1.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "word": "transmit",
+      "meaning": "to send or pass from one place to another",
+      "example": "Satellites transmit signals around the world.",
+      "blankForm": "transmit",
+      "cloze": "Satellites _____ signals around the world.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 567,
+      "word": "analogy",
+      "meaning": "a comparison that explains an idea",
+      "example": "The teacher used an analogy to explain electricity.",
+      "blankForm": "analogy",
+      "cloze": "The teacher used an _____ to explain electricity.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "word": "insight",
+      "meaning": "a deep, clear understanding",
+      "example": "The diary offers insight into his daily life.",
+      "blankForm": "insight",
+      "cloze": "The diary offers _____ into his daily life.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 570,
+      "word": "isolate",
+      "meaning": "to separate from others",
+      "example": "Doctors isolated the patient to prevent infection.",
+      "blankForm": "isolated",
+      "cloze": "Doctors _____ the patient to prevent infection.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "word": "obscure",
+      "meaning": "not well known or hard to understand",
+      "example": "The poem contains an obscure reference.",
+      "blankForm": "obscure",
+      "cloze": "The poem contains an _____ reference.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 575,
+      "word": "passive",
+      "meaning": "not active or not taking action",
+      "example": "He remained passive and let others decide.",
+      "blankForm": "passive",
+      "cloze": "He remained _____ and let others decide.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 578,
+      "word": "whereas",
+      "meaning": "in contrast with the fact that",
+      "example": "Lena loves winter, whereas I prefer summer.",
+      "blankForm": "whereas",
+      "cloze": "Lena loves winter, _____ I prefer summer.",
+      "partOfSpeech": "conjunction",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "word": "in addition",
+      "meaning": "also; used to add another point",
+      "example": "The apartment is bright; in addition, it has a balcony.",
+      "blankForm": "in addition",
+      "cloze": "The apartment is bright; _____, it has a balcony.",
+      "partOfSpeech": "adverb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "word": "bray",
+      "meaning": "to make the loud cry of a donkey",
+      "example": "We heard the donkey bray from across the field.",
+      "blankForm": "bray",
+      "cloze": "We heard the donkey _____ from across the field.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "word": "sequence",
+      "meaning": "a set of things in a certain order",
+      "example": "Put the pictures in the correct sequence.",
+      "blankForm": "sequence",
+      "cloze": "Put the pictures in the correct _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "word": "been meaning",
+      "meaning": "having wanted or intended to do something for a while",
+      "example": "I have been meaning to call you.",
+      "blankForm": "been meaning",
+      "cloze": "I have _____ to call you.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-2.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 602,
+      "word": "ground floor",
+      "meaning": "the level of a building nearest the ground",
+      "example": "The bakery is on the ground floor.",
+      "blankForm": "ground floor",
+      "cloze": "The bakery is on the _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 1,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 604,
+      "word": "hoax",
+      "meaning": "a trick meant to fool people",
+      "example": "The story about the giant fish was a hoax.",
+      "blankForm": "hoax",
+      "cloze": "The story about the giant fish was a _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 605,
+      "word": "leave behind",
+      "meaning": "to forget or fail to take something with you",
+      "example": "Do not leave behind any litter.",
+      "blankForm": "leave behind",
+      "cloze": "Do not _____ any litter.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 606,
+      "word": "make a diagram",
+      "meaning": "to draw a simple plan that explains how something works",
+      "example": "Make a diagram to show how the machine works.",
+      "blankForm": "make a diagram",
+      "cloze": "_____ to show how the machine works.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 607,
+      "word": "phrasal verb",
+      "meaning": "a verb plus a particle forming one meaning",
+      "example": "Give up is a common phrasal verb.",
+      "blankForm": "phrasal verb",
+      "cloze": "Give up is a common _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "word": "switched off",
+      "meaning": "turned off an electrical device",
+      "example": "She switched off the oven after baking.",
+      "blankForm": "switched off",
+      "cloze": "She _____ the oven after baking.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 612,
+      "word": "the public's",
+      "meaning": "belonging to or coming from people in general",
+      "example": "The public's response to the plan was positive.",
+      "blankForm": "the public's",
+      "cloze": "_____ response to the plan was positive.",
+      "partOfSpeech": "possessive noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 613,
+      "word": "the universe",
+      "meaning": "all of space and everything in it",
+      "example": "The universe contains billions of galaxies.",
+      "blankForm": "the universe",
+      "cloze": "_____ contains billions of galaxies.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 618,
+      "word": "all of the above",
+      "meaning": "every option already listed",
+      "example": "On the quiz, I chose all of the above because every answer was true.",
+      "blankForm": "all of the above",
+      "cloze": "On the quiz, I chose _____ because every answer was true.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 619,
+      "word": "at the same time",
+      "meaning": "together; during the same moment or period",
+      "example": "The two runners crossed the finish line at the same time.",
+      "blankForm": "at the same time",
+      "cloze": "The two runners crossed the finish line _____.",
+      "partOfSpeech": "adverb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 621,
+      "word": "catch up with someone",
+      "meaning": "to talk with someone and learn their recent news",
+      "example": "It is fun to catch up with someone you have not seen for a while.",
+      "blankForm": "catch up with someone",
+      "cloze": "It is fun to _____ you have not seen for a while.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-3.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 624,
+      "word": "in the middle of",
+      "meaning": "during something; partway through an event",
+      "example": "The phone rang in the middle of dinner.",
+      "blankForm": "in the middle of",
+      "cloze": "The phone rang _____ dinner.",
+      "partOfSpeech": "prepositional phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 628,
+      "word": "the heart of something",
+      "meaning": "the most important or central part of something",
+      "example": "A main idea is the heart of something you write.",
+      "blankForm": "the heart of something",
+      "cloze": "A main idea is _____ you write.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 630,
+      "word": "cruel",
+      "meaning": "causing pain without kindness",
+      "example": "It was cruel to leave the dog outside in the cold.",
+      "blankForm": "cruel",
+      "cloze": "It was _____ to leave the dog outside in the cold.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "word": "achieved",
+      "meaning": "successfully reached a goal through effort",
+      "example": "She achieved her goal through hard work.",
+      "blankForm": "achieved",
+      "cloze": "She _____ her goal through hard work.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 633,
+      "word": "advanced",
+      "meaning": "far on or ahead in development or progress",
+      "example": "This advanced course covers difficult mathematics.",
+      "blankForm": "advanced",
+      "cloze": "This _____ course covers difficult mathematics.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 635,
+      "word": "animated",
+      "meaning": "full of energy and liveliness",
+      "example": "They had an animated discussion about the game.",
+      "blankForm": "animated",
+      "cloze": "They had an _____ discussion about the game.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "word": "anticipate",
+      "meaning": "to expect and prepare for",
+      "example": "We anticipate heavy traffic this weekend.",
+      "blankForm": "anticipate",
+      "cloze": "We _____ heavy traffic this weekend.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 639,
+      "word": "arranged",
+      "meaning": "put things in a planned order or position",
+      "example": "We arranged the chairs in a circle.",
+      "blankForm": "arranged",
+      "cloze": "We _____ the chairs in a circle.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 642,
+      "word": "attitude",
+      "meaning": "a settled way of thinking or feeling about someone or something",
+      "example": "A positive attitude can make hard work easier.",
+      "blankForm": "attitude",
+      "cloze": "A positive _____ can make hard work easier.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 647,
+      "word": "brochure",
+      "meaning": "a small booklet that gives information",
+      "example": "The hotel brochure includes a map.",
+      "blankForm": "brochure",
+      "cloze": "The hotel _____ includes a map.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-4.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "word": "crossing",
+      "meaning": "a marked place where people can cross a road safely",
+      "example": "Use the pedestrian crossing to cross the road.",
+      "blankForm": "crossing",
+      "cloze": "Use the pedestrian _____ to cross the road.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-5.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 670,
+      "word": "delivery",
+      "meaning": "the act of taking something to a person or place",
+      "example": "The package is ready for delivery.",
+      "blankForm": "delivery",
+      "cloze": "The package is ready for _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-5.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "word": "deserves",
+      "meaning": "has earned or is worthy of something",
+      "example": "She deserves praise for her hard work.",
+      "blankForm": "deserves",
+      "cloze": "She _____ praise for her hard work.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-5.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "word": "distribute",
+      "meaning": "to hand out or spread among many",
+      "example": "Volunteers will distribute food after the storm.",
+      "blankForm": "distribute",
+      "cloze": "Volunteers will _____ food after the storm.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "word": "exercise",
+      "meaning": "activity that maintains physical fitness",
+      "example": "Daily exercise keeps your body strong.",
+      "blankForm": "exercise",
+      "cloze": "Daily _____ keeps your body strong.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 2,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 683,
+      "word": "feelings",
+      "meaning": "emotions such as happiness, sadness, or anger",
+      "example": "He hid his feelings behind a smile.",
+      "blankForm": "feelings",
+      "cloze": "He hid his _____ behind a smile.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 684,
+      "word": "fighting",
+      "meaning": "taking part in a physical struggle",
+      "example": "The two dogs stopped fighting.",
+      "blankForm": "fighting",
+      "cloze": "The two dogs stopped _____.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 686,
+      "word": "freezing",
+      "meaning": "the temperature at which water starts turning to ice",
+      "example": "The temperature fell below freezing.",
+      "blankForm": "freezing",
+      "cloze": "The temperature fell below _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "word": "furthest",
+      "meaning": "at the greatest distance",
+      "example": "That cabin is the furthest one from the lake.",
+      "blankForm": "furthest",
+      "cloze": "That cabin is the _____ one from the lake.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 688,
+      "word": "delay",
+      "meaning": "to make something happen later",
+      "example": "Snow may delay the morning train.",
+      "blankForm": "delay",
+      "cloze": "Snow may _____ the morning train.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 696,
+      "word": "handsome",
+      "meaning": "attractive or good-looking",
+      "example": "He wore a handsome blue suit.",
+      "blankForm": "handsome",
+      "cloze": "He wore a _____ blue suit.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-6.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "word": "interval",
+      "meaning": "a period of time between two events",
+      "example": "There was a short interval between the two plays.",
+      "blankForm": "interval",
+      "cloze": "There was a short _____ between the two plays.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-7.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "word": "listened",
+      "meaning": "paid attention to a sound or to someone speaking",
+      "example": "We listened carefully to the instructions.",
+      "blankForm": "listened",
+      "cloze": "We _____ carefully to the instructions.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-7.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 716,
+      "word": "normally",
+      "meaning": "under normal conditions",
+      "example": "The shop normally closes at six.",
+      "blankForm": "normally",
+      "cloze": "The shop _____ closes at six.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-7.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 721,
+      "word": "personal",
+      "meaning": "concerning an individual person",
+      "example": "Please do not read my personal diary.",
+      "blankForm": "personal",
+      "cloze": "Please do not read my _____ diary.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-7.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 723,
+      "word": "budget",
+      "meaning": "a plan for spending money",
+      "example": "We made a budget for our holiday.",
+      "blankForm": "budget",
+      "cloze": "We made a _____ for our holiday.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-7.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 724,
+      "word": "pleasure",
+      "meaning": "a feeling of enjoyment, satisfaction, or delight",
+      "example": "It was a pleasure to meet you.",
+      "blankForm": "pleasure",
+      "cloze": "It was a _____ to meet you.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-7.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 726,
+      "word": "politics",
+      "meaning": "the activities surrounding the making of decisions in government",
+      "example": "She follows local politics closely.",
+      "blankForm": "politics",
+      "cloze": "She follows local _____ closely.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 727,
+      "word": "possibly",
+      "meaning": "used to say that something may be true or likely",
+      "example": "Possibly, the missing key is in your bag.",
+      "blankForm": "possibly",
+      "cloze": "_____, the missing key is in your bag.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 728,
+      "word": "powerful",
+      "meaning": "having great power or strength",
+      "example": "A powerful engine pulled the heavy train.",
+      "blankForm": "powerful",
+      "cloze": "A _____ engine pulled the heavy train.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 729,
+      "word": "pregnant",
+      "meaning": "having a baby developing inside the body",
+      "example": "The pregnant woman rested in the shade.",
+      "blankForm": "pregnant",
+      "cloze": "The _____ woman rested in the shade.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "word": "burial",
+      "meaning": "the act of placing a body in a grave",
+      "example": "The family held a private burial.",
+      "blankForm": "burial",
+      "cloze": "The family held a private _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 732,
+      "word": "prisoner",
+      "meaning": "a person held in custody",
+      "example": "The guards returned the prisoner to his cell.",
+      "blankForm": "prisoner",
+      "cloze": "The guards returned the _____ to his cell.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 734,
+      "word": "pullover",
+      "meaning": "a sweater that is pulled on over the head",
+      "example": "He wore a warm pullover under his coat.",
+      "blankForm": "pullover",
+      "cloze": "He wore a warm _____ under his coat.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "word": "canyon",
+      "meaning": "a deep valley with steep sides",
+      "example": "A river flowed through the deep canyon.",
+      "blankForm": "canyon",
+      "cloze": "A river flowed through the deep _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "word": "quantity",
+      "meaning": "the amount or number of something",
+      "example": "We ordered a large quantity of rice.",
+      "blankForm": "quantity",
+      "cloze": "We ordered a large _____ of rice.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 744,
+      "word": "requires",
+      "meaning": "needs or calls for something",
+      "example": "This recipe requires two eggs.",
+      "blankForm": "requires",
+      "cloze": "This recipe _____ two eggs.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 745,
+      "word": "romantic",
+      "meaning": "showing feelings of love",
+      "example": "They shared a romantic dinner by candlelight.",
+      "blankForm": "romantic",
+      "cloze": "They shared a _____ dinner by candlelight.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
+    {
+      "id": 748,
+      "word": "security",
+      "meaning": "the state of being protected against danger or loss",
+      "example": "The guard checked our bags for security.",
+      "blankForm": "security",
+      "cloze": "The guard checked our bags for _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-8.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 2",
+          "review": 3,
+          "kind": "round-1-miss"
+        }
+      ]
+    },
     {
       "id": 65,
       "word": "factor",
@@ -1760,2227 +3849,56 @@
           "kind": "challenge"
         }
       ]
-    },
-    {
-      "id": 515,
-      "word": "extension",
-      "meaning": "an added part or extra length",
-      "example": "The builders added an extension to our kitchen.",
-      "blankForm": "extension",
-      "cloze": "The builders added an _____ to our kitchen.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 1
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 519,
-      "word": "convention",
-      "meaning": "a large formal meeting",
-      "example": "Hundreds of teachers attended the convention.",
-      "blankForm": "convention",
-      "cloze": "Hundreds of teachers attended the _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 2
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 520,
-      "word": "heritage",
-      "meaning": "traditions passed down through history",
-      "example": "These songs are part of our cultural heritage.",
-      "blankForm": "heritage",
-      "cloze": "These songs are part of our cultural _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 3
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 521,
-      "word": "irrigate",
-      "meaning": "to supply land with water",
-      "example": "Farmers irrigate the fields during dry weather.",
-      "blankForm": "irrigate",
-      "cloze": "Farmers _____ the fields during dry weather.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 4
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 526,
-      "word": "parliament",
-      "meaning": "a national lawmaking group",
-      "example": "Parliament passed the new law.",
-      "blankForm": "parliament",
-      "cloze": "_____ passed the new law.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 6
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 527,
-      "word": "plantation",
-      "meaning": "a large farm growing crops",
-      "example": "The plantation grows coffee and bananas.",
-      "blankForm": "plantation",
-      "cloze": "The _____ grows coffee and bananas.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 7
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 531,
-      "word": "solitary",
-      "meaning": "alone; without others",
-      "example": "A solitary tree stood in the empty field.",
-      "blankForm": "solitary",
-      "cloze": "A _____ tree stood in the empty field.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 8
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 536,
-      "word": "politician",
-      "meaning": "a person active in government",
-      "example": "The politician promised to improve local schools.",
-      "blankForm": "politician",
-      "cloze": "The _____ promised to improve local schools.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 11
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 539,
-      "word": "injustice",
-      "meaning": "unfair treatment",
-      "example": "The court corrected a serious injustice.",
-      "blankForm": "injustice",
-      "cloze": "The court corrected a serious _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 12
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 541,
-      "word": "territory",
-      "meaning": "land controlled by a group",
-      "example": "The wolves defend their territory from rivals.",
-      "blankForm": "territory",
-      "cloze": "The wolves defend their _____ from rivals.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 13
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 545,
-      "word": "devastating",
-      "meaning": "causing great damage or sadness",
-      "example": "The flood had a devastating effect on the village.",
-      "blankForm": "devastating",
-      "cloze": "The flood had a _____ effect on the village.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 16
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 549,
-      "word": "merchandise",
-      "meaning": "goods offered for sale",
-      "example": "The shop displayed its new merchandise.",
-      "blankForm": "merchandise",
-      "cloze": "The shop displayed its new _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 18
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 550,
-      "word": "constitution",
-      "meaning": "a country's basic governing rules",
-      "example": "The constitution protects basic rights.",
-      "blankForm": "constitution",
-      "cloze": "The _____ protects basic rights.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-1.webp",
-        "index": 19
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 566,
-      "word": "transmit",
-      "meaning": "to send or pass from one place to another",
-      "example": "Satellites transmit signals around the world.",
-      "blankForm": "transmit",
-      "cloze": "Satellites _____ signals around the world.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 7
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 567,
-      "word": "analogy",
-      "meaning": "a comparison that explains an idea",
-      "example": "The teacher used an analogy to explain electricity.",
-      "blankForm": "analogy",
-      "cloze": "The teacher used an _____ to explain electricity.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 8
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 569,
-      "word": "insight",
-      "meaning": "a deep, clear understanding",
-      "example": "The diary offers insight into his daily life.",
-      "blankForm": "insight",
-      "cloze": "The diary offers _____ into his daily life.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 10
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 570,
-      "word": "isolate",
-      "meaning": "to separate from others",
-      "example": "Doctors isolated the patient to prevent infection.",
-      "blankForm": "isolated",
-      "cloze": "Doctors _____ the patient to prevent infection.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 11
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 572,
-      "word": "obscure",
-      "meaning": "not well known or hard to understand",
-      "example": "The poem contains an obscure reference.",
-      "blankForm": "obscure",
-      "cloze": "The poem contains an _____ reference.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 12
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 575,
-      "word": "passive",
-      "meaning": "not active or not taking action",
-      "example": "He remained passive and let others decide.",
-      "blankForm": "passive",
-      "cloze": "He remained _____ and let others decide.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 15
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 578,
-      "word": "whereas",
-      "meaning": "in contrast with the fact that",
-      "example": "Lena loves winter, whereas I prefer summer.",
-      "blankForm": "whereas",
-      "cloze": "Lena loves winter, _____ I prefer summer.",
-      "partOfSpeech": "conjunction",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 16
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 579,
-      "word": "in addition",
-      "meaning": "also; used to add another point",
-      "example": "The apartment is bright; in addition, it has a balcony.",
-      "blankForm": "in addition",
-      "cloze": "The apartment is bright; _____, it has a balcony.",
-      "partOfSpeech": "adverb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 17
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 582,
-      "word": "bray",
-      "meaning": "to make the loud cry of a donkey",
-      "example": "We heard the donkey bray from across the field.",
-      "blankForm": "bray",
-      "cloze": "We heard the donkey _____ from across the field.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 19
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 583,
-      "word": "sequence",
-      "meaning": "a set of things in a certain order",
-      "example": "Put the pictures in the correct sequence.",
-      "blankForm": "sequence",
-      "cloze": "Put the pictures in the correct _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 20
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 595,
-      "word": "been meaning",
-      "meaning": "having wanted or intended to do something for a while",
-      "example": "I have been meaning to call you.",
-      "blankForm": "been meaning",
-      "cloze": "I have _____ to call you.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-2.webp",
-        "index": 24
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 602,
-      "word": "ground floor",
-      "meaning": "the level of a building nearest the ground",
-      "example": "The bakery is on the ground floor.",
-      "blankForm": "ground floor",
-      "cloze": "The bakery is on the _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 4
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 604,
-      "word": "hoax",
-      "meaning": "a trick meant to fool people",
-      "example": "The story about the giant fish was a hoax.",
-      "blankForm": "hoax",
-      "cloze": "The story about the giant fish was a _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 6
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 605,
-      "word": "leave behind",
-      "meaning": "to forget or fail to take something with you",
-      "example": "Do not leave behind any litter.",
-      "blankForm": "leave behind",
-      "cloze": "Do not _____ any litter.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 7
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 606,
-      "word": "make a diagram",
-      "meaning": "to draw a simple plan that explains how something works",
-      "example": "Make a diagram to show how the machine works.",
-      "blankForm": "make a diagram",
-      "cloze": "_____ to show how the machine works.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 8
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 607,
-      "word": "phrasal verb",
-      "meaning": "a verb plus a particle forming one meaning",
-      "example": "Give up is a common phrasal verb.",
-      "blankForm": "phrasal verb",
-      "cloze": "Give up is a common _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 9
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 611,
-      "word": "switched off",
-      "meaning": "turned off an electrical device",
-      "example": "She switched off the oven after baking.",
-      "blankForm": "switched off",
-      "cloze": "She _____ the oven after baking.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 13
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 612,
-      "word": "the public's",
-      "meaning": "belonging to or coming from people in general",
-      "example": "The public's response to the plan was positive.",
-      "blankForm": "the public's",
-      "cloze": "_____ response to the plan was positive.",
-      "partOfSpeech": "possessive noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 14
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 613,
-      "word": "the universe",
-      "meaning": "all of space and everything in it",
-      "example": "The universe contains billions of galaxies.",
-      "blankForm": "the universe",
-      "cloze": "_____ contains billions of galaxies.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 15
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 618,
-      "word": "all of the above",
-      "meaning": "every option already listed",
-      "example": "On the quiz, I chose all of the above because every answer was true.",
-      "blankForm": "all of the above",
-      "cloze": "On the quiz, I chose _____ because every answer was true.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 19
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 619,
-      "word": "at the same time",
-      "meaning": "together; during the same moment or period",
-      "example": "The two runners crossed the finish line at the same time.",
-      "blankForm": "at the same time",
-      "cloze": "The two runners crossed the finish line _____.",
-      "partOfSpeech": "adverb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 20
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 621,
-      "word": "catch up with someone",
-      "meaning": "to talk with someone and learn their recent news",
-      "example": "It is fun to catch up with someone you have not seen for a while.",
-      "blankForm": "catch up with someone",
-      "cloze": "It is fun to _____ you have not seen for a while.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-3.webp",
-        "index": 22
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 624,
-      "word": "in the middle of",
-      "meaning": "during something; partway through an event",
-      "example": "The phone rang in the middle of dinner.",
-      "blankForm": "in the middle of",
-      "cloze": "The phone rang _____ dinner.",
-      "partOfSpeech": "prepositional phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 0
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 628,
-      "word": "the heart of something",
-      "meaning": "the most important or central part of something",
-      "example": "A main idea is the heart of something you write.",
-      "blankForm": "the heart of something",
-      "cloze": "A main idea is _____ you write.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 3
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 630,
-      "word": "cruel",
-      "meaning": "causing pain without kindness",
-      "example": "It was cruel to leave the dog outside in the cold.",
-      "blankForm": "cruel",
-      "cloze": "It was _____ to leave the dog outside in the cold.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 5
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 632,
-      "word": "achieved",
-      "meaning": "successfully reached a goal through effort",
-      "example": "She achieved her goal through hard work.",
-      "blankForm": "achieved",
-      "cloze": "She _____ her goal through hard work.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 7
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 633,
-      "word": "advanced",
-      "meaning": "far on or ahead in development or progress",
-      "example": "This advanced course covers difficult mathematics.",
-      "blankForm": "advanced",
-      "cloze": "This _____ course covers difficult mathematics.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 8
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 635,
-      "word": "animated",
-      "meaning": "full of energy and liveliness",
-      "example": "They had an animated discussion about the game.",
-      "blankForm": "animated",
-      "cloze": "They had an _____ discussion about the game.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 10
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 637,
-      "word": "anticipate",
-      "meaning": "to expect and prepare for",
-      "example": "We anticipate heavy traffic this weekend.",
-      "blankForm": "anticipate",
-      "cloze": "We _____ heavy traffic this weekend.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 12
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 639,
-      "word": "arranged",
-      "meaning": "put things in a planned order or position",
-      "example": "We arranged the chairs in a circle.",
-      "blankForm": "arranged",
-      "cloze": "We _____ the chairs in a circle.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 14
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 642,
-      "word": "attitude",
-      "meaning": "a settled way of thinking or feeling about someone or something",
-      "example": "A positive attitude can make hard work easier.",
-      "blankForm": "attitude",
-      "cloze": "A positive _____ can make hard work easier.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 17
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 647,
-      "word": "brochure",
-      "meaning": "a small booklet that gives information",
-      "example": "The hotel brochure includes a map.",
-      "blankForm": "brochure",
-      "cloze": "The hotel _____ includes a map.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-4.webp",
-        "index": 22
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 665,
-      "word": "crossing",
-      "meaning": "a marked place where people can cross a road safely",
-      "example": "Use the pedestrian crossing to cross the road.",
-      "blankForm": "crossing",
-      "cloze": "Use the pedestrian _____ to cross the road.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-5.webp",
-        "index": 15
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 670,
-      "word": "delivery",
-      "meaning": "the act of taking something to a person or place",
-      "example": "The package is ready for delivery.",
-      "blankForm": "delivery",
-      "cloze": "The package is ready for _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-5.webp",
-        "index": 20
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 672,
-      "word": "deserves",
-      "meaning": "has earned or is worthy of something",
-      "example": "She deserves praise for her hard work.",
-      "blankForm": "deserves",
-      "cloze": "She _____ praise for her hard work.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-5.webp",
-        "index": 22
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 676,
-      "word": "distribute",
-      "meaning": "to hand out or spread among many",
-      "example": "Volunteers will distribute food after the storm.",
-      "blankForm": "distribute",
-      "cloze": "Volunteers will _____ food after the storm.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 1
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 681,
-      "word": "exercise",
-      "meaning": "activity that maintains physical fitness",
-      "example": "Daily exercise keeps your body strong.",
-      "blankForm": "exercise",
-      "cloze": "Daily _____ keeps your body strong.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 6
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 2,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 683,
-      "word": "feelings",
-      "meaning": "emotions such as happiness, sadness, or anger",
-      "example": "He hid his feelings behind a smile.",
-      "blankForm": "feelings",
-      "cloze": "He hid his _____ behind a smile.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 8
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 684,
-      "word": "fighting",
-      "meaning": "taking part in a physical struggle",
-      "example": "The two dogs stopped fighting.",
-      "blankForm": "fighting",
-      "cloze": "The two dogs stopped _____.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 9
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 686,
-      "word": "freezing",
-      "meaning": "the temperature at which water starts turning to ice",
-      "example": "The temperature fell below freezing.",
-      "blankForm": "freezing",
-      "cloze": "The temperature fell below _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 11
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 687,
-      "word": "furthest",
-      "meaning": "at the greatest distance",
-      "example": "That cabin is the furthest one from the lake.",
-      "blankForm": "furthest",
-      "cloze": "That cabin is the _____ one from the lake.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 12
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 688,
-      "word": "delay",
-      "meaning": "to make something happen later",
-      "example": "Snow may delay the morning train.",
-      "blankForm": "delay",
-      "cloze": "Snow may _____ the morning train.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 13
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 696,
-      "word": "handsome",
-      "meaning": "attractive or good-looking",
-      "example": "He wore a handsome blue suit.",
-      "blankForm": "handsome",
-      "cloze": "He wore a _____ blue suit.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-6.webp",
-        "index": 21
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 704,
-      "word": "interval",
-      "meaning": "a period of time between two events",
-      "example": "There was a short interval between the two plays.",
-      "blankForm": "interval",
-      "cloze": "There was a short _____ between the two plays.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-7.webp",
-        "index": 4
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 710,
-      "word": "listened",
-      "meaning": "paid attention to a sound or to someone speaking",
-      "example": "We listened carefully to the instructions.",
-      "blankForm": "listened",
-      "cloze": "We _____ carefully to the instructions.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-7.webp",
-        "index": 10
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 716,
-      "word": "normally",
-      "meaning": "under normal conditions",
-      "example": "The shop normally closes at six.",
-      "blankForm": "normally",
-      "cloze": "The shop _____ closes at six.",
-      "partOfSpeech": "adverb",
-      "art": {
-        "path": "../learn-2/illustrations/session-7.webp",
-        "index": 16
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 721,
-      "word": "personal",
-      "meaning": "concerning an individual person",
-      "example": "Please do not read my personal diary.",
-      "blankForm": "personal",
-      "cloze": "Please do not read my _____ diary.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-7.webp",
-        "index": 21
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 723,
-      "word": "budget",
-      "meaning": "a plan for spending money",
-      "example": "We made a budget for our holiday.",
-      "blankForm": "budget",
-      "cloze": "We made a _____ for our holiday.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-7.webp",
-        "index": 23
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 724,
-      "word": "pleasure",
-      "meaning": "a feeling of enjoyment, satisfaction, or delight",
-      "example": "It was a pleasure to meet you.",
-      "blankForm": "pleasure",
-      "cloze": "It was a _____ to meet you.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-7.webp",
-        "index": 24
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 726,
-      "word": "politics",
-      "meaning": "the activities surrounding the making of decisions in government",
-      "example": "She follows local politics closely.",
-      "blankForm": "politics",
-      "cloze": "She follows local _____ closely.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 1
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 727,
-      "word": "possibly",
-      "meaning": "used to say that something may be true or likely",
-      "example": "Possibly, the missing key is in your bag.",
-      "blankForm": "possibly",
-      "cloze": "_____, the missing key is in your bag.",
-      "partOfSpeech": "adverb",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 2
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 728,
-      "word": "powerful",
-      "meaning": "having great power or strength",
-      "example": "A powerful engine pulled the heavy train.",
-      "blankForm": "powerful",
-      "cloze": "A _____ engine pulled the heavy train.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 3
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 729,
-      "word": "pregnant",
-      "meaning": "having a baby developing inside the body",
-      "example": "The pregnant woman rested in the shade.",
-      "blankForm": "pregnant",
-      "cloze": "The _____ woman rested in the shade.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 4
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 730,
-      "word": "burial",
-      "meaning": "the act of placing a body in a grave",
-      "example": "The family held a private burial.",
-      "blankForm": "burial",
-      "cloze": "The family held a private _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 5
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 732,
-      "word": "prisoner",
-      "meaning": "a person held in custody",
-      "example": "The guards returned the prisoner to his cell.",
-      "blankForm": "prisoner",
-      "cloze": "The guards returned the _____ to his cell.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 7
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 734,
-      "word": "pullover",
-      "meaning": "a sweater that is pulled on over the head",
-      "example": "He wore a warm pullover under his coat.",
-      "blankForm": "pullover",
-      "cloze": "He wore a warm _____ under his coat.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 9
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 735,
-      "word": "canyon",
-      "meaning": "a deep valley with steep sides",
-      "example": "A river flowed through the deep canyon.",
-      "blankForm": "canyon",
-      "cloze": "A river flowed through the deep _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 10
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 736,
-      "word": "quantity",
-      "meaning": "the amount or number of something",
-      "example": "We ordered a large quantity of rice.",
-      "blankForm": "quantity",
-      "cloze": "We ordered a large _____ of rice.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 11
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 744,
-      "word": "requires",
-      "meaning": "needs or calls for something",
-      "example": "This recipe requires two eggs.",
-      "blankForm": "requires",
-      "cloze": "This recipe _____ two eggs.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 19
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 745,
-      "word": "romantic",
-      "meaning": "showing feelings of love",
-      "example": "They shared a romantic dinner by candlelight.",
-      "blankForm": "romantic",
-      "cloze": "They shared a _____ dinner by candlelight.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 20
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 748,
-      "word": "security",
-      "meaning": "the state of being protected against danger or loss",
-      "example": "The guard checked our bags for security.",
-      "blankForm": "security",
-      "cloze": "The guard checked our bags for _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-8.webp",
-        "index": 23
-      },
-      "origins": [
-        {
-          "course": "Learn 2",
-          "review": 3,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 762,
-      "word": "suggest",
-      "meaning": "to offer an idea or plan",
-      "example": "Can you suggest a game for us to play?",
-      "blankForm": "suggest",
-      "cloze": "Can you _____ a game for us to play?",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-9.webp",
-        "index": 12
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 25,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 768,
-      "word": "takeaway",
-      "meaning": "a meal bought to eat somewhere else",
-      "example": "We brought home a takeaway for dinner.",
-      "blankForm": "takeaway",
-      "cloze": "We brought home a _____ for dinner.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-9.webp",
-        "index": 18
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 25,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 769,
-      "word": "talented",
-      "meaning": "having a natural ability to do something well",
-      "example": "The talented child can play three instruments.",
-      "blankForm": "talented",
-      "cloze": "The _____ child can play three instruments.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-9.webp",
-        "index": 19
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 25,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 772,
-      "word": "terrific",
-      "meaning": "excellent or very good",
-      "example": "You did a terrific job on the poster.",
-      "blankForm": "terrific",
-      "cloze": "You did a _____ job on the poster.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-9.webp",
-        "index": 22
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 26,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 774,
-      "word": "thriller",
-      "meaning": "an exciting story with danger or mystery",
-      "example": "The spy thriller kept us guessing until the end.",
-      "blankForm": "thriller",
-      "cloze": "The spy _____ kept us guessing until the end.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-9.webp",
-        "index": 24
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 26,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 776,
-      "word": "upstairs",
-      "meaning": "on or toward a higher floor",
-      "example": "Your clean towels are upstairs.",
-      "blankForm": "upstairs",
-      "cloze": "Your clean towels are _____.",
-      "partOfSpeech": "adverb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 1
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 26,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 777,
-      "word": "invent",
-      "meaning": "to create something new",
-      "example": "She hopes to invent a safer battery.",
-      "blankForm": "invent",
-      "cloze": "She hopes to _____ a safer battery.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 2
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 26,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 778,
-      "word": "urgently",
-      "meaning": "in a way that needs quick action",
-      "example": "The hospital urgently needs more blood.",
-      "blankForm": "urgently",
-      "cloze": "The hospital _____ needs more blood.",
-      "partOfSpeech": "adverb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 3
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 26,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 783,
-      "word": "widespread",
-      "meaning": "found across a large area",
-      "example": "The disease became widespread across the region.",
-      "blankForm": "widespread",
-      "cloze": "The disease became _____ across the region.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 8
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 27,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 787,
-      "word": "criterion",
-      "meaning": "a rule used to judge something",
-      "example": "Price is only one criterion for choosing a laptop.",
-      "blankForm": "criterion",
-      "cloze": "Price is only one _____ for choosing a laptop.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 12
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 27,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 789,
-      "word": "identical",
-      "meaning": "exactly the same",
-      "example": "The two keys look identical.",
-      "blankForm": "identical",
-      "cloze": "The two keys look _____.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 14
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 27,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 790,
-      "word": "integrate",
-      "meaning": "to join parts or people into a whole",
-      "example": "The school helps new students integrate into the community.",
-      "blankForm": "integrate",
-      "cloze": "The school helps new students _____ into the community.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 15
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 792,
-      "word": "patent",
-      "meaning": "a legal right to protect an invention",
-      "example": "The inventor applied for a patent.",
-      "blankForm": "patent",
-      "cloze": "The inventor applied for a _____.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 17
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 795,
-      "word": "transform",
-      "meaning": "to change greatly",
-      "example": "Fresh paint can transform a dark room.",
-      "blankForm": "transform",
-      "cloze": "Fresh paint can _____ a dark room.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 20
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 796,
-      "word": "voluntary",
-      "meaning": "done by choice rather than by force",
-      "example": "Attendance at the evening workshop is voluntary.",
-      "blankForm": "voluntary",
-      "cloze": "Attendance at the evening workshop is _____.",
-      "partOfSpeech": "adjective",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 21
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 797,
-      "word": "coincide",
-      "meaning": "to happen at the same time",
-      "example": "Our holidays coincide this year.",
-      "blankForm": "coincide",
-      "cloze": "Our holidays _____ this year.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 22
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 798,
-      "word": "ponder",
-      "meaning": "to think about carefully",
-      "example": "She sat quietly to ponder the difficult choice.",
-      "blankForm": "ponder",
-      "cloze": "She sat quietly to _____ the difficult choice.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 23
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 799,
-      "word": "communicate",
-      "meaning": "to share information or ideas",
-      "example": "We communicate with our cousins by video call.",
-      "blankForm": "communicate",
-      "cloze": "We _____ with our cousins by video call.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-10.webp",
-        "index": 24
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 28,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 800,
-      "word": "diminish",
-      "meaning": "to become or make smaller",
-      "example": "The noise will diminish as the train leaves.",
-      "blankForm": "diminish",
-      "cloze": "The noise will _____ as the train leaves.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-11.webp",
-        "index": 0
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 29,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 803,
-      "word": "opportunity",
-      "meaning": "a good chance to do something",
-      "example": "The trip was a great opportunity to practice Spanish.",
-      "blankForm": "opportunity",
-      "cloze": "The trip was a great _____ to practice Spanish.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-11.webp",
-        "index": 3
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 29,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 804,
-      "word": "reject",
-      "meaning": "to refuse to accept",
-      "example": "The committee may reject the unsafe proposal.",
-      "blankForm": "reject",
-      "cloze": "The committee may _____ the unsafe proposal.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-11.webp",
-        "index": 4
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 29,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 805,
-      "word": "variable",
-      "meaning": "something that can change",
-      "example": "Weather is an important variable in our plans.",
-      "blankForm": "variable",
-      "cloze": "Weather is an important _____ in our plans.",
-      "partOfSpeech": "noun",
-      "art": {
-        "path": "../learn-2/illustrations/session-11.webp",
-        "index": 5
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 29,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 806,
-      "word": "all on her own",
-      "meaning": "without help from anyone else",
-      "example": "She baked the cake all on her own.",
-      "blankForm": "all on her own",
-      "cloze": "She baked the cake _____.",
-      "partOfSpeech": "phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-11.webp",
-        "index": 6
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 29,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 819,
-      "word": "be supposed to",
-      "meaning": "to be expected or required to do something",
-      "example": "You might be supposed to bring lunch on the trip.",
-      "blankForm": "be supposed to",
-      "cloze": "You might _____ bring lunch on the trip.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-11.webp",
-        "index": 19
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 30,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 825,
-      "word": "enhance",
-      "meaning": "to improve something",
-      "example": "Soft lighting can enhance the warm colors.",
-      "blankForm": "enhance",
-      "cloze": "Soft lighting can _____ the warm colors.",
-      "partOfSpeech": "verb",
-      "art": {
-        "path": "../learn-2/illustrations/session-12.webp",
-        "index": 0
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 31,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 828,
-      "word": "could not help",
-      "meaning": "to be unable to stop yourself doing something",
-      "example": "I could not help smiling at the puppy.",
-      "blankForm": "could not help",
-      "cloze": "I _____ smiling at the puppy.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-12.webp",
-        "index": 2
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 31,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 829,
-      "word": "try your best",
-      "meaning": "to make your greatest effort",
-      "example": "Even when the puzzle is hard, try your best.",
-      "blankForm": "try your best",
-      "cloze": "Even when the puzzle is hard, _____.",
-      "partOfSpeech": "verb phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-12.webp",
-        "index": 3
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 31,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 830,
-      "word": "exchange rate",
-      "meaning": "how much one currency is worth in another",
-      "example": "Check the exchange rate before buying euros.",
-      "blankForm": "exchange rate",
-      "cloze": "Check the _____ before buying euros.",
-      "partOfSpeech": "noun phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-12.webp",
-        "index": 4
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 31,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
-    },
-    {
-      "id": 831,
-      "word": "flood control",
-      "meaning": "ways of preventing damage from floods",
-      "example": "The new dam improved flood control.",
-      "blankForm": "flood control",
-      "cloze": "The new dam improved _____.",
-      "partOfSpeech": "noun phrase",
-      "art": {
-        "path": "../learn-2/illustrations/session-12.webp",
-        "index": 5
-      },
-      "origins": [
-        {
-          "course": "Learn 3",
-          "day": 31,
-          "round": 1,
-          "kind": "round-1-miss"
-        }
-      ]
     }
   ],
   "sessions": [
     {
       "number": 1,
       "wordIds": [
-        65,
-        80,
-        85,
-        101,
-        104,
-        108,
-        112,
-        121,
-        152,
-        155,
-        173,
-        186,
-        190,
-        192,
-        198
+        762,
+        768,
+        769,
+        772,
+        774,
+        776,
+        777,
+        778,
+        783,
+        787,
+        789,
+        790,
+        792,
+        795,
+        796
       ],
       "extraPracticeIds": []
     },
     {
       "number": 2,
       "wordIds": [
-        199,
-        201,
-        202,
-        203,
-        206,
-        211,
-        212,
-        215,
-        223,
-        225,
-        229,
-        231,
-        237,
-        241,
-        257
+        797,
+        798,
+        799,
+        800,
+        803,
+        804,
+        805,
+        806,
+        819,
+        825,
+        828,
+        829,
+        830,
+        831,
+        515
       ],
       "extraPracticeIds": []
     },
     {
       "number": 3,
       "wordIds": [
-        265,
-        269,
-        275,
-        277,
-        283,
-        293,
-        295,
-        301,
-        305,
-        308,
-        309,
-        321,
-        326,
-        331,
-        352
-      ],
-      "extraPracticeIds": []
-    },
-    {
-      "number": 4,
-      "wordIds": [
-        361,
-        369,
-        370,
-        371,
-        375,
-        387,
-        394,
-        397,
-        402,
-        403,
-        406,
-        407,
-        409,
-        410,
-        411
-      ],
-      "extraPracticeIds": []
-    },
-    {
-      "number": 5,
-      "wordIds": [
-        434,
-        435,
-        436,
-        437,
-        440,
-        441,
-        450,
-        454,
-        457,
-        458,
-        459,
-        460,
-        463,
-        465,
-        466
-      ],
-      "extraPracticeIds": []
-    },
-    {
-      "number": 6,
-      "wordIds": [
-        474,
-        476,
-        477,
-        479,
-        481,
-        488,
-        491,
-        498,
-        504,
-        507,
-        509,
-        510,
-        515,
         519,
-        520
-      ],
-      "extraPracticeIds": []
-    },
-    {
-      "number": 7,
-      "wordIds": [
+        520,
         521,
         526,
         527,
@@ -3993,15 +3911,15 @@
         550,
         566,
         567,
-        569,
-        570,
-        572
+        569
       ],
       "extraPracticeIds": []
     },
     {
-      "number": 8,
+      "number": 4,
       "wordIds": [
+        570,
+        572,
         575,
         578,
         579,
@@ -4014,15 +3932,15 @@
         606,
         607,
         611,
-        612,
-        613,
-        618
+        612
       ],
       "extraPracticeIds": []
     },
     {
-      "number": 9,
+      "number": 5,
       "wordIds": [
+        613,
+        618,
         619,
         621,
         624,
@@ -4035,15 +3953,15 @@
         639,
         642,
         647,
-        665,
-        670,
-        672
+        665
       ],
       "extraPracticeIds": []
     },
     {
-      "number": 10,
+      "number": 6,
       "wordIds": [
+        670,
+        672,
         676,
         681,
         683,
@@ -4056,15 +3974,15 @@
         710,
         716,
         721,
-        723,
-        724,
-        726
+        723
       ],
       "extraPracticeIds": []
     },
     {
-      "number": 11,
+      "number": 7,
       "wordIds": [
+        724,
+        726,
         727,
         728,
         729,
@@ -4076,60 +3994,131 @@
         744,
         745,
         748,
-        762,
-        768,
-        769,
-        772
+        65,
+        80
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 8,
+      "wordIds": [
+        85,
+        101,
+        104,
+        108,
+        112,
+        121,
+        152,
+        155,
+        173,
+        186,
+        190,
+        192,
+        198,
+        199,
+        201
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 9,
+      "wordIds": [
+        202,
+        203,
+        206,
+        211,
+        212,
+        215,
+        223,
+        225,
+        229,
+        231,
+        237,
+        241,
+        257,
+        265,
+        269
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 10,
+      "wordIds": [
+        275,
+        277,
+        283,
+        293,
+        295,
+        301,
+        305,
+        308,
+        309,
+        321,
+        326,
+        331,
+        352,
+        361,
+        369
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 11,
+      "wordIds": [
+        370,
+        371,
+        375,
+        387,
+        394,
+        397,
+        402,
+        403,
+        406,
+        407,
+        409,
+        410,
+        411,
+        434,
+        435
       ],
       "extraPracticeIds": []
     },
     {
       "number": 12,
       "wordIds": [
-        774,
-        776,
-        777,
-        778,
-        783,
-        787,
-        789,
-        790,
-        792,
-        795,
-        796,
-        797,
-        798,
-        799,
-        800
+        436,
+        437,
+        440,
+        441,
+        450,
+        454,
+        457,
+        458,
+        459,
+        460,
+        463,
+        465,
+        466,
+        474,
+        476
       ],
       "extraPracticeIds": []
     },
     {
       "number": 13,
       "wordIds": [
-        803,
-        804,
-        805,
-        806,
-        819,
-        825,
-        828,
-        829,
-        830,
-        831,
-        203,
-        65,
-        80,
-        762,
-        768
+        477,
+        479,
+        481,
+        488,
+        491,
+        498,
+        504,
+        507,
+        509,
+        510
       ],
-      "extraPracticeIds": [
-        203,
-        65,
-        80,
-        762,
-        768
-      ]
+      "extraPracticeIds": []
     }
   ],
   "sources": {
@@ -4170,5 +4159,10 @@
       ],
       "recordUpdatedAt": "2026-10-11T21:00:26.904Z"
     }
-  }
+  },
+  "order": [
+    "Learn 3",
+    "Learn 2",
+    "Learn 1"
+  ]
 }
