@@ -189,7 +189,10 @@
           } else if (pending) {
             version = record.version;
           } else {
-            applyRemote(record);
+            if (!applyRemote(record)) {
+              version = record.version;
+              queue(item.state);
+            }
           }
           retryItem = null;
         }
@@ -231,6 +234,11 @@
           queue(currentState);
           return;
         }
+        if (!validState(record.state)) {
+          version = record.version;
+          queue(currentState);
+          return;
+        }
         if (record.version !== version) {
           if (currentFingerprint === meta.fingerprint) applyRemote(record);
           else queue(currentState);
@@ -251,7 +259,10 @@
         const data = await request(appId);
         const record = data.progress;
         booted = true;
-        if (pending) {
+        if (record && !validState(record.state)) {
+          version = record.version;
+          queue(currentState);
+        } else if (pending) {
           if (record) version = record.version;
         } else if (!record) {
           queue(currentState, true);
