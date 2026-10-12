@@ -1,5 +1,6 @@
 (() => {
 'use strict';
+    const ARCHIVED = true;
     const APP_ID = "harry-vocabulary-to-learn-200-2";
     const STORAGE_KEY = "harry-vocabulary-to-learn-200-2-v1";
     const IS_LOCAL = ['localhost','127.0.0.1','[::1]'].includes(location.hostname) || location.protocol === 'file:';
@@ -184,6 +185,7 @@
     }
 
     function save() {
+      if (ARCHIVED) return;
       if (!WORDS.length) return;
       const savedAt = new Date().toISOString();
       const sessionKey = String(state.session);
@@ -486,6 +488,7 @@
     }
 
     function beginRound() {
+      if (ARCHIVED) return;
       if (state.questions.length && ["review", "test"].includes(state.phase)) {
         state.phase = "test";
         save();
@@ -517,6 +520,7 @@
     }
 
     function choose(questionIndex, optionId) {
+      if (ARCHIVED) return;
       const answerKey = String(questionIndex);
       if (Object.prototype.hasOwnProperty.call(state.answer, answerKey)) return;
       const question = state.questions[questionIndex];
@@ -546,6 +550,7 @@
     }
 
     function finishTest() {
+      if (ARCHIVED) return;
       if (Object.keys(state.answer).length !== state.questions.length) return;
       state.phase = state.mastered.size === currentWords().length ? "complete" : "round-summary";
       state.questions = [];
@@ -661,6 +666,11 @@
       else if (state.phase === "test") renderTest();
       else if (state.phase === "round-summary") renderRoundSummary();
       else renderComplete();
+      if (ARCHIVED) {
+        startTest.hidden = true;
+        card.querySelectorAll("button:not([data-speak])").forEach(button => { button.disabled = true; });
+        document.querySelector(".save-note").textContent = "Archive · saved records are read-only";
+      }
     }
 
     startTest.addEventListener("click", beginRound);
@@ -686,19 +696,20 @@
       if (differs) onlineSync?.push(state.progress);
     }
 
-    function connectOnlineSync() {
-      if (IS_LOCAL || !window.MarcoOnlineSync) return;
-      onlineSync = window.MarcoOnlineSync.create({
-        appId: APP_ID,
-        studentName: "Harry",
-        validate: validOnlineProgress,
-        score: function(progress) {
-          const normalized = normalizeProgress(progress);
-          return normalized.activity.length + Object.values(normalized.sessions).reduce((sum,session) => sum + Object.values(session.rounds || {}).filter(round => round.finishedAt).length, 0);
-        },
-        onRemote: adoptOnlineProgress
-      });
-      void onlineSync.start(state.progress);
+    async function connectOnlineSync() {
+      if (['localhost','127.0.0.1','[::1]'].includes(location.hostname) || location.protocol === 'file:') return;
+      try {
+        const response = await fetch('https://marco-round1-missed-mastery.alexsoton.chatgpt.site/api/shared/progress?appId=harry-vocabulary-to-learn-200-2', {cache:'no-store'});
+        if (!response.ok) throw new Error('Archive records unavailable');
+        const data = await response.json();
+        if (validSavedProgress(data.progress?.state)) {
+          state.progress = normalizeProgress(data.progress.state);
+          loadSession(state.progress.activeSession);
+          render();
+        }
+      } catch (error) {
+        document.querySelector('.save-note').textContent = 'Archive · online records unavailable; showing device records';
+      }
     }
 
     async function initialize() {
@@ -717,13 +728,6 @@
       restore();
       render();
       connectOnlineSync();
-      if (!IS_LOCAL) {
-        const tracker = document.createElement('script');
-        tracker.src = 'https://shangguanyun08.github.io/marco-learning-hub/shared-activity-tracker.js?v=1';
-        tracker.dataset.appId = APP_ID;
-        tracker.dataset.course = 'Daily Vocabulary 2';
-        document.body.append(tracker);
-      }
     }
 
     initialize().catch(function(error) {

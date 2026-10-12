@@ -411,6 +411,7 @@
   </style>
 </head>
 <body>
+  <aside class="archive-banner" aria-label="Archived course" style="padding:14px 20px;background:#fff4db;color:#58452b;text-align:center;font:600 14px/1.6 system-ui">Archived October 12, 2026 · Study pages and saved records are read-only. <a href="../review/" style="color:#176e65;font-weight:800">Open Harry’s Daily Vocabulary →</a></aside>
   <header class="topbar">
     <div class="topbar-inner">
       <nav class="nav" aria-label="Vocabulary navigation">
@@ -448,9 +449,8 @@
 
   <div class="toast" id="toast" role="status" hidden></div>
 
-  <script src="https://shangguanyun08.github.io/marco-learning-hub/shared-online-sync.js?v=1"></script>
-  <script src="https://shangguanyun08.github.io/marco-learning-hub/shared-activity-tracker.js?v=1" data-app-id="harry-vocabulary-to-learn-200" data-course="Vocabulary"></script>
-  <script>
+    <script>
+    const ARCHIVED = true;
     const MAIN_KNOWN_KEY = "harry-combined-vocabulary-known-v2";
     const SESSION_SIZE = 10;
     const ORIGINAL_SESSION_COUNT = 20;
@@ -732,6 +732,7 @@
     }
 
     function save() {
+      if (ARCHIVED) return;
       if (!WORDS.length) return;
       const savedAt = new Date().toISOString();
       const sessionKey = String(state.session);
@@ -1009,6 +1010,7 @@
     }
 
     function beginRound() {
+      if (ARCHIVED) return;
       if (state.questions.length && ["review", "test"].includes(state.phase)) {
         state.phase = "test";
         save();
@@ -1042,6 +1044,7 @@
     }
 
     function choose(questionIndex, optionId) {
+      if (ARCHIVED) return;
       const answerKey = String(questionIndex);
       if (Object.prototype.hasOwnProperty.call(state.answer, answerKey)) return;
       const question = state.questions[questionIndex];
@@ -1071,6 +1074,7 @@
     }
 
     function finishTest() {
+      if (ARCHIVED) return;
       if (Object.keys(state.answer).length !== state.questions.length) return;
       state.phase = state.mastered.size === currentWords().length ? "complete" : "round-summary";
       state.questions = [];
@@ -1186,6 +1190,11 @@
       else if (state.phase === "test") renderTest();
       else if (state.phase === "round-summary") renderRoundSummary();
       else renderComplete();
+      if (ARCHIVED) {
+        startTest.hidden = true;
+        card.querySelectorAll("button:not([data-speak])").forEach(button => { button.disabled = true; });
+        document.querySelector(".save-note").textContent = "Archive · saved records are read-only";
+      }
     }
 
     startTest.addEventListener("click", beginRound);
@@ -1206,21 +1215,20 @@
       render();
     }
 
-    function connectOnlineSync() {
-      if (!window.MarcoOnlineSync) return;
-      onlineSync = window.MarcoOnlineSync.create({
-        appId: "harry-vocabulary-to-learn-200",
-        studentName: "Harry",
-        validate: validOnlineProgress,
-        score: function(progress) {
-          const normalized = normalizeProgress(progress);
-          return Object.keys(normalized.sessions || {}).reduce(function(total, key) {
-            return total + validMastered(Number(key), normalized.sessions[key]?.mastered).length;
-          }, 0);
-        },
-        onRemote: adoptOnlineProgress
-      });
-      void onlineSync.start(state.progress);
+    async function connectOnlineSync() {
+      if (['localhost','127.0.0.1','[::1]'].includes(location.hostname) || location.protocol === 'file:') return;
+      try {
+        const response = await fetch('https://marco-round1-missed-mastery.alexsoton.chatgpt.site/api/shared/progress?appId=harry-vocabulary-to-learn-200', {cache:'no-store'});
+        if (!response.ok) throw new Error('Archive records unavailable');
+        const data = await response.json();
+        if (validSavedProgress(data.progress?.state)) {
+          state.progress = normalizeProgress(data.progress.state);
+          loadSession(state.progress.activeSession);
+          render();
+        }
+      } catch (error) {
+        document.querySelector('.save-note').textContent = 'Archive · online records unavailable; showing device records';
+      }
     }
 
     async function initialize() {
