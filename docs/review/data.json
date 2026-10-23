@@ -3849,6 +3849,2406 @@
           "kind": "challenge"
         }
       ]
+    },
+    {
+      "id": 832,
+      "word": "help yourself",
+      "meaning": "to take what you want when invited",
+      "example": "Please help yourself to some fruit.",
+      "blankForm": "help yourself",
+      "cloze": "Please _____ to some fruit.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 833,
+      "word": "identity card",
+      "meaning": "an official card showing who you are",
+      "example": "Show your identity card at the entrance.",
+      "blankForm": "identity card",
+      "cloze": "Show your _____ at the entrance.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 834,
+      "word": "in particular",
+      "meaning": "especially one specific thing",
+      "example": "I enjoy tropical fruit, mangoes in particular.",
+      "blankForm": "in particular",
+      "cloze": "I enjoy tropical fruit, mangoes _____.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 835,
+      "word": "message board",
+      "meaning": "a place online where people post messages",
+      "example": "She posted the question on the class message board.",
+      "blankForm": "message board",
+      "cloze": "She posted the question on the class _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "word": "question mark",
+      "meaning": "the punctuation mark at the end of a question",
+      "example": "Put a question mark at the end of a question.",
+      "blankForm": "question mark",
+      "cloze": "Put a _____ at the end of a question.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 837,
+      "word": "descend",
+      "meaning": "to move downward",
+      "example": "The hikers began to descend the mountain.",
+      "blankForm": "descend",
+      "cloze": "The hikers began to _____ the mountain.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 838,
+      "word": "shortly after",
+      "meaning": "a little time after",
+      "example": "Shortly after sunrise, the birds began singing.",
+      "blankForm": "shortly after",
+      "cloze": "_____ sunrise, the birds began singing.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "word": "single parent",
+      "meaning": "a parent raising children without a partner",
+      "example": "The single parent worked two jobs.",
+      "blankForm": "single parent",
+      "cloze": "The _____ worked two jobs.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 840,
+      "word": "single ticket",
+      "meaning": "a ticket for a one-way journey",
+      "example": "I bought a single ticket to London.",
+      "blankForm": "single ticket",
+      "cloze": "I bought a _____ to London.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 841,
+      "word": "stay behind",
+      "meaning": "to remain after other people leave",
+      "example": "Two students will stay behind to clean the room.",
+      "blankForm": "stay behind",
+      "cloze": "Two students will _____ to clean the room.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 32,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 842,
+      "word": "discard",
+      "meaning": "to throw away",
+      "example": "Discard any food that smells spoiled.",
+      "blankForm": "discard",
+      "cloze": "_____ any food that smells spoiled.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 843,
+      "word": "without delay",
+      "meaning": "immediately",
+      "example": "The injured child needs treatment without delay.",
+      "blankForm": "without delay",
+      "cloze": "The injured child needs treatment _____.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "word": "you are joking",
+      "meaning": "used to show surprise or disbelief",
+      "example": "You are joking! That tiny dog won the race?",
+      "blankForm": "You are joking",
+      "cloze": "_____! That tiny dog won the race?",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 845,
+      "word": "for the fun of it",
+      "meaning": "just for enjoyment",
+      "example": "We entered the contest for the fun of it.",
+      "blankForm": "for the fun of it",
+      "cloze": "We entered the contest _____.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 846,
+      "word": "that kind of thing",
+      "meaning": "other similar activities or items",
+      "example": "She enjoys painting, sewing, and that kind of thing.",
+      "blankForm": "that kind of thing",
+      "cloze": "She enjoys painting, sewing, and _____.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 847,
+      "word": "extract",
+      "meaning": "to remove or take out",
+      "example": "The dentist had to extract a damaged tooth.",
+      "blankForm": "extract",
+      "cloze": "The dentist had to _____ a damaged tooth.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 848,
+      "word": "trip over",
+      "meaning": "to stumble by catching your foot on something",
+      "example": "Watch your feet so you do not trip over the rock.",
+      "blankForm": "trip over",
+      "cloze": "Watch your feet so you do not _____ the rock.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 849,
+      "word": "business as usual",
+      "meaning": "normal activities continuing as before",
+      "example": "Despite the snow, it was business as usual.",
+      "blankForm": "business as usual",
+      "cloze": "Despite the snow, it was _____.",
+      "partOfSpeech": "phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 850,
+      "word": "defence",
+      "meaning": "protection against harm or attack",
+      "example": "The wall provides defence against the wind.",
+      "blankForm": "defence",
+      "cloze": "The wall provides _____ against the wind.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-12.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "word": "feel like having",
+      "meaning": "to want to eat or have something",
+      "example": "I feel like having soup for lunch.",
+      "blankForm": "feel like having",
+      "cloze": "I _____ soup for lunch.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 33,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "word": "flatter",
+      "meaning": "to praise too much to gain a favor",
+      "example": "Do not flatter me just to get a favor.",
+      "blankForm": "flatter",
+      "cloze": "Do not _____ me just to get a favor.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "word": "initial",
+      "meaning": "happening at the beginning",
+      "example": "My initial guess was wrong.",
+      "blankForm": "initial",
+      "cloze": "My _____ guess was wrong.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "word": "quality",
+      "meaning": "how good something is",
+      "example": "The shoes are well made and have excellent quality.",
+      "blankForm": "quality",
+      "cloze": "The shoes are well made and have excellent _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 855,
+      "word": "romance",
+      "meaning": "a loving relationship or story about love",
+      "example": "Their friendship slowly grew into romance.",
+      "blankForm": "romance",
+      "cloze": "Their friendship slowly grew into _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 856,
+      "word": "science",
+      "meaning": "the study of the natural world through tests",
+      "example": "Science helps us understand the natural world.",
+      "blankForm": "science",
+      "cloze": "_____ helps us understand the natural world.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 857,
+      "word": "harvest",
+      "meaning": "to gather ripe crops",
+      "example": "Farmers harvest the wheat in late summer.",
+      "blankForm": "harvest",
+      "cloze": "Farmers _____ the wheat in late summer.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 858,
+      "word": "section",
+      "meaning": "one part of a larger whole",
+      "example": "Read the final section of the chapter.",
+      "blankForm": "section",
+      "cloze": "Read the final _____ of the chapter.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 859,
+      "word": "session",
+      "meaning": "a period spent doing a particular activity",
+      "example": "Our training session begins at nine.",
+      "blankForm": "session",
+      "cloze": "Our training _____ begins at nine.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 860,
+      "word": "show someone around",
+      "meaning": "to give someone a tour of a place",
+      "example": "The guide will show someone around the museum.",
+      "blankForm": "show someone around",
+      "cloze": "The guide will _____ the museum.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 861,
+      "word": "silence",
+      "meaning": "the absence of sound",
+      "example": "A deep silence followed the announcement.",
+      "blankForm": "silence",
+      "cloze": "A deep _____ followed the announcement.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 34,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 862,
+      "word": "network",
+      "meaning": "a system of connected people or things",
+      "example": "The city has a network of bicycle paths.",
+      "blankForm": "network",
+      "cloze": "The city has a _____ of bicycle paths.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "word": "take advantage of",
+      "meaning": "to make good use of an opportunity",
+      "example": "Take advantage of the free museum entry.",
+      "blankForm": "take advantage of",
+      "cloze": "_____ the free museum entry.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 864,
+      "word": "the following day",
+      "meaning": "the next day",
+      "example": "We returned home the following day.",
+      "blankForm": "the following day",
+      "cloze": "We returned home _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 866,
+      "word": "beneficial",
+      "meaning": "helpful or good for you",
+      "example": "Daily exercise is beneficial to your health.",
+      "blankForm": "beneficial",
+      "cloze": "Daily exercise is _____ to your health.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 867,
+      "word": "compatible",
+      "meaning": "able to work well together",
+      "example": "This software is compatible with my computer.",
+      "blankForm": "compatible",
+      "cloze": "This software is _____ with my computer.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 868,
+      "word": "persist",
+      "meaning": "to keep trying despite difficulty",
+      "example": "If you persist, you will improve.",
+      "blankForm": "persist",
+      "cloze": "If you _____, you will improve.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 869,
+      "word": "consistent",
+      "meaning": "staying the same in quality or behavior",
+      "example": "Her work is always consistent and careful.",
+      "blankForm": "consistent",
+      "cloze": "Her work is always _____ and careful.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 870,
+      "word": "contradict",
+      "meaning": "to say the opposite of something",
+      "example": "The new evidence appears to contradict his story.",
+      "blankForm": "contradict",
+      "cloze": "The new evidence appears to _____ his story.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 871,
+      "word": "equivalent",
+      "meaning": "equal in value, meaning, or amount",
+      "example": "One hundred cents is equivalent to one dollar.",
+      "blankForm": "equivalent",
+      "cloze": "One hundred cents is _____ to one dollar.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 872,
+      "word": "hypothesis",
+      "meaning": "a possible explanation that can be tested",
+      "example": "The experiment tested our hypothesis.",
+      "blankForm": "hypothesis",
+      "cloze": "The experiment tested our _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 35,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 873,
+      "word": "manipulate",
+      "meaning": "to control someone unfairly or handle something skillfully",
+      "example": "The advertisement tried to manipulate our emotions.",
+      "blankForm": "manipulate",
+      "cloze": "The advertisement tried to _____ our emotions.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "word": "physics",
+      "meaning": "the study of matter, energy, and forces",
+      "example": "Physics explains how forces affect motion.",
+      "blankForm": "physics",
+      "cloze": "_____ explains how forces affect motion.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "word": "substitute",
+      "meaning": "a replacement for something",
+      "example": "Yogurt is a good substitute for cream.",
+      "blankForm": "substitute",
+      "cloze": "Yogurt is a good _____ for cream.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 876,
+      "word": "sufficient",
+      "meaning": "enough for what is needed",
+      "example": "Two bottles of water should be sufficient.",
+      "blankForm": "sufficient",
+      "cloze": "Two bottles of water should be _____.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-13.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 877,
+      "word": "adversity",
+      "meaning": "a difficult or unlucky situation",
+      "example": "The family remained hopeful through adversity.",
+      "blankForm": "adversity",
+      "cloze": "The family remained hopeful through _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 878,
+      "word": "alleviate",
+      "meaning": "to make pain or a problem less severe",
+      "example": "This medicine may alleviate the pain.",
+      "blankForm": "alleviate",
+      "cloze": "This medicine may _____ the pain.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "word": "ambiguous",
+      "meaning": "having more than one possible meaning",
+      "example": "The ambiguous message had two possible meanings.",
+      "blankForm": "ambiguous",
+      "cloze": "The _____ message had two possible meanings.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 880,
+      "word": "program",
+      "meaning": "a planned set of activities or instructions",
+      "example": "The summer program includes art and sports.",
+      "blankForm": "program",
+      "cloze": "The summer _____ includes art and sports.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 881,
+      "word": "authentic",
+      "meaning": "real or genuine",
+      "example": "The restaurant serves authentic Thai food.",
+      "blankForm": "authentic",
+      "cloze": "The restaurant serves _____ Thai food.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "word": "elaborate",
+      "meaning": "detailed and carefully planned",
+      "example": "They prepared an elaborate feast for the wedding.",
+      "blankForm": "elaborate",
+      "cloze": "They prepared an _____ feast for the wedding.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 36,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "word": "encompass",
+      "meaning": "to include completely",
+      "example": "The park will encompass lakes, forests, and mountains.",
+      "blankForm": "encompass",
+      "cloze": "The park will _____ lakes, forests, and mountains.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 884,
+      "word": "eradicate",
+      "meaning": "to remove or destroy completely",
+      "example": "The campaign aims to eradicate the disease.",
+      "blankForm": "eradicate",
+      "cloze": "The campaign aims to _____ the disease.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 885,
+      "word": "fluctuate",
+      "meaning": "to rise and fall irregularly",
+      "example": "Fuel prices fluctuate from week to week.",
+      "blankForm": "fluctuate",
+      "cloze": "Fuel prices _____ from week to week.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 886,
+      "word": "project",
+      "meaning": "a planned piece of work",
+      "example": "Our science project tests the quality of pond water.",
+      "blankForm": "project",
+      "cloze": "Our science _____ tests the quality of pond water.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 887,
+      "word": "intervene",
+      "meaning": "to step in to change what happens",
+      "example": "A teacher may intervene to stop an argument.",
+      "blankForm": "intervene",
+      "cloze": "A teacher may _____ to stop an argument.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 888,
+      "word": "intricate",
+      "meaning": "having many small connected details",
+      "example": "The rug has an intricate pattern.",
+      "blankForm": "intricate",
+      "cloze": "The rug has an _____ pattern.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 889,
+      "word": "magnitude",
+      "meaning": "the size or amount of something",
+      "example": "We did not understand the magnitude of the damage.",
+      "blankForm": "magnitude",
+      "cloze": "We did not understand the _____ of the damage.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 890,
+      "word": "plausible",
+      "meaning": "seeming reasonable or possible",
+      "example": "Her explanation sounds plausible.",
+      "blankForm": "plausible",
+      "cloze": "Her explanation sounds _____.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 891,
+      "word": "prominent",
+      "meaning": "easy to notice or important",
+      "example": "A prominent tower rises above the town.",
+      "blankForm": "prominent",
+      "cloze": "A _____ tower rises above the town.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 892,
+      "word": "reflect",
+      "meaning": "to send back light or an image",
+      "example": "Calm water can reflect the moonlight.",
+      "blankForm": "reflect",
+      "cloze": "Calm water can _____ the moonlight.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 37,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "word": "reconcile",
+      "meaning": "to become friendly again after a disagreement",
+      "example": "The counselor helped the friends reconcile.",
+      "blankForm": "reconcile",
+      "cloze": "The counselor helped the friends _____.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 894,
+      "word": "resilient",
+      "meaning": "able to recover after difficulties",
+      "example": "These resilient plants survive harsh winters.",
+      "blankForm": "resilient",
+      "cloze": "These _____ plants survive harsh winters.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 895,
+      "word": "self-service",
+      "meaning": "allowing customers to serve themselves",
+      "example": "We ate lunch in a self-service cafeteria.",
+      "blankForm": "self-service",
+      "cloze": "We ate lunch in a _____ cafeteria.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "word": "skeptical",
+      "meaning": "doubtful and not easily convinced",
+      "example": "The scientist was skeptical of the surprising claim.",
+      "blankForm": "skeptical",
+      "cloze": "The scientist was _____ of the surprising claim.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 897,
+      "word": "undermine",
+      "meaning": "to weaken little by little",
+      "example": "Constant criticism can undermine confidence.",
+      "blankForm": "undermine",
+      "cloze": "Constant criticism can _____ confidence.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 898,
+      "word": "shelter",
+      "meaning": "a place that protects you from danger",
+      "example": "We found shelter from the rain under a bridge.",
+      "blankForm": "shelter",
+      "cloze": "We found _____ from the rain under a bridge.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 899,
+      "word": "versatile",
+      "meaning": "able to do many different things well",
+      "example": "A versatile tool can cut, grip, and bend wire.",
+      "blankForm": "versatile",
+      "cloze": "A _____ tool can cut, grip, and bend wire.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "word": "well-dressed",
+      "meaning": "wearing neat and attractive clothes",
+      "example": "The well-dressed guest wore a neat black suit.",
+      "blankForm": "well-dressed",
+      "cloze": "The _____ guest wore a neat black suit.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 901,
+      "word": "wish someone success",
+      "meaning": "to hope someone does well",
+      "example": "At a race, it is kind to wish someone success.",
+      "blankForm": "wish someone success",
+      "cloze": "At a race, it is kind to _____.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-14.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 902,
+      "word": "appropriate",
+      "meaning": "right for the situation",
+      "example": "Wear appropriate shoes for the hike.",
+      "blankForm": "appropriate",
+      "cloze": "Wear _____ shoes for the hike.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 38,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 903,
+      "word": "concentrate",
+      "meaning": "to give your full attention",
+      "example": "I cannot concentrate while the television is on.",
+      "blankForm": "concentrate",
+      "cloze": "I cannot _____ while the television is on.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 904,
+      "word": "demonstrate",
+      "meaning": "to show clearly how something works",
+      "example": "The chef will demonstrate how to make bread.",
+      "blankForm": "demonstrate",
+      "cloze": "The chef will _____ how to make bread.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 905,
+      "word": "stadium",
+      "meaning": "a large place where sports are played",
+      "example": "Thousands of fans filled the stadium.",
+      "blankForm": "stadium",
+      "cloze": "Thousands of fans filled the _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 906,
+      "word": "independent",
+      "meaning": "able to act without help or control",
+      "example": "At sixteen, she became more independent.",
+      "blankForm": "independent",
+      "cloze": "At sixteen, she became more _____.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "word": "responsible",
+      "meaning": "trusted to take care of something",
+      "example": "You are responsible for feeding the dog.",
+      "blankForm": "responsible",
+      "cloze": "You are _____ for feeding the dog.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 908,
+      "word": "significant",
+      "meaning": "important enough to matter",
+      "example": "The discovery was a significant scientific advance.",
+      "blankForm": "significant",
+      "cloze": "The discovery was a _____ scientific advance.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "word": "startle",
+      "meaning": "to surprise someone suddenly",
+      "example": "A sudden bark can startle the baby.",
+      "blankForm": "startle",
+      "cloze": "A sudden bark can _____ the baby.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 910,
+      "word": "likes and dislikes",
+      "meaning": "things you enjoy and things you do not enjoy",
+      "example": "Everyone has different likes and dislikes.",
+      "blankForm": "likes and dislikes",
+      "cloze": "Everyone has different _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 912,
+      "word": "extreme sports",
+      "meaning": "sports involving unusual danger or excitement",
+      "example": "Extreme sports can involve serious risks.",
+      "blankForm": "extreme sports",
+      "cloze": "_____ can involve serious risks.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 913,
+      "word": "financial life",
+      "meaning": "the part of life involving money",
+      "example": "A budget helped him organize his financial life.",
+      "blankForm": "financial life",
+      "cloze": "A budget helped him organize his _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 39,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 914,
+      "word": "look as if",
+      "meaning": "to seem that something is true",
+      "example": "Those dark clouds look as if it will rain.",
+      "blankForm": "look as if",
+      "cloze": "Those dark clouds _____ it will rain.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 915,
+      "word": "surgeon",
+      "meaning": "a doctor who performs operations",
+      "example": "The surgeon repaired the damaged heart.",
+      "blankForm": "surgeon",
+      "cloze": "The _____ repaired the damaged heart.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 916,
+      "word": "primary school",
+      "meaning": "a school for young children",
+      "example": "Children usually start primary school around age five.",
+      "blankForm": "primary school",
+      "cloze": "Children usually start _____ around age five.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 917,
+      "word": "remote control",
+      "meaning": "a device that operates something from a distance",
+      "example": "I changed the channel with the remote control.",
+      "blankForm": "remote control",
+      "cloze": "I changed the channel with the _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 918,
+      "word": "check-in counter",
+      "meaning": "a desk where travelers register or leave bags",
+      "example": "We left our bags at the airport check-in counter.",
+      "blankForm": "check-in counter",
+      "cloze": "We left our bags at the airport _____.",
+      "partOfSpeech": "noun phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "word": "not believe your eyes",
+      "meaning": "to be very surprised by what you see",
+      "example": "You may not believe your eyes when you see the huge cake.",
+      "blankForm": "not believe your eyes",
+      "cloze": "You may _____ when you see the huge cake.",
+      "partOfSpeech": "verb phrase",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "word": "symptom",
+      "meaning": "a sign that someone may be ill",
+      "example": "A fever can be a symptom of infection.",
+      "blankForm": "symptom",
+      "cloze": "A fever can be a _____ of infection.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "word": "accompany",
+      "meaning": "to go somewhere with someone",
+      "example": "A guide will accompany us through the cave.",
+      "blankForm": "accompany",
+      "cloze": "A guide will _____ us through the cave.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 923,
+      "word": "advertise",
+      "meaning": "to tell the public about a product or event",
+      "example": "The shop will advertise its sale online.",
+      "blankForm": "advertise",
+      "cloze": "The shop will _____ its sale online.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 924,
+      "word": "alcoholic",
+      "meaning": "containing alcohol",
+      "example": "Drinks containing alcohol are called alcoholic drinks.",
+      "blankForm": "alcoholic",
+      "cloze": "Drinks containing alcohol are called _____ drinks.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 40,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 925,
+      "word": "amazingly",
+      "meaning": "in a very surprising way",
+      "example": "The small boat survived the storm amazingly well.",
+      "blankForm": "amazingly",
+      "cloze": "The small boat survived the storm _____ well.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 926,
+      "word": "apologise",
+      "meaning": "to say sorry",
+      "example": "You should apologise for breaking her cup.",
+      "blankForm": "apologise",
+      "cloze": "You should _____ for breaking her cup.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "word": "architect",
+      "meaning": "a person who designs buildings",
+      "example": "The architect drew plans for the library.",
+      "blankForm": "architect",
+      "cloze": "The _____ drew plans for the library.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 928,
+      "word": "assistant",
+      "meaning": "a person who helps someone",
+      "example": "The shop assistant helped me find my size.",
+      "blankForm": "assistant",
+      "cloze": "The shop _____ helped me find my size.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-15.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "word": "athletics",
+      "meaning": "sports such as running, jumping, and throwing",
+      "example": "Our school athletics team won three medals.",
+      "blankForm": "athletics",
+      "cloze": "Our school _____ team won three medals.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 0
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 930,
+      "word": "attempt",
+      "meaning": "to try to do something",
+      "example": "I will attempt to solve the puzzle.",
+      "blankForm": "attempt",
+      "cloze": "I will _____ to solve the puzzle.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 1
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 931,
+      "word": "backwards",
+      "meaning": "toward the back or in reverse order",
+      "example": "He walked backwards without looking.",
+      "blankForm": "backwards",
+      "cloze": "He walked _____ without looking.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 2
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 932,
+      "word": "compound",
+      "meaning": "a substance made from joined chemical elements",
+      "example": "Salt is a compound of sodium and chlorine.",
+      "blankForm": "compound",
+      "cloze": "Salt is a _____ of sodium and chlorine.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 3
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 933,
+      "word": "behaviour",
+      "meaning": "the way a person acts",
+      "example": "Good behaviour earned the class a reward.",
+      "blankForm": "behaviour",
+      "cloze": "Good _____ earned the class a reward.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 4
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 934,
+      "word": "brilliant",
+      "meaning": "very clever or excellent",
+      "example": "She had a brilliant idea for the project.",
+      "blankForm": "brilliant",
+      "cloze": "She had a _____ idea for the project.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 5
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 41,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 935,
+      "word": "butterfly",
+      "meaning": "an insect with large colorful wings",
+      "example": "A colorful butterfly landed on the flower.",
+      "blankForm": "butterfly",
+      "cloze": "A colorful _____ landed on the flower.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 6
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 936,
+      "word": "cancel",
+      "meaning": "to decide a planned event will not happen",
+      "example": "We may cancel the picnic if it rains.",
+      "blankForm": "cancel",
+      "cloze": "We may _____ the picnic if it rains.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 7
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 937,
+      "word": "empire",
+      "meaning": "many lands ruled by one authority",
+      "example": "The Roman Empire lasted for centuries.",
+      "blankForm": "empire",
+      "cloze": "The Roman _____ lasted for centuries.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 8
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 938,
+      "word": "candidate",
+      "meaning": "a person trying to get a job or position",
+      "example": "Each candidate answered questions from voters.",
+      "blankForm": "candidate",
+      "cloze": "Each _____ answered questions from voters.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 9
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "word": "cashpoint",
+      "meaning": "a machine that lets you withdraw money",
+      "example": "I withdrew some money from the cashpoint.",
+      "blankForm": "cashpoint",
+      "cloze": "I withdrew some money from the _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 10
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 940,
+      "word": "celebrate",
+      "meaning": "to do something special for a happy occasion",
+      "example": "We celebrate her birthday every June.",
+      "blankForm": "celebrate",
+      "cloze": "We _____ her birthday every June.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 11
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 941,
+      "word": "celebrity",
+      "meaning": "a famous person",
+      "example": "The celebrity signed autographs for fans.",
+      "blankForm": "celebrity",
+      "cloze": "The _____ signed autographs for fans.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 12
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 942,
+      "word": "childhood",
+      "meaning": "the time in life when you are a child",
+      "example": "She spent her childhood in a small village.",
+      "blankForm": "childhood",
+      "cloze": "She spent her _____ in a small village.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 13
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 943,
+      "word": "colourful",
+      "meaning": "having many bright colors",
+      "example": "Colourful flags decorated the street.",
+      "blankForm": "colourful",
+      "cloze": "_____ flags decorated the street.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 14
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 944,
+      "word": "expose",
+      "meaning": "to uncover or make visible",
+      "example": "The report may expose serious safety problems.",
+      "blankForm": "expose",
+      "cloze": "The report may _____ serious safety problems.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 15
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 42,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 945,
+      "word": "commence",
+      "meaning": "to begin",
+      "example": "The school concert will commence at noon.",
+      "blankForm": "commence",
+      "cloze": "The school concert will _____ at noon.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 16
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 946,
+      "word": "compare",
+      "meaning": "to look for similarities and differences",
+      "example": "We compare two books to find how they are alike.",
+      "blankForm": "compare",
+      "cloze": "We _____ two books to find how they are alike.",
+      "partOfSpeech": "verb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 17
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 947,
+      "word": "complaint",
+      "meaning": "a statement that something is wrong or unsatisfactory",
+      "example": "I made a complaint about the cold meal.",
+      "blankForm": "complaint",
+      "cloze": "I made a _____ about the cold meal.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 18
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 948,
+      "word": "confident",
+      "meaning": "sure of yourself or your ability",
+      "example": "She felt confident before her speech.",
+      "blankForm": "confident",
+      "cloze": "She felt _____ before her speech.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 19
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 949,
+      "word": "confusing",
+      "meaning": "difficult to understand",
+      "example": "The unclear directions were confusing.",
+      "blankForm": "confusing",
+      "cloze": "The unclear directions were _____.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 20
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 950,
+      "word": "frontier",
+      "meaning": "the edge of explored land",
+      "example": "Settlers built a fort on the western frontier.",
+      "blankForm": "frontier",
+      "cloze": "Settlers built a fort on the western _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 21
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 951,
+      "word": "continent",
+      "meaning": "one of Earth's largest land areas",
+      "example": "Africa is the second-largest continent.",
+      "blankForm": "continent",
+      "cloze": "Africa is the second-largest _____.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 22
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 952,
+      "word": "correctly",
+      "meaning": "in the right way",
+      "example": "She answered every question correctly.",
+      "blankForm": "correctly",
+      "cloze": "She answered every question _____.",
+      "partOfSpeech": "adverb",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 23
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 953,
+      "word": "creature",
+      "meaning": "a living animal or other living being",
+      "example": "A tiny creature lives under that rock.",
+      "blankForm": "creature",
+      "cloze": "A tiny _____ lives under that rock.",
+      "partOfSpeech": "noun",
+      "art": {
+        "path": "../learn-2/illustrations/session-16.webp",
+        "index": 24
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
+    },
+    {
+      "id": 954,
+      "word": "dangerous",
+      "meaning": "likely to cause harm or injury",
+      "example": "It is dangerous to swim during a storm.",
+      "blankForm": "dangerous",
+      "cloze": "It is _____ to swim during a storm.",
+      "partOfSpeech": "adjective",
+      "art": {
+        "path": "../learn-2/illustrations/dangerous.webp",
+        "index": null
+      },
+      "origins": [
+        {
+          "course": "Learn 3",
+          "day": 43,
+          "kind": "not-previously-studied"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -4119,6 +6519,174 @@
         510
       ],
       "extraPracticeIds": []
+    },
+    {
+      "number": 14,
+      "wordIds": [
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 15,
+      "wordIds": [
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 16,
+      "wordIds": [
+        862,
+        863,
+        864,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 17,
+      "wordIds": [
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 18,
+      "wordIds": [
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 19,
+      "wordIds": [
+        908,
+        909,
+        910,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918,
+        920,
+        921,
+        922,
+        923,
+        924
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 20,
+      "wordIds": [
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939
+      ],
+      "extraPracticeIds": []
+    },
+    {
+      "number": 21,
+      "wordIds": [
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954
+      ],
+      "extraPracticeIds": []
     }
   ],
   "sources": {
@@ -4158,11 +6726,32 @@
         43
       ],
       "recordUpdatedAt": "2026-10-11T21:00:26.904Z"
+    },
+    "continuation": {
+      "uniqueWords": 120,
+      "days": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "firstSession": 14,
+      "lastSession": 21,
+      "addedOn": "2026-10-23"
     }
   },
   "order": [
     "Learn 3",
     "Learn 2",
-    "Learn 1"
+    "Learn 1",
+    "Previously unstudied Days 32–43"
   ]
 }

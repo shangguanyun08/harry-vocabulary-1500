@@ -27,3 +27,7 @@ October 12 review course: `docs/review/` keeps the Harry’s Daily Vocabulary ti
 The former Learn 2 entry point, `learn-2/`, now redirects to `review/`. Its read-only course is retained at `learn-2/archive.html`, sharing the original assets and progress identity so saved records remain available. The current course links directly to that archive.
 
 Validate the new review course and archive behavior with `node --test tests/*.test.cjs`. The archive tests verify that online records can be read, while answer recording and upload remain disabled.
+
+### October 23 continuation
+
+Archived Learn 2 Days 32–43 (120 previously unstudied words) now continue in `docs/review/` as Sessions 14–21, 15 words each. The original Sessions 1–13, their word IDs, course/pool identity, and saved answer history remain unchanged. The total is 310 unique words across 21 sessions.

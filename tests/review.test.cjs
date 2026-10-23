@@ -7,14 +7,14 @@ const {create}=require('../docs/review/engine.js');
 const e=create(data);
 const copy=x=>JSON.parse(JSON.stringify(x));
 function finish(s,n,right){const a=e.start(s,n);a.questions.forEach((q,i)=>e.answer(s,n,a.id,q.wordId,i<right?q.wordId:q.options.find(id=>id!==q.wordId)));e.finish(s,n,a.id);return a;}
-test('Learn 3, Learn 2, then Learn 1: 190 words appear exactly once without filler',()=>{
-  assert.equal(data.words.length,190);assert.equal(data.sessions.length,13);assert.equal(new Set(data.words.map(w=>w.id)).size,190);assert.equal(data.sources.learn3.uniqueWords,29);assert.deepEqual(data.sources.learn3.days,[25,26,27,28,29,30,31]);
-  const all=data.sessions.flatMap(s=>s.wordIds);assert.equal(all.length,190);assert.equal(new Set(all).size,190);assert.equal(data.sessions.at(-1).wordIds.length,10);
-  const order=all.map(id=>e.byId.get(id).origins[0].course);assert.deepEqual(order.slice(0,29),Array(29).fill('Learn 3'));assert.deepEqual(order.slice(29,103),Array(74).fill('Learn 2'));assert.deepEqual(order.slice(103),Array(87).fill('Learn 1'));
+test('Learn 3, Learn 2, then Learn 1: 310 words appear exactly once including the unstudied continuation',()=>{
+  assert.equal(data.words.length,310);assert.equal(data.sessions.length,21);assert.equal(new Set(data.words.map(w=>w.id)).size,310);assert.equal(data.sources.learn3.uniqueWords,29);assert.deepEqual(data.sources.learn3.days,[25,26,27,28,29,30,31]);
+  const all=data.sessions.flatMap(s=>s.wordIds);assert.equal(all.length,310);assert.equal(new Set(all).size,310);assert.equal(data.sessions[12].wordIds.length,10);
+  const order=all.map(id=>e.byId.get(id).origins[0].course);assert.deepEqual(order.slice(0,29),Array(29).fill('Learn 3'));assert.deepEqual(order.slice(29,103),Array(74).fill('Learn 2'));assert.deepEqual(order.slice(103,190),Array(87).fill('Learn 1'));
   for(const s of data.sessions){assert.equal(s.wordIds.length,s.number===13?10:15);assert.equal(new Set(s.wordIds).size,s.wordIds.length);assert.equal(s.extraPracticeIds.length,0);}
   for(const w of data.words){assert.equal(w.cloze.split('_____').length,2,w.word);assert.equal(w.cloze.replace('_____',w.blankForm).toLowerCase(),w.example.toLowerCase(),w.word);assert.ok(w.meaning&&w.partOfSpeech,w.word);assert.ok(fs.existsSync(path.join(__dirname,'../docs/review',w.art.path)),w.art.path);}
 });
-test('final ten-word session preserves locked answers and passes at 9/10, without repeats',()=>{
+test('original ten-word session preserves locked answers and passes at 9/10, without repeats',()=>{
   const s=e.empty();for(let n=1;n<=12;n++)finish(s,n,13);assert.equal(e.unlocked(s),13);assert.equal(e.threshold(13),9);const first=finish(s,13,8);assert.equal(first.questions.length,10);assert.equal(e.passed(s,13),false);assert.equal(e.correct(first),8);const second=finish(s,13,9);assert.equal(e.passed(s,13),true);assert.equal(e.correct(second),9);const normalized=e.normalize(copy(s));assert.deepEqual(e.attempts(normalized,13),e.attempts(s,13));
 });
 test('12/15 stays locked; all 15 return for a fresh attempt; 13/15 unlocks the next session',()=>{
@@ -43,4 +43,18 @@ test('a later optional test does not revoke an already passed session',()=>{
 });
 test('another course identity and malformed attempts cannot unlock a session',()=>{
   const s=e.empty();finish(s,1,15);s.poolId='different';assert.deepEqual(e.normalize(s),e.empty());const t=e.empty(),a=e.start(t,1);a.questions[0].options=[a.questions[0].wordId];assert.equal(e.attempts(e.normalize(t),1).length,0);
+});
+
+test('archived Days 32–43 append as Sessions 14–21 with all original progress preserved',()=>{
+  const next=require('../docs/learn-2/next-words.json').filter(w=>w.day>=32);
+  assert.deepEqual(data.sessions.slice(13).flatMap(s=>s.wordIds),next.map(w=>w.id));
+  assert.deepEqual(data.words.slice(190).map(w=>w.origins[0].day),next.map(w=>w.day));
+  const oldData={...data,words:data.words.slice(0,190),sessions:data.sessions.slice(0,13)};
+  const old=create(oldData), saved=old.empty();
+  for(let n=1;n<=13;n++){const a=old.start(saved,n);for(const q of a.questions)old.answer(saved,n,a.id,q.wordId,q.wordId);old.finish(saved,n,a.id);}
+  const restored=e.normalize(copy(saved));assert.deepEqual(restored.sessions,saved.sessions);assert.equal(e.unlocked(restored),14);
+  const original=copy(restored.sessions);const a=e.start(restored,14);assert.equal(a.questions.length,15);
+  e.answer(restored,14,a.id,a.questions[0].wordId,a.questions[0].wordId);
+  const merged=e.merge(restored,saved);assert.deepEqual(e.latest(merged,14),a);
+  for(let n=1;n<=13;n++)assert.deepEqual(merged.sessions[n],original[n]);
 });
