@@ -109,6 +109,8 @@
     .session-button.complete { border-color: #a8d3c9; background: #e9f6f2; color: var(--success); }
     .session-button.active { border-color: var(--green-dark); background: var(--green-dark); color: white; box-shadow: 0 7px 16px rgba(18, 62, 66, .18); }
     .session-button.active small { color: rgba(255, 255, 255, .68); }
+    .session-button .session-finished { display: block; margin-top: 4px; color: #446f65; font-size: .6rem; font-weight: 650; line-height: 1.35; white-space: nowrap; }
+    .session-button.active .session-finished { color: #e0f3ed; }
     .step {
       flex: 0 0 auto;
       display: inline-flex;

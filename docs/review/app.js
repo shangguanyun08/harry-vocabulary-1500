@@ -6,9 +6,17 @@
   const $=s=>document.querySelector(s);
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const format=iso=>iso?new Date(iso).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'In progress';
+  const finishedDate=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',month:'short',day:'numeric'});
+  const fullFinishedDate=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',dateStyle:'long'});
   let engine,state,sync=null,mode='test',storageWorks=true;
   const current=()=>engine.latest(state,state.activeSession);
   const size=n=>engine.sessionIds(n).length;
+  function sessionButton(s,n,limit){
+    const passed=engine.passed(state,s.number),locked=s.number>limit;
+    const finished=passed?engine.attempts(state,s.number).filter(a=>a.finishedAt&&engine.correct(a)>=engine.threshold(s.number)&&Number.isFinite(Date.parse(a.finishedAt))).map(a=>a.finishedAt).sort((a,b)=>Date.parse(a)-Date.parse(b))[0]:null;
+    const dateLabel=finished?'Finished '+fullFinishedDate.format(new Date(finished)):'';
+    return `<button class="session-button ${s.number===n?'active':''} ${passed?'complete':''}" data-session="${s.number}" ${locked?'disabled':''} aria-label="Session ${s.number}, ${locked?'locked':passed?'passed':'available'}, ${s.wordIds.length} words${finished?', '+esc(dateLabel):''}" ${s.number===n?'aria-current="step"':''}><span>${locked?'🔒 ':''}${s.number}</span><small>${passed?'Passed':locked?'Locked':s.wordIds.length+' words'}</small>${finished?`<time class="session-finished" datetime="${esc(finished)}" title="${esc(dateLabel)}">${esc(finishedDate.format(new Date(finished)))}</time>`:''}</button>`;
+  }
   function read(){try{return JSON.parse(localStorage.getItem(KEY)||'null');}catch{return null;}}
   function store(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch{storageWorks=false;}$('#save-status').textContent=storageWorks?(LOCAL?'Preview · saved on this device':'Saved on this device · online sync below'):'Keep this tab open · device storage unavailable';}
   function save(){const local=read();if(engine.valid(local))state=engine.merge(state,local);state.updatedAt=new Date().toISOString();store();sync?.push(state);}
@@ -32,7 +40,7 @@
   function records(){const rows=[];for(const s of engine.data.sessions)for(const [i,a]of engine.attempts(state,s.number).entries()){const miss=engine.missed(a),answered=Object.keys(a.answers).length,total=a.questions.length,pass=engine.correct(a)>=engine.threshold(s.number);rows.push(`<article class="round-record"><div class="round-record-head"><strong>Session ${s.number} · Attempt ${i+1}</strong><span class="record-score ${a.finishedAt&&pass?'pass':''}">${a.finishedAt?engine.correct(a)+' / '+total+' · '+(pass?'Passed':'Retest'):answered+' / '+total+' answered · In progress'}</span></div><time datetime="${esc(a.finishedAt||a.startedAt||'')}">${esc(format(a.finishedAt||a.startedAt))}</time><p class="record-misses">${miss.length?'First-try misses: '+miss.map(id=>esc(engine.byId.get(id).word)).join(', '):a.finishedAt?'No first-try misses.':'No misses recorded yet.'}</p><details class="answer-details"><summary>View saved answers</summary><div class="answer-table">${a.questions.map(q=>{const v=a.answers[q.wordId];return `<div><strong>${esc(engine.byId.get(q.wordId).word)}</strong><span>${v?esc(engine.byId.get(v.optionId).blankForm)+' · '+(v.optionId===q.wordId?'Correct':'Missed'):'Not answered'}</span><time>${v?esc(format(v.answeredAt)):''}</time></div>`;}).join('')}</div></details></article>`);}$('#record-content').innerHTML=rows.reverse().join('')||'<p class="empty-record">Your first answers, scores, and dates will appear here.</p>';}
   function render(){const n=state.activeSession,limit=engine.unlocked(state),passed=engine.data.sessions.filter(s=>engine.passed(state,s.number)).length;
     $('#progress-number').textContent=passed+' / '+engine.data.sessions.length+' sessions passed';$('#progress-bar').style.width=passed/engine.data.sessions.length*100+'%';$('#session-label').textContent='Session '+n+' · '+size(n)+' words';$('.goal-badge strong').textContent=engine.threshold(n)+' / '+size(n);
-    $('#sessions').innerHTML=engine.data.sessions.map(s=>`<button class="session-button ${s.number===n?'active':''} ${engine.passed(state,s.number)?'complete':''}" data-session="${s.number}" ${s.number>limit?'disabled':''} aria-label="Session ${s.number}, ${s.number>limit?'locked':engine.passed(state,s.number)?'passed':'available'}, ${s.wordIds.length} words" ${s.number===n?'aria-current="step"':''}><span>${s.number>limit?'🔒 ':''}${s.number}</span><small>${engine.passed(state,s.number)?'Passed':s.number>limit?'Locked':s.wordIds.length+' words'}</small></button>`).join('');
+    $('#sessions').innerHTML=engine.data.sessions.map(s=>sessionButton(s,n,limit)).join('');
     mode==='summary'?summary():test();records();bind();
   }
   function adopt(remote){const n=state.activeSession,a=current();state=engine.merge(state,remote);if(engine.score(read()||engine.empty())>0)state.activeSession=Math.min(n,engine.unlocked(state));mode=current()?.finishedAt?'summary':'test';const changed=JSON.stringify(state)!==JSON.stringify(engine.normalize(remote));store();render();if(changed)sync?.push(state);}
