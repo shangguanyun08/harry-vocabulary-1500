@@ -8,10 +8,10 @@ const e=create(data);
 const copy=x=>JSON.parse(JSON.stringify(x));
 function finish(s,n,right){const a=e.start(s,n);a.questions.forEach((q,i)=>e.answer(s,n,a.id,q.wordId,i<right?q.wordId:q.options.find(id=>id!==q.wordId)));e.finish(s,n,a.id);return a;}
 test('Learn 3, Learn 2, then Learn 1: 310 words appear exactly once including the unstudied continuation',()=>{
-  assert.equal(data.words.length,310);assert.equal(data.sessions.length,21);assert.equal(new Set(data.words.map(w=>w.id)).size,310);assert.equal(data.sources.learn3.uniqueWords,29);assert.deepEqual(data.sources.learn3.days,[25,26,27,28,29,30,31]);
-  const all=data.sessions.flatMap(s=>s.wordIds);assert.equal(all.length,310);assert.equal(new Set(all).size,310);assert.equal(data.sessions[12].wordIds.length,10);
+  assert.equal(data.words.length,310);assert.equal(data.sessions.length,25);assert.equal(new Set(data.words.map(w=>w.id)).size,310);assert.equal(data.sources.learn3.uniqueWords,29);assert.deepEqual(data.sources.learn3.days,[25,26,27,28,29,30,31]);
+  const all=data.sessions.filter(s=>s.kind!=='combined-review').flatMap(s=>s.wordIds);assert.equal(all.length,310);assert.equal(new Set(all).size,310);assert.equal(data.sessions[12].wordIds.length,10);
   const order=all.map(id=>e.byId.get(id).origins[0].course);assert.deepEqual(order.slice(0,29),Array(29).fill('Learn 3'));assert.deepEqual(order.slice(29,103),Array(74).fill('Learn 2'));assert.deepEqual(order.slice(103,190),Array(87).fill('Learn 1'));
-  for(const s of data.sessions){assert.equal(s.wordIds.length,s.number===13?10:15);assert.equal(new Set(s.wordIds).size,s.wordIds.length);assert.equal(s.extraPracticeIds.length,0);}
+  for(const s of data.sessions){assert.equal(s.wordIds.length,s.number===25?75:s.number===24?5:s.number===13||s.number>=17?10:15);assert.equal(new Set(s.wordIds).size,s.wordIds.length);assert.equal(s.extraPracticeIds.length,0);}
   for(const w of data.words){assert.equal(w.cloze.split('_____').length,2,w.word);assert.equal(w.cloze.replace('_____',w.blankForm).toLowerCase(),w.example.toLowerCase(),w.word);assert.ok(w.meaning&&w.partOfSpeech,w.word);assert.ok(fs.existsSync(path.join(__dirname,'../docs/review',w.art.path)),w.art.path);}
 });
 test('original ten-word session preserves locked answers and passes at 9/10, without repeats',()=>{
@@ -45,9 +45,9 @@ test('another course identity and malformed attempts cannot unlock a session',()
   const s=e.empty();finish(s,1,15);s.poolId='different';assert.deepEqual(e.normalize(s),e.empty());const t=e.empty(),a=e.start(t,1);a.questions[0].options=[a.questions[0].wordId];assert.equal(e.attempts(e.normalize(t),1).length,0);
 });
 
-test('archived Days 32–43 append as Sessions 14–21 with all original progress preserved',()=>{
+test('archived Days 32–43 remain in Sessions 14–24 with all original progress preserved',()=>{
   const next=require('../docs/learn-2/next-words.json').filter(w=>w.day>=32);
-  assert.deepEqual(data.sessions.slice(13).flatMap(s=>s.wordIds),next.map(w=>w.id));
+  assert.deepEqual(data.sessions.slice(13,24).flatMap(s=>s.wordIds),next.map(w=>w.id));
   assert.deepEqual(data.words.slice(190).map(w=>w.origins[0].day),next.map(w=>w.day));
   const oldData={...data,words:data.words.slice(0,190),sessions:data.sessions.slice(0,13)};
   const old=create(oldData), saved=old.empty();

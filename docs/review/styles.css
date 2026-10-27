@@ -404,6 +404,12 @@
     }
 
 .course-links { display:flex; flex-wrap:wrap; gap:10px 20px; }
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:22px;background:#f7faf8}
+.study-word{min-width:0;overflow:hidden;border:1px solid #dbe5e4;border-radius:18px;background:#fff}
+.study-art{width:150px;height:150px;margin:20px 20px 0;overflow:hidden;border-radius:14px}
+.study-copy{padding:18px 20px 22px}.study-copy h3{margin:8px 0;font:500 1.8rem/1.15 Georgia,serif;color:#153f43;overflow-wrap:anywhere}
+.study-copy .prompt-label{font-size:.68rem;color:#176e65;letter-spacing:.04em}.study-meaning{font-weight:700;line-height:1.5}.study-example{margin-bottom:0;color:#657287;font-size:.95rem;line-height:1.6}
+@media(max-width:600px){.study-grid{grid-template-columns:1fr;padding:14px}.study-art{width:130px;height:130px}.card-actions{flex-wrap:wrap}}
 @media (max-width:600px) { .nav {align-items:flex-start;flex-direction:column;gap:12px;} }
 @media (max-width:600px) {
   .review-item .word-line { grid-template-columns:minmax(0,1fr) auto; gap:8px; }
