@@ -6518,7 +6518,8 @@
         509,
         510
       ],
-      "extraPracticeIds": []
+      "extraPracticeIds": [],
+      "reviewFirst": true
     },
     {
       "number": 14,
@@ -6583,6 +6584,305 @@
       ],
       "extraPracticeIds": []
     },
+    {
+      "number": 17,
+      "wordIds": [
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 18,
+      "wordIds": [
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 19,
+      "wordIds": [
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 20,
+      "wordIds": [
+        908,
+        909,
+        910,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 21,
+      "wordIds": [
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 22,
+      "wordIds": [
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 23,
+      "wordIds": [
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 9
+    },
+    {
+      "number": 24,
+      "wordIds": [
+        950,
+        951,
+        952,
+        953,
+        954
+      ],
+      "extraPracticeIds": [],
+      "reviewFirst": true,
+      "passScore": 5
+    },
+    {
+      "number": 25,
+      "title": "75-word review",
+      "kind": "combined-review",
+      "wordIds": [
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954
+      ],
+      "extraPracticeIds": [],
+      "passScore": 65,
+      "reviewFirst": true
+    }
+  ],
+  "sources": {
+    "learn1": {
+      "uniqueWords": 87,
+      "recordedMisses": 83,
+      "challengeWords": 4
+    },
+    "learn2": {
+      "uniqueWords": 74
+    },
+    "learn3": {
+      "uniqueWords": 29,
+      "days": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "answeredWords": 70,
+      "untestedDays": [
+        24,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "recordUpdatedAt": "2026-10-11T21:00:26.904Z"
+    },
+    "continuation": {
+      "uniqueWords": 120,
+      "days": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "firstSession": 14,
+      "lastSession": 24,
+      "addedOn": "2026-10-23"
+    },
+    "shortSessions": {
+      "from": 17,
+      "to": 24,
+      "uniqueWords": 75,
+      "changedOn": "2026-10-26",
+      "reviewSession": 25
+    }
+  },
+  "order": [
+    "Learn 3",
+    "Learn 2",
+    "Learn 1",
+    "Previously unstudied Days 32–43"
+  ],
+  "layoutId": "2026-10-26-short-sessions",
+  "previousSessions": [
     {
       "number": 17,
       "wordIds": [
@@ -6688,70 +6988,5 @@
       ],
       "extraPracticeIds": []
     }
-  ],
-  "sources": {
-    "learn1": {
-      "uniqueWords": 87,
-      "recordedMisses": 83,
-      "challengeWords": 4
-    },
-    "learn2": {
-      "uniqueWords": 74
-    },
-    "learn3": {
-      "uniqueWords": 29,
-      "days": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
-      "answeredWords": 70,
-      "untestedDays": [
-        24,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43
-      ],
-      "recordUpdatedAt": "2026-10-11T21:00:26.904Z"
-    },
-    "continuation": {
-      "uniqueWords": 120,
-      "days": [
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43
-      ],
-      "firstSession": 14,
-      "lastSession": 21,
-      "addedOn": "2026-10-23"
-    }
-  },
-  "order": [
-    "Learn 3",
-    "Learn 2",
-    "Learn 1",
-    "Previously unstudied Days 32–43"
   ]
 }

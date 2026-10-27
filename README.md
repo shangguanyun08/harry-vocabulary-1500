@@ -31,3 +31,9 @@ Validate the new review course and archive behavior with `node --test tests/*.te
 ### October 23 continuation
 
 Archived Learn 2 Days 32–43 (120 previously unstudied words) now continue in `docs/review/` as Sessions 14–21, 15 words each. The original Sessions 1–13, their word IDs, course/pool identity, and saved answer history remain unchanged. The total is 310 unique words across 21 sessions.
+
+### October 26 shorter sessions and combined review
+
+The 75 words formerly in Sessions 17–21 now form seven 10-word sets (Sessions 17–23) and a final 5-word set (Session 24), in their original order. Each short set opens with illustrated word cards, meanings, and complete example sentences; Start test opens the sentence questions. Retries return to the cards first. Session 25 reviews those same 75 words together. Goals are 9/10, 5/5, and 65/75, with first answers locked within each attempt. The earlier 10-word Session 13 also offers word cards before a new test.
+
+Sessions 1–16 retain their questions, attempts, scores, and completion dates. The layout migration archives original 15-word attempts from Sessions 17–21 under `archivedSessions`, preserving all questions, choices, first answers, timestamps, and completion records; these remain visible in the progress record. Original attempts do not count as scores on the new short sets. Versioned online sync merges both histories, and the service rejects an older tab trying to replace the migrated layout.
