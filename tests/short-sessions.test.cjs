@@ -2,6 +2,10 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const data=require('../docs/review/data.json'),{create}=require('../docs/review/engine.js'),e=create(data);
 function complete(engine,state,n,count=engine.threshold(n)) {const a=engine.start(state,n);a.questions.forEach((q,i)=>engine.answer(state,n,a.id,q.wordId,i<count?q.wordId:q.options.find(id=>id!==q.wordId)));engine.finish(state,n,a.id);return a;}
 function ready(){const s=e.empty();for(let n=1;n<=16;n++)complete(e,s,n);return s;}
+test('a fresh device resumes the saved later session instead of preferring its empty timestamp',()=>{
+ const saved=ready();saved.activeSession=17;saved.updatedAt='2026-10-27T03:35:10.756Z';
+ assert.equal(e.merge(e.empty(),saved).activeSession,17);assert.equal(e.merge(saved,e.empty()).activeSession,17);
+});
 test('all 75 remaining words are covered once in short sets, and again in one complete review',()=>{
  const old=data.previousSessions.flatMap(s=>s.wordIds),short=data.sessions.slice(16,24);
  assert.deepEqual(short.map(s=>s.wordIds.length),[10,10,10,10,10,10,10,5]);

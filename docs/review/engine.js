@@ -58,7 +58,7 @@
     function merge(x,y){const a=normalize(x),b=normalize(y),result=empty();
       for(const row of data.sessions){const attempts=mergeMaps(a.sessions[row.number]?.attempts,b.sessions[row.number]?.attempts);if(Object.keys(attempts).length)result.sessions[row.number]={attempts};}
       if(data.layoutId)for(const row of data.previousSessions||[]){const attempts=mergeMaps(a.archivedSessions[row.number]?.attempts,b.archivedSessions[row.number]?.attempts);if(Object.keys(attempts).length)result.archivedSessions[row.number]={attempts};}
-      const latestState=String(a.updatedAt)>=String(b.updatedAt)?a:b;result.updatedAt=[a.updatedAt,b.updatedAt].filter(Boolean).sort().at(-1)||null;result.activeSession=Math.min(latestState.activeSession,unlocked(result));return result;
+      const latestState=String(a.updatedAt||'')>=String(b.updatedAt||'')?a:b;result.updatedAt=[a.updatedAt,b.updatedAt].filter(Boolean).sort().at(-1)||null;result.activeSession=Math.min(latestState.activeSession,unlocked(result));return result;
     }
     const score=s=>[...Object.values(s.sessions||{}),...Object.values(s.archivedSessions||{})].reduce((sum,row)=>sum+Object.values(row.attempts||{}).reduce((t,a)=>t+Object.keys(a.answers).length+(a.finishedAt?1:0),0),0);
     return {data,byId,empty,valid,normalize,attempts,archivedAttempts,correct,passed,unlocked,latest,missed,start,answer,finish,merge,score,threshold,sessionIds};
